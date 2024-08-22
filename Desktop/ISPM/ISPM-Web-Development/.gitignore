@@ -1,0 +1,32 @@
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Windows Folders
+/AppData/
+/Contacts/
+/Desktop/
+/Documents/
+/Downloads/
+/Favorites/
+/Links/
+/Music/
+/Pictures/
+/Saved Games/
+/Searches/
+/Videos/
+
+# IDE and Editor Settings
+.vscode/
+.idea/
+
+# Other Application Folders
+/.VirtualBox/
+/.eclipse/
+/.arduinoIDE/
+/.packettracer/
+/.dotnet/
+/.idlerc/
+/.p2/
+/.cache/
