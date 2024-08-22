@@ -1,0 +1,1173 @@
+.position-relative {
+    position: relative;
+}
+.support .product-banner {
+    position: relative;
+    height: 330px;
+    width: 100%;
+    overflow: hidden;
+    background: #c6e4fd;
+}
+.support .banner-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 65px;
+}
+.support a {
+        color: #0090ff;
+        font-weight: 500;
+}
+img.hello {
+    width: 143px;
+}
+/* -----------main banner ../images------------ */
+.support .layer {
+    height: 103%;
+    width: 120%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center bottom;
+    margin-left: -10%;
+}
+.layer.ppl-fix-wire {
+    background-size: 300px;
+    background-position: 75% bottom;
+}
+
+.layer.fixPPL {
+    background-size: 365px;
+    background-position: 62% bottom;
+}
+
+.layer.twer {
+    background-size: 64px;
+    background-position: 48% bottom;
+}
+
+.layer.trees {
+    background-size: 516px;
+    background-position: 47% bottom;
+}
+.support .txt-inner p {
+    font-size: 32px;
+    color: #132072;
+    font-weight: 600;
+    width: calc(100% - 0px);
+    margin-top: -10px;
+}
+/* -----------drop down-------- */
+.dropdown.suportDrDwn button#dropdownMenu2 {
+    border-radius: 27px;
+    padding: 10px 20px;
+    min-width: 280px;
+    text-align: left;
+    box-shadow: 1px 1px 10px #a5a9bf;
+    text-transform: unset;
+}
+
+.suportDrDwn span.caret {
+    float: right;
+    margin-top: 8px;
+}
+ul.suportDrMenu.dropdown-menu {
+    min-width: 277px;
+    border-radius: 15px;
+    border: 0;
+}
+ul.supSub {
+    padding-left: 28px;
+    margin-bottom: 17px;
+}
+
+ul.supSub li {
+    margin: 10px 0;
+}
+
+.suportDrMenu.dropdown-menu li a {
+    font-weight: 600;
+}
+/* ----------------------card layout---------------------- */
+.suportmainCards{
+    margin-top: 40px;
+}
+span.cardHeading {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: 0.2px;
+}
+
+.supMainCard {
+    background: #ccc;
+    box-shadow: 1px 1px 11px #00000036;
+    margin: 15px;
+    border-radius: 20px;
+    padding: 10px 10px 30px 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+p.list {
+        padding-left: 20px;
+}
+.supMainCard> a {
+    padding: 15px;
+    display: block;
+}
+.supMainCard> a:hover{
+    text-decoration:none;
+}
+.supMainCard img {
+    max-width: 90px;
+    margin-left: -4px;
+    margin-bottom: 13px;
+}
+
+.supMainCard> a:before {content: "";
+    display: block;
+    background: #00000045;
+    height: 40px;
+    width: 40px;
+    display: block;
+    border-radius: 50%;
+    background-image: url("../images/arrow-right.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-top: -10px;
+    margin-right: -9px;
+	position: absolute;
+	right: 21px;
+}
+
+ul.cardSub span.item-body{
+    margin: 0px 20px;
+}
+ul.cardSub a {
+    font-weight: 600;
+}
+ul.cardSub .item-title {
+    font-weight: 600;
+}
+.cardSub ul a {
+    font-weight: 600;
+}
+.cardSub span.item-body{
+    width: 100%;
+    float: left;
+    font-weight: 400;
+    font-size: 11px;
+    margin-bottom: 7px;
+}
+/* 
+.owl-item.active:nth-child(odd) .item {
+border: solid; 
+}
+*/
+/*-------------card same height-------*/
+.suportmainCards  .owl-stage {
+        display: flex;
+}
+/* ---------------color cards--------------- */
+.darkBlueWhite {
+    background: #222B64;
+}
+
+.darkBlueWhite span.cardHeading, .darkBlueWhite .cardSub a, .darkBlueWhite .cardSub span {
+    color:white;
+}
+/* -------------light Yellow--------------- */
+.lightYellow {
+    background: #FFF891;
+}
+.lightYellow span.cardHeading, .lightYellow .cardSub a, .lightYellow .cardSub span {
+    color:#222B64;
+}
+/* -------------brigtBluWhit Yellow--------------- */
+.blueWhite {
+    background: #3E3EEE;
+}
+.blueWhite span.cardHeading, .blueWhite .cardSub a, .blueWhite .cardSub span {
+    color:#ffffff;
+}
+/* -------------darkYellow Yellow--------------- */
+.darkYellow {
+    background:#FFE644;
+}
+.darkYellow span.cardHeading, .darkYellow .cardSub a, .darkYellow .cardSub span {
+    color:#222B64;
+}
+/* ----------------------carousel Navigation---- */
+.owl-carousel.suportmainCards .owl-nav .owl-next, #subaminOneTwo.owl-carousel .owl-nav .owl-next {
+        background: url(../images/thin-arrow-right-black-01.svg) 8px center no-repeat;
+        background-size: 15px;
+        position: absolute;
+        right: -15px;
+        margin: 0;
+        top: 40%;
+        background-color: #ffffff;
+        border-radius: 100px 0 0 100px;
+        font-size: 0;
+        line-height: 0;
+        width: 30px;
+        height: 65px;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        -webkit-box-shadow: 2px 0px 31px -4px rgb(0 0 0 / 13%);
+        -moz-box-shadow: 2px 0px 31px -4px rgba(0, 0, 0, 0.13);
+        box-shadow: 2px 0px 31px -4px rgb(0 0 0 / 13%);
+}
+.owl-carousel.suportmainCards .owl-nav .owl-prev, #subaminOneTwo.owl-carousel .owl-nav .owl-prev {
+    background: url(../images/thin-arrow-black-01.svg) 2px center no-repeat;
+    background-size: 15px;
+    position: absolute;
+    left: -15px;
+    margin: 0;
+    top: 37%;
+    background-color: #ffffff;
+    border-radius: 0 200px 200px 0;
+    font-size: 0;
+    line-height: 0;
+    width: 30px;
+    height: 65px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 2px 0px 31px -4px rgb(0 0 0 / 13%);
+    -moz-box-shadow: 2px 0px 31px -4px rgba(0, 0, 0, 0.13);
+    box-shadow: 2px 0px 31px -4px rgb(0 0 0 / 13%);
+}
+/* -------------------------SUB CARDS------------------- */
+.support.SubCards ul {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 20px 15px;
+    margin-left: -10px;
+    margin-right: -10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.support.SubCards ul li {
+    width: calc(25% - 20px);
+    box-shadow: 1px 1px 12px #b5b2b2;
+    border-radius: 10px;
+    padding: 0 40px 0 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: solid 1px #bec3cc;
+    margin: 0 10px 10px 10px;
+}
+
+span.icon {
+    width: 32px;
+}
+
+span.icon img {
+    width: 31px;
+	height: auto;
+}
+/*-------------Sub Card s hover effects-------------*/
+span.Subtext {
+        padding-left: 20px;
+        font-weight: 600;
+        color: #0090FF;
+        font-size: 16px;
+        padding-right: 62px;
+        line-height: 1.2;
+}
+.subCard> a:after {
+        content: "";
+        /* display: block; */
+        background-color: #00aeff;
+        height: 30px;
+        width: 30px;
+        display: block;
+        border-radius: 50%;
+        background-image: url(../images/arrow-right.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: auto;
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        margin-top: -15px;
+}
+
+.subCard a {
+        display: flex;
+        align-items: center;
+        padding: 15px 20px;
+        width: 100%;
+        border-radius: 10px;
+}
+.subCard a:hover {
+        text-decoration: none;
+        background: #00aeff;
+        color: #fff;
+}
+
+.subCard> a:hover:after {background-color: #0c09095c;}
+a:hover span.Subtext {
+        color: #fff;
+}
+
+.support.SubCards ul li:hover {
+        background: #00aeff;
+        transition: all 0.2s ease;
+}
+/*---------------FAQ-----------------*/
+.support.FAQ {
+    margin-top: 40px;
+    padding: 0 30px;
+}
+
+.support.FAQ h3 {
+    font-size: 20px;
+    letter-spacing: -0.3px;
+    color: #676767;
+}
+
+.support.FAQ h2 {
+    font-size: 26px;
+    color: #3a3939;
+    letter-spacing: 0.3px;
+}
+
+.support.FAQ .accordion button.btn.btn-link {
+    padding: 0;
+    text-transform: initial;
+    font-weight: 400;
+    font-size: 22px;
+    color: #1b2146;
+    width: 100%;
+    text-align: left;
+	text-decoration: none;
+}
+
+.support.FAQ .card {
+    border: solid 1px #75bfff61;
+    padding: 12px 30px;
+    margin: 14px 0;
+    box-shadow: 0px 0px 5px #d9e6ff;
+    background: #F2F7FF;						
+}
+
+.support.FAQ .card-body {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.support.FAQ div.accordion {margin-top: 25px;}
+
+.support.FAQ .accordion button.btn.btn-link .arrowDown {
+    background-image: url(../images/down-arrow.svg);
+    width: 21px;
+    display: block;
+    background-repeat: no-repeat;
+    float: right;
+    height: 27px;
+    transform: rotate(180deg);
+}
+.support.FAQ button.btn.btn-link.collapsed .arrowDown {
+    transform: rotate(0deg);
+}
+/*----------------Content Area----------------*/
+.pageContExpand .cardArea button.btn.btn-default.active {
+    background: #c0e0af;
+    box-shadow: none;
+    color: #098e00;
+}
+
+.pageContExpand .cardArea button.btn.btn-default {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: none;
+    border: none;
+}
+
+.pageContExpand  .header img {
+    max-width: 60px;
+    margin-right: 20px;
+}
+
+.pageContExpand .header h2 {
+    font-weight: 700 !important;
+}
+
+.pageContExpand .header p {
+    margin-top: 15px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.support.pageContExpand {
+    padding: 15px 30px;
+}
+.cardItem {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+    background: #E8F2F5;
+    border-radius: 21px;
+    border: solid 1px #c6dce2;
+}
+
+.dropdown.subcardItem {
+    background: #ffff;
+    border-radius: 27px;
+    padding: 6px 10px;
+    box-shadow: 0px 0px 5px  #ccc;
+    /* text-transform: initial; */
+}
+
+.pageContExpand .cardArea .subcardItem button.btn.btn-default {
+    text-transform: inherit;
+    font-weight: 600;
+    width: 100%;
+    text-align: left;
+}
+
+.subcardItem span.caret {
+    float: right;
+    margin-top: 8px;
+}
+
+.support.pageContExpand .cardItem p {
+    margin-top: 15px;
+    margin-bottom: 18px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+ul.subCard.dropdown-menu {
+    width: 100%;
+    border-radius: 20px;
+    position: inherit;
+    padding: 0;
+    box-shadow: none;
+    border: none;
+}
+.support.pageContExpand .cardContainer {
+    margin-top: 30px;
+}
+.subCard li a {
+        display: block;
+        padding: 0 20px;
+}
+
+.subCard li li a {
+        padding-left: 0;
+}
+/* --------------content body-------------- */
+.support.pageContExpand .ContentBody {
+    margin-top: 50px;
+}
+
+.support.pageContExpand .ContentBody  h2 {
+    margin-bottom: 30px;
+    /* font-weight: 800 !important; */
+}
+
+.support.pageContExpand .ContentBody  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #313131;
+    margin-top: 21px;
+}
+
+.support.pageContExpand .ContentBody h3 {
+    color: #333;
+    margin-bottom: 0;
+    margin-top: 45px;
+}
+
+.support.pageContExpand .ContentBody  h4 {
+    color: #313131;
+}
+
+.support.pageContExpand .ContentBody  ol {list-style-type: decimal;margin-left: 3px;padding-left: 29px;padding-top: 12px;}
+
+.support.pageContExpand .ContentBody  ol ::marker {
+    font-size: 20px;
+    font-weight: 600;
+    color: #313131;
+    border: solid 1px;
+}
+
+.support.pageContExpand .ContentBody ol li:before {content: "";border: solid 2px #313131;height: 30px;width: 30px;display: block;position: absolute;left: -31px;top: 1px;border-radius: 50%;}
+
+.support.pageContExpand .ContentBody  ol li {
+    position: relative;
+    padding-left: 16px;
+    margin-top: 20px;
+}
+/* ---------form------------ */
+.support.pageContExpand .formConetnt {
+    padding: 20px;
+    border: solid 1px #ccc;
+    box-shadow: 0 0 5px #c1c1c1;
+    border-radius: 16px;
+}
+
+.support.pageContExpand .formConetnt span.heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-right: 11px;
+}
+
+.support.pageContExpand .formConetnt label.textarea {
+    display: block;
+    margin-top: 17px;
+}
+
+.support.pageContExpand .formConetnt label.radio-inline {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.support.pageContExpand .formConetnt .radio input[type=radio] {
+    margin-top: 36px;
+    line-height: 22px;
+    top: 34px;
+}
+
+.support.pageContExpand .formConetnt .radio-inline input[type=radio] {
+    margin-top: 8px;
+}
+
+.support.pageContExpand .formConetnt button.btn.btn-primary {
+    margin-top: 21px;
+    border-radius: 25px;
+    padding: 11px 38px;
+}
+.container.container-custom.txt-inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 28px;
+}
+
+/*----------------Tweekes---------------*/
+.dropdown.suportDrDwn button:hover {
+    background: #fff;
+    border: solid 1px #eeeef5;
+}
+
+.dropdown.suportDrDwn button:hover {
+    background: #fff;
+}
+
+.open>.dropdown-toggle.btn-default:hover {
+    background: #e5f7ff;
+    border: solid 1px #fff;
+}
+
+.suportDrMenu.dropdown-menu li a:hover {
+    color: #265df7;
+}
+
+.supMainCard:hover {
+    box-shadow: 1px 1px 11px #3a3c5080;
+    /* background-blend-mode: saturation; */
+}
+
+.supMainCard> a:hover:before {
+    background-color: #000000ba;
+}
+
+.supMainCard  ul.cardSub span.item-body {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.supMainCard ul.cardSub li span.item-title {
+    margin-top: 14px;
+    display: block;
+    font-size: 16px;
+}
+
+.supMainCard ul.cardSub li {
+    clear: both;
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.item.supMainCard.lightYellow:hover {
+    background: #fff566;
+}
+
+.item.supMainCard.darkBlueWhite:hover {
+    background: #2436a5;
+}
+
+.item.supMainCard.blueWhite:hover {
+    background: #2929b9;
+}
+
+.item.supMainCard.darkYellow:hover {
+    background: #ffd400;
+}
+.level-second .card-body p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 13px;
+}
+
+.card-body h2 {
+    margin-top: 25px;
+}
+.support.FAQ .accordion button.btn.btn-link:focus {
+    outline: none;
+}
+
+.support.FAQ .accordion button.btn.btn-link:hover {
+    text-decoration: none;
+}
+/*------------Page Content Stylling----------------*/
+.support.FAQ .supConWrap h3:first-child {
+        margin-top: -20px;
+}
+.support.FAQ .supConWrap h3 {
+    background: #9EB9C7;
+    color: #fff;
+    padding: 18px 35px;
+    margin: 30px -35px 36px -35px;
+    font-size: 24px;
+}
+.supConWrap:first-child {
+        margin-top: 0;
+}
+.supConWrap {
+    border: solid 1px #9eb9c7;
+    background: #fff;
+    padding: 20px 35px;
+    margin-top: 20px;
+}
+
+p.bulletSmall {
+    background-image: url(../images/bullet-3.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 9px;
+    padding: 2px 0 7px 20px;
+    margin: 0;
+    line-height: 1.5;
+    font-size: 15px;
+    /* margin-left: 15px; */
+}
+.supConWrap p a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0090FF;
+    padding: 6px 6px 6px 6px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 2px;
+    letter-spacing: 0.2px;
+}
+
+.supConWrap a.ios:before, .supConWrap .fb:before, .supConWrap a.twiter:before, .supConWrap a.instagram:before, .supConWrap a.youTube:before, .supConWrap a.pdf:before,
+a.video:before, a.email:before, a.call:before, a.callCercle:before, a.android:before, a.webLink:before, .huaweiApp:before, .huaweiLogo:before {
+    background-repeat: no-repeat;
+    content: "";
+    margin-left: -1px;
+    background-position: center 0px;
+    padding: 2px 10px;
+    margin-right: 3px;
+}
+.supConWrap a.ios:before{background-image: url(../images/Icon-awesome-apple.svg);background-size: 16px;}
+.supConWrap a.fb:before{
+background-image: url(../images/Icon-awesome-facebook-f.svg);        
+}
+.supConWrap a.twiter:before{
+   background-image: url(../images/Icon-metro-twitter.svg);
+   background-position: center 2px;
+}
+.supConWrap a.instagram:before{
+background-image: url(../images/Icon-feather-instagram.svg);     
+}
+.supConWrap a.pdf:before{
+background-image: url(../images/Icon-metro-file-pdf.svg);
+background-position: center 3px;
+}
+.supConWrap a.youTube:before {
+background-image: url(../images/Icon-awesome-youtube.svg);
+background-position: center 4px;
+background-size: 20px;
+}
+a.video:before{
+    background-image: url(../images/Icon-awesome-play-circle.svg);
+    padding: 4px 12px;
+}
+a.email:before{
+    background-image: url(../images/Icon-zocial-email.svg);
+    background-position: center center;
+    padding: 16px 14px;
+    background-size: 22px;
+    background-repeat: no-repeat;
+} 
+a.call:before{
+    background-image: url(../images/call.svg);
+    background-position: center center;
+    padding: 20px 12px;
+}
+a.callCercle:before{
+    background-image: url(../images/call-round.svg);
+    background-position: 3px 3px;
+}
+a.android:before{
+    background-image: url(../images/Icon-awesome-google-play.svg);
+    background-position: center 2px;
+    background-size: 15px;
+}
+a.webLink:before{
+    background-image: url(../images/Icon-feather-external-link.svg);
+    background-position: 2px 2px;
+}
+.huaweiApp:before{
+    background-image: url(../images/Huawei-app.svg);
+    background-position: 0px 3px;
+}
+.huaweiLogo:before{
+    background-image: url(../images/huawei-logo.svg);
+}
+.supConWrap h4 {
+    font-size: 26px;
+    font-weight: 500 !important;
+    color: #403e3e;
+    letter-spacing: 0.2px;
+    margin-top: 40px;
+}
+
+.supConWrap p a:hover {
+    text-decoration: underline;
+    color: #017eff;
+    /* background: #eaecfb; */
+}
+.supConWrap .tip {
+    background-color: #f6f9fb;
+    background-image: url(../images/Icon-awesome-lightbulb.svg);
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 26px;
+    border: solid 1px #cfd7de;
+    background-position: 9px 12px;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #000;
+}
+.supConWrap a.btn {
+    background: #fff;
+    box-shadow: 1px 2px 10px #ccc;
+    border-radius: 20px;
+    padding: 8px 13px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    margin-right: 10px;
+    color: #0090ff;
+}
+
+.supConWrap a.btn:hover {
+    background: #0190ff;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px #b3b2b2;
+}
+
+.supConWrap a.btn:hover:before {
+    filter:brightness(0.5)
+}
+.supConWrap h5 {
+    font-size: 16px;
+    color: #3A3C47;
+    margin-top: 15px;
+}
+.supConWrap p {
+    font-size: 14px;
+}
+.bulletLarge, .supConWrap h5{
+    background-image: url(../images/bullet-2.svg);
+    background-repeat: no-repeat;
+    background-position: left 12px;
+    padding-left: 20px;
+}
+.btn-bullet {
+    background-position: 0 20px !important;
+}
+.indent {
+         margin-left: 20px !important;
+}
+.supConWrap ul.cunterList {
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 20px 0 20px 20px;
+}
+
+.supConWrap ul.cunterList li {
+    counter-increment: list;
+    padding-left: calc(30px + 14px);
+    margin-bottom: calc(16px * 1.5 / 1.5) !important;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.supConWrap ul.cunterList li:before {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    content: counter(list);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid #696969;
+    z-index: 1;
+    color: #333333;
+    line-height: 19px;
+}
+/*------left Rigt Col-----*/
+.innercontWrap {
+    display: flex;
+}
+
+.in-leftCol {
+    padding-right: 30px;
+}
+.in-leftCol img {
+    max-width: 120px;
+}   
+.cardSub-item p{
+        margin-top:10px;
+}
+.blueWhite p{
+        color:#fff
+}
+ 
+/* ----------------------------media quries----------------------- */
+@media (max-width:768px) {
+    .support .banner-content {
+            /* padding-top: 0; */
+            justify-content: space-between;
+    }
+    
+    .support .txt-inner p {
+            line-height: 1;
+            padding-right: 10px;
+            color: #ffffff;
+            margin-bottom: auto;
+            width: 100%;
+            margin-top: 0;
+            text-shadow: 0px 1px 3px #425179;
+            font-size: 30px;
+    }
+    
+    .dropdown.suportDrDwn {
+            margin-bottom: 33px;
+    }
+    img.hello {
+        margin-top: auto;
+        width: 110px;
+}
+    
+    .support .txt-inner {
+            padding-bottom: 0;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+    }
+    .support .product-banner{
+        height: 210px;
+    }
+    .dropdown.suportDrDwn button#dropdownMenu2, ul.suportDrMenu.dropdown-menu{
+        min-width: 100%;
+    }
+    
+    /* ---------------------card Responsive---------------------- */
+    .supMainCard img {
+        max-width: 65px;
+    }
+    
+    ul.cardSub {
+        display: none;
+    }
+    span.cardHeading {
+        font-size: 16px;
+    }
+    
+    .supMainCard {
+        padding-bottom: 9px;
+        margin: 8px;
+    }
+    
+    .supMainCard> a:before {
+        height: 30px;
+        width: 30px;
+        background-size: 12px;
+    }
+    /*--------sub card-----------*/
+    .support.SubCards ul li {
+            justify-content: stretch;
+            width: calc(50% - 20px);
+            padding-right: 20px;
+    }
+    
+    .subCard a {
+            flex-direction: column;
+            justify-content: stretch;
+            height: 100%;
+            padding: 10px 10px;
+    }
+    .bulletLarge, .supConWrap h5 {
+        line-height: 1.3;
+        background-position: left 7px;
+}
+
+.support.FAQ .accordion button.btn.btn-link .arrowDown {margin-right: -21px;background-size: 15px;margin-top: -15px;}
+    
+    span.Subtext {
+            padding-left: 0;
+            padding-right: 0;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: 0;
+            font-size: 13px;
+            letter-spacing: -0.2px;
+    }
+    
+    span.icon {
+            margin-right: auto;
+            margin-bottom: 7px;
+            margin-top: 20px;
+    }
+    
+    .subCard> a:after {
+            top: 21px;
+            right: 5px;
+            width: 25px;
+            height: 25px;
+            background-size: 12px;
+    }
+    
+    span.icon img {
+            width: auto;
+            max-height: 31px;
+    }
+    
+    .support.SubCards ul {
+            padding: 12px 5px;
+            /* width: 100%; */
+    }
+    .cardItem {
+        width: 300px;
+    }
+    /* ----------FAQ--------------- */
+    .support.FAQ div.accordion {
+        clear: both;
+        margin-top: 36px;
+    }
+    
+    .support.FAQ .accordion button.btn.btn-link {
+        width: calc(100% - 30px);
+        white-space: normal;
+        position: relative;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    
+    .support.FAQ .card {
+        height: auto;
+        clear: both;
+        padding: 12px 15px;
+    }
+    
+    div#headingOne {
+        clear: both;
+    }
+    
+    .support.FAQ button.btn.btn-link.collapsed .arrowDown {
+        position: absolute;
+        right: -20px;
+        top: 50%;
+        background-size: 13px;
+        margin-top: -7px;
+    }
+    .support .btn-link:focus, .support .btn-link:hover, .support .btn-link:visited, .support .btn-link:active {
+            outline: none;
+            border:0;
+    }
+    
+    .support.FAQ .accordion button.collapsed.btn.btn-link {
+            font-weight: 400;
+    }
+    /* ---------content body -------- */
+    .cardItem {
+        margin-right: 0;
+        /* padding-right: 0; */
+        width: 232px;
+        padding: 24px 15px;
+    }
+    
+    div#subaminOneTwo {
+        margin-right: -50px;
+        width: calc(100% + 25px);
+    }
+    
+    .pageContExpand .cardArea button.btn.btn-default {
+        font-size: 10px;
+        padding: 8px 12px;
+        text-transform: inherit;
+    }
+    
+    .pageContExpand .header img {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .pageContExpand .header h2 {
+        font-size: 23px;
+    }
+    
+    .support.pageContExpand .formConetnt span.heading {
+        font-size: 20px;
+        letter-spacing: 0.1px;
+    }
+    
+    .support.pageContExpand .formConetnt label.radio-inline {
+        font-size: 17px;
+    }
+    
+    .support.pageContExpand .formConetnt .radio-inline input[type=radio] {
+        margin-top: 5px;
+    }
+    
+    .support.pageContExpand .ContentBody ol ::marker {
+        margin-top: -15px;
+        padding: 0;
+        position: absolute;
+    }
+    
+    .support.pageContExpand .ContentBody ol {
+        list-style-position: inside;
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    
+    .support.pageContExpand .ContentBody ol li:before {
+        display: none;
+    }
+    /* -------form---------- */
+    .support.pageContExpand .formConetnt span.heading {
+        font-size: 20px;
+        letter-spacing: 0.1px;
+    }
+    .support.pageContExpand .formConetnt label.radio-inline {
+        font-size: 17px;
+    }
+    
+    .support.pageContExpand .formConetnt .radio-inline input[type=radio] {
+        margin-top: 5px;
+    }
+    .support.FAQ h2 {
+        float: none;
+    }
+    
+    .support.FAQ .supConWrap h3 {width: calc(100% + 40px);margin: 30px -20px 36px -20px;padding: 10px 20px;font-size: 18px;}
+    
+    .support.FAQ .supConWrap h3:first-child {
+        margin-bottom: 0;
+    }
+    p.bulletSmall {
+        clear: both;
+        word-break: break-all;
+}
+
+.supConWrap h4 {
+        margin-top: 20px;
+        font-size: 20px;
+}
+
+p.pageCont.tip {
+        clear: both;
+}
+.supConWrap {
+        padding: 20px;
+}
+/*-----------App cion add-----------*/
+.innercontWrap{
+    clear:both;
+    flex-wrap:wrap;
+    padding-top: 15px;
+}
+.in-leftCol img {
+        max-width: 74px;
+}
+.in-rightCol {padding-top: 0px;}
+.in-leftCol {
+    width: 100%;
+    padding-right: 0;
+    text-align: center;
+}								
+}
+.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid\9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}

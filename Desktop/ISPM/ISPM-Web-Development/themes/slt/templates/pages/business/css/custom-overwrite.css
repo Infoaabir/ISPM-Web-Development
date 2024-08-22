@@ -1,0 +1,2224 @@
+.container {
+    width: 100%;
+    max-width: 1400px;
+}
+
+ol,
+ul {
+    margin-bottom: 0;
+    list-style: none;
+}
+
+b,
+strong {
+    font-weight: 600;
+}
+
+.btn {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn-lg {
+    padding: 10px 16px;
+}
+
+.btn-sm {
+    font-size: 12px;
+    padding: 10px 16px;
+}
+
+.btn-primary {
+    background-color: #0a8bff;
+    border-color: #0a8bff;
+    color: #fff;
+}
+
+.btn-primary a {
+    color: #fff;
+    text-decoration: none;
+}
+
+form input[type="file"] {
+    height: auto;
+    margin-bottom: 5px !important;
+    padding: 6px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -moz-transition: background-color 300ms linear, color 300ms linear;
+    -webkit-transition: background-color 300ms linear, color 300ms linear;
+    -o-transition: background-color 300ms linear, color 300ms linear;
+    transition: background-color 300ms linear, color 300ms linear;
+    width: 100%;
+}
+
+form input[type="file"]:foucs {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+form input[type="submit"] {
+    background: #0a8bff none repeat scroll 0 0;
+    border: 1px solid #0a8bff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 6px 12px;
+    text-align: center;
+    text-transform: uppercase;
+    width: auto;
+}
+
+form input[type="submit"]:hover {
+    background-color: #01509b;
+    border-color: #01509b;
+    -moz-transition: background-color 300ms linear, color 300ms linear;
+    -webkit-transition: background-color 300ms linear, color 300ms linear;
+    -o-transition: background-color 300ms linear, color 300ms linear;
+    transition: background-color 300ms linear, color 300ms linear;
+}
+
+form select {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+form select:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+form textarea {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600 !important;
+}
+
+h1,
+.h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h2,
+.h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h3,
+.h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h4,
+.h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h5,
+.h5 {
+    font-size: 30px;
+    font-weight: 700;
+	margin-bottom: 10px;
+}
+
+h6,
+.h6 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.4;
+    font-size: 13px;
+    color: #333;
+}
+
+.form-group > label {
+    white-space: nowrap;
+}
+
+
+/* Messages CSS Start */
+
+div.messages {
+    background-position: 8px 8px;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    font-size: 12px;
+    line-height: 1.2;
+    margin: 6px 0;
+    padding: 10px 10px 10px 31px;
+    max-width: 100%;
+    width: 100%;
+}
+
+div.warning {
+    background-image: url("../../misc/message-24-warning.html");
+    border-color: #ed5;
+}
+
+div.error {
+    background-image: url("../../misc/message-24-error.html");
+    border-color: #F1BFAD;
+}
+
+.slt-msg {
+    background-color: #f3ffe1 !important;
+    border-color: #c9daaf !important;
+    color: #014000 !important;
+    font-size: 12px !important;
+    line-height: 1.2;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    padding: 10px !important;
+    margin-bottom: 5px !important;
+}
+
+
+/* Messages CSS End */
+
+
+/***** Custom Overwrite Start *****************************************************************/
+
+
+/* Inner Styles */
+
+.icon-voice-service::before,
+.icon-slt-dot::before,
+.icon-multiple25::before,
+.icon-miusium::before,
+.icon-black268::before {
+    display: none;
+}
+
+.inner-body-wrapper {
+    margin-top: 158px;
+}
+
+.inner-fullwidth-block {
+    float: left;
+    position: relative;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.inner-left-main {
+    float: left;
+    width: 252px;
+}
+
+.inner-right-main {
+    float: right;
+    width: -webkit-calc(100% - 287px);
+    width: -moz-calc(100% - 287px);
+    width: calc(100% - 287px);
+}
+
+.inner-top-main {
+    margin-top: 140px;
+}
+
+.inner-top-main h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #2162b1;
+}
+
+.inner-topbanner-block {
+    margin-left: 0;
+    width: 100%;
+}
+
+.inner-palin-banner.row {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+
+.inner-palin-banner .col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.inner-palin-banner img{
+    height: auto !important;
+    width: 100% !important;
+}
+
+.breadcrumb {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+/***** Table Styles Start ***************************************/
+
+.table-scroll-cont {
+    width: 100% !important;
+}
+
+.table-block,
+.table-block p,
+.common-table {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+
+/***** Table One Start */
+
+.table-one {
+    width: 99.8% !important;
+    width: -webkit-calc(100% - 2px);
+    width: -moz-calc(100% - 2px);
+    width: calc(100% - 2px);
+}
+
+.table-block .table-one ul {
+    width: 100% !important;
+}
+
+
+/* Header */
+
+.table-block .table-one ul:first-child li:first-child {
+    width: 30.21% !important;
+}
+
+.table-block .table-one ul:first-child li {
+    width: 30.21% !important;
+}
+
+.table-block .table-one ul li span {
+    margin-right: 3.8% !important;
+}
+
+
+/* Body */
+
+.table-block .table-one ul li:first-child {
+    width: 30.18% !important;
+}
+
+.table-block .table-one ul li {
+    width: 30.18% !important;
+    padding: 15px 1.5% !important;
+}
+
+.table-block .table-one ul li:first-child {
+    padding: 20px 1.46% !important;
+}
+
+
+/***** Table One End */
+
+
+/***** Table Seven Start */
+
+.table-seven ul li:first-child .center p.title {
+    margin-bottom: 0;
+}
+
+.table-block .table-seven {
+    width: 99.8%;
+    width: -webkit-calc(100% - 2px);
+    width: -moz-calc(100% - 2px);
+    width: calc(100% - 2px);
+}
+
+.table-seven.type-two {
+    width: 811px !important;
+}
+
+.table-seven ul li {
+    padding: 0 2%
+}
+
+
+/* Two Col Start */
+
+.table-seven .two-col ul {
+    width: 100% !important;
+}
+
+.table-seven .two-col li,
+.table-seven .two-col ul li:first-child {
+    width: 45.85% !important;
+}
+
+
+/* Three Col Start */
+
+.table-seven .three-col ul {
+    width: 100% !important;
+}
+
+.table-seven .three-col ul li,
+.table-seven .three-col ul li:first-child {
+    width: 29.1% !important;
+}
+
+.table-seven .three-col ul li.double-width {
+    display: inline-block;
+    width: 62.6% !important;
+}
+
+.table-seven .three-col ul li.double-width .center {
+    display: inline-block;
+    width: 100% !important;
+}
+
+
+/**/
+
+.table-seven .twone-col ul li:first-child {
+    width: 88px !important;
+}
+
+.table-seven .twone-col ul li.last-col {
+    width: 301px !important;
+}
+
+.table-seven .three-col ul li.last-col {
+    width: 33.29% !important;
+}
+
+.table-seven .three-col ul li.last-col .center {
+    width: 135px;
+}
+
+.table-seven .two-col ul,
+.table-seven .three-col ul {
+    background: #fefefe url("../images/bg-table-TD-common.html") repeat-x scroll left bottom
+}
+
+.table-seven .two-col ul.header,
+.table-seven .three-col ul.header {
+    background: #f4f4f4 url("../images/bg-table-common.html") repeat-x scroll left bottom;
+}
+
+
+/***** Table Seven End */
+
+
+/***** Table Eight Start */
+
+
+/***** Table Eight End */
+
+
+/***** Table Styles End ***************************************/
+
+
+/***** Common Package Price CSS Start */
+
+ul.common-packprice li .center {
+    height: 54px;
+}
+
+ul.common-packprice li .center span strong,
+ul.common-packprice li span strong {
+    letter-spacing: -1px;
+}
+
+
+/***** Common Package Price CSS End */
+
+
+/***** VASS Availability Start */
+
+.availability li {
+    margin-bottom: 5px;
+}
+
+.availability li .text {
+    font-size: 12px;
+    margin: 5px 10px;
+}
+
+
+/***** VASS Availability Start */
+
+
+/***** Common Tab Start */
+
+
+/* Download Start */
+
+.tab-style-one .download-outer p {
+    width: calc(100% - 110px);
+    width: -webkit-calc(100% - 110px);
+    width: -moz-calc(100% - 110px);
+    width: -o-calc(100% - 110px);
+}
+
+.download-button-block {
+    width: 110px;
+}
+
+
+/***** Common Tab End */
+
+
+/***** Download Page Start */
+
+.button-pdf-downloder {
+    margin: 10px 0;
+    /*width: 123px;*/
+    width: 124px;
+}
+
+
+/***** Download Page End */
+
+
+/***** IVR portal Page Start */
+
+.row-eq-height .col-eq-height {
+    margin-bottom: 30px;
+}
+
+.services-offer-block ul.services {
+    height: 100% !important;
+    margin-bottom: 0;
+}
+
+
+/***** IVR portal Page End */
+
+
+/***** Management Page Start */
+
+.ui-accordion .ui-accordion-header {
+    cursor: pointer;
+    display: block;
+    margin-top: 2px;
+    padding: 10px 32px 12px 32px;
+}
+
+.accordion-inner .content_wrap .bot-letter {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.bos-user-img-block {
+    float: left;
+    height: 95px;
+    margin-right: 15px;
+    width: 95px;
+}
+
+.bos-user-img-block img {
+    left: 0;
+}
+
+.bod-wrapper {
+    float: left;
+    margin-top: 30px;
+    width: calc(100% - 190px);
+    width: -webkit-calc(100% - 190px);
+    width: -moz-calc(100% - 190px);
+    width: -o-calc(100% - 190px);
+}
+
+
+/***** Management Page End */
+
+
+/***** Job Opportunities Start */
+
+#block-views-job-opportunities-block .accordion-inner li {
+    border: 0;
+}
+
+#block-views-job-opportunities-block .ui-state-default {
+    background: #e0e0e0;
+}
+
+#block-views-job-opportunities-block .accordion-inner a {
+    background-color: transparent;
+    padding: 0;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    overflow: hidden;
+    text-decoration: none;
+    width: 100%;
+}
+
+#block-views-job-opportunities-block .view-more-management {
+    font-size: 12px;
+    right: 30px;
+    margin-top: -7px;
+    top: 50%;
+}
+
+#block-views-job-opportunities-block .accordion-inner div.body {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    padding-top: 25px;
+}
+
+#block-views-job-opportunities-block .btn,
+#block-views-job-opportunities-block .btn a {
+    font-size: 13px;
+}
+
+#block-views-job-opportunities-block .btn {
+    float: left;
+    margin: 5px 0 15px 0;
+    color: #fff;
+}
+
+#block-views-job-opportunities-block .btn a {
+    padding: 0;
+}
+
+#block-views-job-opportunities-block .accordion-inner a span.job-wrapper {
+    display: block;
+    width: -webkit-calc(100% - 120px);
+    width: -moz-calc(100% - 120px);
+    width: calc(100% - 120px);
+}
+
+#block-views-job-opportunities-block p {
+    float: left;
+    font-size: 11px;
+    margin: 0 0 10px;
+    width: 100%;
+}
+
+#block-views-job-opportunities-block .accordion-inner div.body {
+    height: auto !important;
+    line-height: 1.5;
+}
+
+#block-views-job-opportunities-block .job-readmore a {
+    color: #0a8bff;
+    font-size: 12px;
+}
+
+
+/* Table */
+
+table.job-detail {
+    clear: both;
+    margin: 15px 0;
+}
+
+table.job-detail tr th,
+table.job-detail tr td {
+    border: 1px solid #ccc;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table.job-detail tr:nth-child(1) td {
+    color: #088507;
+}
+
+table.job-detail tr:nth-child(2) td {
+    color: #d00101;
+}
+
+table.job-detail tr:nth-child(3) td {
+    color: #ffa900;
+}
+
+
+/***** Job Opportunities End */
+
+
+/*****  PeoTV VOD PAGE CSS Start */
+
+#peo-tv-slider .sllider-item a:hover .footer {
+    bottom: 1px;
+    height: 100%;
+    min-height: 100%;
+    transition: all 0.5s ease 0s !important;
+    transition: all 0.5s ease 0s !important;
+    -moz-transition: all 0.5s ease 0s !important;
+    -webkit-transition: all 0.5s ease 0s !important;
+    -o-transition: all 0.5s ease 0s !important;
+    */
+}
+
+#peo-tv-slider a:hover .footer .cover-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    white-space: normal;
+    line-height: 1.1;
+    overflow: hidden;
+    height: 35px;
+}
+
+#peo-tv-slider .sllider-item a:hover .footer .sub {
+    height: 191px;
+    line-height: 1.6;
+    white-space: normal;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+
+
+/*****  PeoTV VOD PAGE CSS End */
+
+
+/*****  PeoTV - Channels Page > Bundles CSS Start */
+
+.channel-thumb-container {
+    position: relative;
+}
+
+.channel-thumb-container .views-field.views-field-field-channel-bundles-1 {
+    background: #2162b1;
+    border-radius: 0 0 4px 4px;
+    bottom: -18px;
+    left: 0px;
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+}
+
+.channel-thumb-container .views-field.views-field-field-channel-bundles-1 .views-item-tv {
+    font-size: 11px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.channel-bundles-custom {
+    background-color: #2162b1;
+    padding: 15px;
+    /*left: -1px;
+    position: absolute;
+    top: 93px;*/
+    width: 100%;
+    z-index: 301;
+    border-radius: 4px;
+    border-top: 10px solid #fff;
+    position: relative;
+}
+
+.channel-bundles-custom:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 50%;
+    margin-left: -6px;
+    top: -19px;
+    border: 12px solid;
+    border-color: transparent transparent #2162b1;
+}
+
+.channel-bundles-custom .prc {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.channel-bundles-custom .channel-list-item {
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+
+.channel-list-item.bundle-displayed,
+.peo-bndl-actv.bundle-displayed {
+    width: 100%;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    height: auto;
+}
+.channel-list-item.bundle-displayed .views-field-field-channel-bundles-1,
+.peo-bndl-actv.bundle-displayed .views-field-field-channel-bundles-1{
+    display: none;
+}
+
+.channel-list-item.bundle-displayed img {
+    width: auto;
+}
+
+.channel-thumb-container ul li.ala-carte.bundle-displayed img {
+    opacity: 1;
+}
+
+.channel-bundles-custom .custom-bundlelist-item {
+    display: inline-block;
+    height: auto;
+    margin: 5px;
+    position: relative;
+    text-align: center;
+}
+
+.custom-bundlelist-item .field-name-field-tv-channel-number .field-item {
+    height: 30px;
+    background-color: #ababab;
+    border-radius: 0 2px 0 5px;
+    bottom: 0;
+    cursor: default;
+    color: #fff;
+    font: 10px/16px Arial, Helvetica, sans-serif;
+    height: 16px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    width: 28px;
+    z-index: 100;
+}
+
+.channel-bundles-custom .inner-page-style {
+    position: relative;
+}
+
+.channel-bundles-custom .close-bundles-item {
+    background-image: url(../images/close-button.html);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    cursor: pointer;
+    position: absolute;
+    height: 20px;
+    right: 5px;
+    top: 5px;
+    text-indent: -9999px;
+    width: 20px;
+    z-index: 100;
+}
+
+
+/*****  PeoTV - Channels Page > Bundles CSS End */
+
+.content-devider,
+.content-devider img {
+    display: none;
+}
+
+
+/***** TRAINING SECTION START */
+
+
+/***** Contact us > Our Locations > Dealer Network Start */
+
+
+/* Dealer Network Map Pointer Popup Start */
+
+#map .gm-style .gm-style-iw h4 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+#map .gm-style .gm-style-iw .views-field-body {
+    float: left;
+    width: 100%;
+}
+
+#map .service-outerblock > span {
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 5px;
+    width: 100%;
+    display: block;
+    color: #960000;
+}
+
+#map .service-outerblock .service-block {
+    margin: 4px 0 !important;
+    height: auto !important;
+    width: 100% !important;
+}
+
+#map .service-outerblock .service-block .icon-type {
+    height: auto !important;
+    width: 25px !important;
+}
+
+#map .service-outerblock .service-block .icon-type img {
+    width: 100% !important;
+}
+
+#map .service-outerblock .service-block .type-info {
+    margin-top: 8px !important;
+}
+
+
+/* Dealer Network Map Pointer Popup End */
+
+
+/***** Contact us > Our Locations > Our Network Start */
+
+
+/* Our Network Map Pointer Popup Start */
+
+#map .service-outerblock address {
+    float: left;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+#map .service-outerblock address span {
+    margin-bottom: 5px;
+}
+
+#map .service-outerblock address .address-row {
+    float: left;
+    font-size: 12px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    padding-left: 18px;
+    position: relative;
+    width: 100%;
+}
+
+#map .service-outerblock address .map-bullet {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-right: 7px;
+    height: 16px;
+    width: 14px;
+}
+
+#map .service-outerblock address .map-bullet.poiter {
+    background: url("../images/bullet-pointer-address.html") no-repeat scroll 0 2px transparent;
+}
+
+#map .service-outerblock address .map-bullet.land {
+    background: url("../images/bullet-address-landline.html") no-repeat scroll 0 2px transparent;
+}
+
+#map .service-outerblock address .map-bullet.fax {
+    background: url("../images/bullet-address-Fax.html") no-repeat scroll 0 2px transparent;
+}
+
+#map .service-outerblock address .map-bullet.mail {
+    background: url("../images/bullet-address-email.html") no-repeat scroll 0 2px transparent;
+}
+
+
+/* Our Network Start - Tab */
+
+.tab-style-four .list-wrap .location-inner .location-nav .ln-letters a {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 5px;
+    text-align: center!important;
+    width: 24px !important;
+}
+
+.tab-style-four .list-wrap .location-inner .location-nav .ln-letters a.all {
+    width: auto !important;
+}
+
+
+/* Our Network Map Pointer Popup End */
+
+
+/***** Contact us > Our Locations > Our Network End */
+
+
+/* information-technology Start */
+
+.slt-tc-landing .mega-plane-outer .image-block {
+    min-height: 280px;
+}
+
+
+/* information-technology End */
+
+
+/***** TRAINING SECTION END */
+
+
+/***** Apply Online Popoup Start */
+
+.hidden-info {
+    display: none;
+}
+
+#send-mail-dialog input,
+#send-mail-dialog select,
+#send-mail-dialog textarea {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+#send-mail-dialog input,
+#send-mail-dialog select {
+    height: 34px;
+}
+
+#send-mail-dialog textarea {
+    height: auto;
+}
+
+#send-mail-dialog input:focus,
+#send-mail-dialog select:focus,
+#send-mail-dialog textarea:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
+
+#send-mail-dialog label {
+    color: #7b7b7b;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#send-mail-dialog .form-item {
+    margin-top: 0;
+}
+
+#send-mail-dialog .button-primary.form-submit {
+    background: #0a8bff none repeat scroll 0 0;
+    border: 1px solid #0a8bff;
+    border-radius: 4px !important;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    height: 34px;
+    line-height: 1.1;
+    padding: 0 16px;
+    text-align: center;
+    text-transform: uppercase;
+    width: auto;
+}
+
+
+/***** Apply Online Popoup End */
+
+
+/***** PEO Feature Page Start */
+
+.peo-feature-ul {
+    float: left;
+    margin: 15px 0;
+    width: 100%;
+}
+
+.peo-feature-ul li {
+    border: 1px solid #d6d6d6;
+    margin-bottom: 15px;
+    padding: 15px 30px;
+    float: left;
+    width: 100%;
+}
+
+.peo-feature-ul li img {
+    float: left;
+    margin-right: 10px;
+    width: 70px;
+}
+
+.peo-feature-ul li h5 {
+    color: #337ab7;
+    float: left;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: auto;
+}
+.peo-feature-ul li div{
+    float: left;
+    width: 100%;
+}
+.peo-feature-ul li br{
+    display: none;
+}
+
+/***** PEO Feature Page End */
+
+
+/***** PEO Spcial Offer Page Start */
+.inner-peo-tv-style-pro .field-name-body{
+    font-size: 20px;
+    color: #45baee;
+    font-weight: 600;
+}
+.inner-peo-tv-style-pro ul{
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+    display: none !important;
+}
+.inner-peo-tv-style-pro ul li a{
+    margin-right: 10px;
+}
+.inner-peo-tv-style-pro ul li.si a,
+.inner-peo-tv-style-pro ul li.ta a,
+.inner-peo-tv-style-pro ul li.en a{
+    color: #fff;
+    /*background-color: #2162b1;*/
+    background-color: #9e9e9e;
+    /*border-radius: 4px 4px 0 0;*/
+    padding: 0 15px;
+    font-size: 12px;
+    display: block;
+    float: left;
+    text-decoration: none;
+    height: 28px;
+    line-height: 28px;
+    
+}
+.inner-peo-tv-style-pro ul li.ta a{
+    font-size: 10px;
+}
+.inner-peo-tv-style-pro ul li a:hover{
+    background-color: #2162b1;
+}
+.inner-peo-tv-style-pro .field-label{
+    
+}
+.inner-peo-tv-style-pro .date-display-start,
+.inner-peo-tv-style-pro .date-display-end{
+    font-size: 16px;
+    font-weight: 600;
+    color: #2162b1;
+    margin-bottom: 15px;
+    
+}
+.inner-peo-tv-style-pro .field-name-field-promo-large-banner{
+    margin: 15px 0;
+    float: left;
+    width: 100%;
+    
+}
+.inner-peo-tv-style-pro .field-name-field-promo-large-banner img{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+/***** PEO Spcial Offer Page End */
+
+.home-cat-carousel {
+    background: none;
+    padding: 45px 0 45px;
+}
+.body-mid-wrapper {
+    padding-top: 0;
+}
+
+/***** Media Queries Start *****************************************************************/
+
+@media only screen and (max-width:1400px) {
+    /*****  PeoTV VOD PAGE CSS Start */
+    #peo-tv-slider .sllider-item a:hover .footer .sub {
+        height: 145px;
+        line-height: 1.6;
+    }
+    /*****  PeoTV VOD PAGE CSS End */
+}
+
+
+/* End 1400px */
+
+@media only screen and (max-width:1280px) {
+    /* Inner Styles */
+    .inner-right-main {
+        width: -webkit-calc(100% - 272px);
+        width: -moz-calc(100% - 272px);
+        width: calc(100% - 272px);
+    }
+    /***** Table One Start */
+    .table-one {
+        width: 725px !important;
+    }
+    /***** Table One End */
+    /***** Custom Banner Start */
+    .custom-banner-outer .text-block {
+        margin: 35px 10px 0 20px;
+        width: calc(50% - 30px);
+        width: -webkit-calc(50% - 30px);
+        width: -moz-calc(50% - 30px);
+    }
+    .custom-banner-outer .image-block {
+        border-radius: 0 0 5px 0;
+        width: 50%;
+    }
+    .custom-banner-outer .image-block img {
+        width: 100%;
+    }
+    .custom-banner-outer .text-block h1 {
+        font-size: 2.5vw;
+    }
+    .custom-banner-outer .text-block h3 {
+        font-size: 1.7vw;
+    }
+    /***** Custom Banner End */
+    /* Dialup Services - My Account Start *****/
+    .usage-meter-logblock .mega-plane-outer .image-block {
+        width: 40%;
+    }
+    .usage-meter-logblock .header-block .title {
+        font-size: 1.8vw;
+        margin-top: 10px;
+    }
+    /* Dialup Services - My Account End *****/
+    /***** TRAINING SECTION START */
+    .slt-tc-landing .mega-plane-outer .image-block {
+        min-height: 213px;
+    }
+    /***** TRAINING SECTION END */
+    /***** investors News Common Block Start */
+    .investors-main ul.media-block li {
+        /*width: 100%;*/
+        width: 50%;
+    }
+    .investors-main .common-news-block {
+        /*height: 289px;*/
+        padding: 15px;
+    }
+    .investors-main #news-container {
+        /*height: 175px;*/
+    }
+    .investors-main #news-container #slider-miliston.slick-initialized.slick-slider {
+        /*height: 165px;*/
+        height: 100px;
+        overflow: hidden;
+    }
+    .slick-slide.slick-active > p {
+        height: 55px;
+        overflow: hidden;
+    }
+    .investors-main #news-container #slider-miliston .slick-next,
+    .investors-main #news-container #slider-miliston .slick-prev {
+        /*top: 140px !important;*/
+        top: 65px !important;
+    }
+    .investors-main p.blue-light-big {
+        font-size: 13px;
+    }
+    .investors-main .main-header {
+        font-size: 14px;
+    }
+    .common-news-multiblock .media-block .boilerplate {
+        margin-top: 8px;
+    }
+    .awrds-and-wrap #container-single {
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+    #news-container{
+        margin-top: 15px;
+        height: auto;
+        
+    }
+    .investors-main .common-news-block{
+        height: auto;
+    }
+    #slider-miliston.slick-slider{
+        margin-bottom: 15px;
+        
+    }
+    
+    /***** investors News Common Block End */
+    
+    /***** investors - Media-Kit Block Start */
+    .common-news-multiblock ul.media-block li{
+        margin-top: 7px;
+    }
+    .awrds-and-wrap #container-single{
+        width: 100%;
+    }
+    .investors-main .common-news-block .info-block p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .investors-main .media-kit-comment-news-wrap .common-news-block {
+        margin-left: 0.425532%;
+    }
+    /***** investors - Media-Kit Block End */
+}
+
+
+/* End 1280px */
+
+@media only screen and (max-width:1100px) {
+    /* Dialup Services - My Account Start *****/
+    .usage-meter-logblock .header-block .title {
+        font-size: 2.2vw;
+    }
+    /* Dialup Services - My Account End *****/
+    /*****  PeoTV VOD PAGE CSS Start */
+    #peo-tv-slider a:hover .footer .cover-title {
+        font-size: 12px;
+        height: 44px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        overflow: hidden;
+        white-space: normal;
+    }
+    #peo-tv-slider .sllider-item a:hover .footer .sub {
+        font-size: 9px;
+        height: 88px;
+        line-height: 1.6;
+    }
+    /*****  PeoTV VOD PAGE CSS End */
+}
+
+
+/* End 1100px */
+
+@media only screen and (max-width:992px) {
+    /***** TRAINING SECTION START */
+    .slt-tc-landing .mega-plane-outer .image-block {
+        min-height: 170px;
+        width: 50%;
+    }
+    .slt-tc-landing .pack-list-outer {
+        width: 50%;
+    }
+    /***** TRAINING SECTION END */
+    /*****  PeoTV - Channels Page > Bundles CSS Start */
+    .channel-bundles-custom {
+        /*top: 96px;*/
+    }
+    /*****  PeoTV - Channels Page > Bundles CSS End */
+    /***** investors News Common Block Start */
+    .investors-main .common-news-block {
+        height: auto;
+    }
+    .investors-main #news-container {
+        height: 175px;
+    }
+    .investors-main #news-container #slider-miliston.slick-initialized.slick-slider {
+        /*height: 135px;*/
+    }
+    .investors-main #news-container #slider-miliston .slick-next,
+    .investors-main #news-container #slider-miliston .slick-prev {
+        /*top: 96px !important;*/
+    }
+    /***** investors News Common Block End */
+    
+    /***** investors - Media-Kit Block Start */
+    .common-news-multiblock ul.media-block li{
+        margin-top: 13px;
+    }
+    /***** investors - Media-Kit Block End */
+}
+
+
+/* End 992px */
+
+@media only screen and (max-width:979px) {
+    /* Inner Styles */
+    .inner-top-main {
+        margin-top: 110px;
+    }
+    /***** Table Styles Start ***************************************/
+    /***** Table Seven Start */
+    /* Three Col Start */
+    .table-seven .three-col ul {
+        width: 640px !important;
+    }
+    /***** Table Seven End */
+    /***** Table Styles End ***************************************/
+    /***** Custom Banner Start */
+    .custom-banner-outer .banner-button-block {
+        position: absolute;
+        top: 25px !important;
+    }
+    .custom-banner-outer .banner-button-block .button-blue-shade {
+        font-size: 11px;
+        padding: 10px 6px;
+    }
+    /***** Custom Banner End */
+}
+
+
+/* End 979px */
+
+@media only screen and (max-width:768px) {
+    .inner-right-main {
+        float: left;
+        padding-top: 110px;
+        width: 100%;
+    }
+    .page-titlearea h3 {
+        background-color: #025bac;
+        border-radius: 0;
+        padding: 10px;
+    }
+    body.mob-left-menu-start .header-wrapper {
+        position: relative;
+        opacity: 0;
+    }
+    body.mob-left-menu-start .inner-right-main {
+        padding-top: 15px;
+    }
+    .inner-left-main {
+        width: 100%;
+        top: 108px;
+    }
+    /***** Table Stylea Start ***************************************/
+    /***** Table Seven Start */
+    /* Two Col Start */
+    .table-seven .two-col li,
+    .table-seven .two-col ul li:first-child {
+        padding: 0 4%;
+        width: 41.8% !important;
+    }
+    .table-seven ul.single-row li:first-child .center p.title {
+        font-size: 16px;
+    }
+    /***** Table Seven End */
+    /***** Table Stylea End ***************************************/
+    /***** Download Page Start */
+    .button-pdf-downloder {
+       /* width: 115px;*/
+    }
+    /***** Download Page SEnd */
+    /***** IVR portal Page Start */
+    .services-offer-block ul.services {
+        height: auto !important;
+    }
+    .row-eq-height .col-eq-height {
+        height: auto !important;
+    }
+    /***** IVR portal Page End */
+    /***** Custom Banner Start */
+    .custom-banner-outer .text-block {
+        margin: 25px 10px 0 20px;
+    }
+    .custom-banner-outer .text-block h1 {
+        font-size: 4.5vw;
+    }
+    .custom-banner-outer .text-block h3 {
+        font-size: 2.7vw;
+    }
+    /***** Custom Banner End */
+    /***** Dialup Services - My Account Start */
+    .usage-meter-logblock .header-block .title {
+        font-size: 2.8vw;
+    }
+    /***** Dialup Services - My Account End */
+    /*****  PeoTV - Channels Page > Bundles CSS Start */
+    .channel-bundles-custom {
+        /*top: 74px;*/
+    }
+    /*****  PeoTV - Channels Page > Bundles CSS End */
+}
+
+
+/* End 768px */
+
+@media only screen and (max-width:767px) {
+    /*****  PeoTV VOD PAGE CSS Start */
+    #peo-tv-slider a:hover .footer .cover-title {
+        font-size: 14px;
+        height: 50px;
+        line-height: 1.2;
+    }
+    #peo-tv-slider .sllider-item a:hover .footer .sub {
+        font-size: 11px;
+        height: 139px;
+        line-height: 1.4;
+    }
+    /*****  PeoTV VOD PAGE CSS End */
+}
+
+
+/* End 767px */
+
+@media only screen and (max-width:640px) {
+    h1,
+    .h1 {
+        font-size: 34px;
+    }
+    h2,
+    .h2 {
+        font-size: 28px;
+    }
+    h3,
+    .h3 {
+        font-size: 22px;
+    }
+    h4,
+    .h4 {
+        font-size: 16px;
+    }
+    h5,
+    .h5 {
+        font-size: 14px;
+    }
+    h6,
+    .h6 {
+        font-size: 12px;
+    }
+    p {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+    p.style-blk strong {
+        font-size: 16px;
+        margin: 20px 0;
+        float: left;
+    }
+    /* P Tag Style End */
+    /***** Custom Banner Start */
+    .custom-banner-outer .text-block {
+        margin: 25px 10px 0 20px;
+    }
+    .custom-banner-outer .text-block h1 {
+        font-size: 4.5vw;
+    }
+    .custom-banner-outer .text-block h3 {
+        font-size: 2.7vw;
+    }
+    /***** Custom Banner End */
+    /***** Dialup Services - My Account Start */
+    .usage-meter-logblock.right-margin {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .usage-meter-logblock {
+        width: 100%;
+    }
+    .usage-meter-logblock .header-block .title {
+        font-size: 18px;
+        margin-top: 0;
+    }
+    /***** Dialup Services - My Account End */
+    /***** Year Tab - Newly Added styles Start */
+    .news-all-block .item-list > h3 {
+        font-size: 15px;
+        padding: 4px 13px;
+    }
+    .news-all-block .item-list ul li {
+        margin: 0;
+        width: 100%;
+    }
+    .news-all-block .item-list h3::after {
+        top: 19px;
+    }
+    /***** Year Tab - Newly Added styles End */
+    /***** Job Opportunities Start */
+    #block-views-job-opportunities-block .view-more-management {
+        text-indent: -9999px;
+        padding-left: 11px;
+        right: 15px !important;
+        width: 11px;
+    }
+    #block-views-job-opportunities-block .ui-accordion .ui-accordion-header {
+        cursor: pointer;
+        display: block;
+        margin-top: 2px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #block-views-job-opportunities-block .accordion-inner a span.job-wrapper {
+        width: -webkit-calc(100% - 20px);
+        width: -moz-calc(100% - 20px);
+        width: calc(100% - 20px);
+    }
+    #block-views-job-opportunities-block .accordion-inner div.body {
+        padding: 15px !important;
+    }
+    #block-views-job-opportunities-block .accordion-inner div.body {
+        line-height: 1.4;
+    }
+    /***** Job Opportunities End */
+    /*****  PeoTV VOD PAGE CSS Start */
+    /* List Nav Start */
+    #demoFour-nav .ln-letters a.all {
+        font-size: 13px;
+        padding: 4px 8px;
+    }
+    #demoFour-nav .ln-letters a {
+        font-size: 13px;
+        margin: 4px 2px;
+        width: 25px;
+    }
+    #peo-tv-slider .sllider-item {
+        width: 33.33%;
+    }
+    /* Carousel Start */
+    #peo-tv-slider a .footer,
+    #peo-tv-slider a:hover .footer {
+        bottom: 1px !important;
+        min-height: 45px !important;
+        height: 45px !important;
+        padding: 0 !important;
+    }
+    #peo-tv-slider a .footer .cover-title,
+    #peo-tv-slider a:hover .footer .cover-title {
+        font-size: 10px !important;
+        font-weight: 600 !important;
+        white-space: nowrap !important;
+        height: auto !important;
+        margin: 10px 5% 0 5% !important;
+        line-height: 1.1 !important;
+    }
+    #peo-tv-slider a .footer .sub,
+    #peo-tv-slider a:hover .footer .sub {
+        white-space: nowrap !important;
+        height: auto !important;
+        height: 15px !important;
+        margin: 0 5% 5px !important;
+        font-size: 8px !important;
+    }
+    /*****  PeoTV VOD PAGE CSS End */
+    /*****  PeoTV - Channels Page > Bundles CSS Start */
+    .channel-bundles-custom .custom-bundlelist-item {
+        width: 20%;
+    }
+    .channel-thumb-container .views-field.views-field-field-channel-bundles-1 .views-item-tv {
+        font-size: 9px;
+    }
+    .channel-list-item.bundle-displayed .channel-bundles-custom img {
+        width: 100%;
+    }
+    /*****  PeoTV - Channels Page > Bundles CSS End */
+    
+    /***** PEO Feature Page Start */
+    .peo-feature-ul li {
+        padding: 15px;
+    }
+    .peo-feature-ul li h5 {
+        font-size: 18px;
+    }
+    .peo-feature-ul li img {
+        width: 48px;
+    }
+    .peo-feature-ul li div {
+        font-size: 12px;
+    }
+    /***** PEO Feature Page End */
+    
+    /***** investors News Common Block Start */
+    .investors-main ul.media-block li {
+        width: 100%;
+    }
+    /***** investors News Common Block End */
+}
+
+
+/* End 640px */
+
+@media only screen and (max-width:480px) {
+    /* HEADER START **********/
+    .inner-right-main {
+        padding-top: 15px;
+    }
+    .inner-left-main {
+        width: 100%;
+        top: inherit;
+    }
+    /* HEADER END **********/
+    /***** Downloads Page Start */
+    .left-cont .potion-block ul li a {
+        width: 120px;
+    }
+    .config-downloader-outer .config-inner {
+        padding-bottom: 15px;
+    }
+    .button-pdf-downloder.right {
+        margin: 5px auto auto;
+        /*width: 114px;*/
+    }
+    /***** Downloads Page End */
+    /***** Management Page Start */
+    .bos-user-img-block {
+        height: 65px;
+        width: 65px;
+    }
+    .bos-user-img-block img {
+        width: 100% !important;
+    }
+    .bod-wrapper {
+        margin-top: 15px;
+        width: 100%;
+    }
+    .accordion-inner div.body {
+        background: none;
+    }
+    .accordion-inner a .bod-wrapper {
+        border-bottom: 3px solid #e3e3e3;
+        margin-top: 5px;
+        padding-bottom: 3px;
+    }
+    .view-more-management {
+        top: 32px;
+    }
+    /***** Management Page End */
+    /***** Custom Banner Start */
+    .custom-banner-outer .text-block {
+        margin: 15px 0 15px 20px;
+        width: 80%;
+    }
+    .custom-banner-outer .image-block {
+        width: 100%;
+    }
+    .custom-banner-outer .text-block h1 {
+        font-size: 6vw;
+        margin-bottom: 0;
+    }
+    .custom-banner-outer .text-block h3 {
+        font-size: 3.7vw;
+    }
+    /***** Custom Banner End */
+    /*****  PeoTV VOD PAGE CSS Start */
+    #peo-tv-slider .footer {
+        width: 97%;
+    }
+    /*****  PeoTV VOD PAGE CSS End */
+    /***** TRAINING SECTION START */
+    .slt-tc-landing .mega-plane-outer .image-block {
+        min-height: inherit;
+        width: 100%;
+    }
+    .slt-tc-landing .pack-list-outer {
+        width: 100%;
+    }
+    /***** TRAINING SECTION END */
+    /*****  PeoTV - Channels Page > Bundles CSS Start */
+    .channel-bundles-custom .custom-bundlelist-item {
+        width: 28%;
+    }
+    .channel-bundles-custom .custom-bundlelist-item img {
+        width: 100% !important;
+    }
+    /*****  PeoTV - Channels Page > Bundles CSS End */
+}
+
+
+/* End 480px */
+
+
+/*======================= Language Start =======================*/
+
+
+/***** Mobile Menu Start */
+
+:lang(ta) #menu ul li .sub-level li a {
+    font-size: 10px;
+}
+
+:lang(ta) .services-offer-block ul.services li.title {
+    font-size: 16px;
+}
+
+:lang(ta) .services-offer-block ul.services li {
+    font-size: 10px;
+}
+
+
+/***** Mobile Menu End */
+
+
+/***** Dialup Services - My Account Start */
+
+:lang(si) .button-blue-shade a {
+    white-space: nowrap;
+}
+
+:lang(ta) .usage-meter-logblock .header-block .title {
+    font-size: 16px;
+    line-height: 1.3;
+    margin-top: 10px;
+    width: -webkit-calc(100% - 80px);
+    width: -moz-calc(100% - 80px);
+    width: calc(100% - 80px);
+}
+
+:lang(ta) .usage-meter-logblock .header-block .button-area {
+    width: 75px;
+}
+
+
+/***** Dialup Services - My Account End */
+
+
+/***** Custom Banner Start */
+
+:lang(si) .custom-banner-outer .text-block h1 {
+    font-size: 2vw;
+}
+
+:lang(si) .custom-banner-outer .text-block h3 {
+    font-size: 1.7vw;
+}
+
+:lang(ta) .custom-banner-outer .text-block h1 {
+    font-size: 2vw;
+}
+
+:lang(ta) .custom-banner-outer .text-block h3 {
+    font-size: 1.7vw;
+}
+
+
+/***** Custom Banner End */
+
+@media only screen and (max-width:1280px) {
+    /***** Dialup Services - My Account Start */
+    :lang(ta) .usage-meter-logblock .header-block .title {
+        font-size: 1.3vw;
+    }
+    /***** Dialup Services - My Account End */
+}
+
+
+/* End 1280px */
+
+@media only screen and (max-width:1100px) {
+    /***** Dialup Services - My Account Start */
+    :lang(ta) .usage-meter-logblock .header-block .title {
+        font-size: 1.5vw;
+    }
+    /***** Dialup Services - My Account End */
+}
+
+
+/* End 1100px */
+
+@media only screen and (max-width:992px) {
+    /***** Dialup Services - My Account Start */
+    :lang(si) .usage-meter-logblock .header-block .title {
+        height: auto;
+        line-height: 1.2;
+        width: 100%;
+    }
+    :lang(ta) .usage-meter-logblock .header-block .title {
+        height: auto;
+        font-size: 1.8vw;
+        width: 100%;
+    }
+    /***** Dialup Services - My Account End */
+}
+
+
+/* End 992px */
+
+@media only screen and (max-width:979px) {
+    /***** Mobile Menu Start */
+    :lang(ta) #mobile-menu ul li a {
+        font-size: 18px;
+    }
+    :lang(ta) #mobile-menu ul li li a {
+        font-size: 12px;
+    }
+    :lang(si) #mobile-menu ul li li a {
+        font-size: 12px;
+    }
+    /***** Mobile Menu End */
+}
+
+
+/* End 979px */
+
+@media only screen and (max-width:768px) {
+    /***** Custom Banner Start */
+    :lang(si) .custom-banner-outer .text-block {
+        margin: 35px 10px 0 20px;
+    }
+    :lang(si) .custom-banner-outer .text-block h1 {
+        font-size: 3.5vw;
+        margin-bottom: 0;
+    }
+    :lang(si) .custom-banner-outer .text-block h3 {
+        font-size: 2.7vw;
+    }
+    :lang(ta) .custom-banner-outer .text-block {
+        margin: 35px 10px 0 20px;
+    }
+    :lang(ta) .custom-banner-outer .text-block h1 {
+        font-size: 3vw;
+        margin-bottom: 5px;
+    }
+    :lang(ta) .custom-banner-outer .text-block h3 {
+        font-size: 2.2vw;
+    }
+    /***** Custom Banner End */
+    /***** Dialup Services - My Account Start */
+    :lang(si) .usage-meter-logblock .header-block .title {
+        font-size: 2.8vw;
+    }
+    :lang(ta) .usage-meter-logblock .header-block .title {
+        font-size: 1.9vw;
+    }
+    /***** Dialup Services - My Account End */
+}
+
+
+/* End 768px */
+
+@media only screen and (max-width:640px) {
+    /***** Dialup Services - My Account Start */
+    :lang(si) .usage-meter-logblock .header-block .title {
+        font-size: 20px;
+    }
+    :lang(ta) .usage-meter-logblock .header-block .title {
+        font-size: 15px;
+        margin-top: 0;
+    }
+    /***** Dialup Services - My Account End */
+}
+
+
+/* End 640px */
+
+@media only screen and (max-width:480px) {
+    /***** Custom Banner Start */
+    :lang(si) .custom-banner-outer .text-block {
+        margin: 15px 10px 15px 20px;
+    }
+    :lang(si) .custom-banner-outer .text-block h1 {
+        font-size: 5.5vw;
+    }
+    :lang(si) .custom-banner-outer .text-block h3 {
+        font-size: 3.7vw;
+    }
+    :lang(ta) .custom-banner-outer .text-block {
+        margin: 15px 10px 15px 20px;
+    }
+    :lang(ta) .custom-banner-outer .text-block h1 {
+        font-size: 5vw;
+    }
+    :lang(ta) .custom-banner-outer .text-block h3 {
+        font-size: 3.5vw;
+    }
+    /***** Custom Banner End */
+}
+
+
+
+/*======================= Language End =======================*/
+
+
+
+
+/*--------------------
+desiTypeA CSS
+---------------------*/
+.desiTypeA ul {list-style: none;display: flex;flex-wrap: wrap;flex-direction: row;align-items: flex-end;padding: 0;margin: 0 0 1rem 0;width: 100%;}
+
+.desiTypeA ul li {width: 21%;list-style: none;padding: 2rem;margin: 1rem;min-height: 250px;align-items: flex-end;/* justify-content: flex-end; */background: #ccc;border-radius: 2rem;display: flex;font-weight: 600;color: #fff;}
+
+.desiTypeA ul li:nth-child(1){
+    background-color:#1547E9;
+}
+.desiTypeA ul li:nth-child(1) p{
+    color: #bbe3ff;
+}
+.desiTypeA ul li:nth-child(2){
+    background-color: #0F2C8A;
+}
+.desiTypeA ul li:nth-child(2) p{
+    color: #aeedff;
+}
+.desiTypeA ul li:nth-child(3){
+    background-color:#071C60;
+}
+.desiTypeA ul li:nth-child(3) p{
+    color: #88a7fe;
+}
+.desiTypeA ul li:nth-child(4){
+    background-color: #6b0a8d;
+}
+.desiTypeA ul li:nth-child(4) p{
+    color: #f988fe;
+}
+.desiTypeA ul li:nth-child(5){
+    background-color: #9e12cf;
+}
+.desiTypeA ul li:nth-child(5) p{
+    color: #fbcfff;
+}
+.desiTypeA ul li:nth-child(6){
+    background-color: #e915a2;
+}
+.desiTypeA ul li:nth-child(6) p{
+    color: #ffcaf4;
+}
+.desiTypeA ul li:nth-child(7){
+    background-color: #4798ce;
+}
+.desiTypeA ul li:nth-child(7) p{
+    color: #f4fbff;
+}
+.desiTypeA ul li:nth-child(8){
+    background-color: #15bde9;
+}
+.desiTypeA ul li:nth-child(8) p{
+    color: #ffffff;
+}
+.desiTypeA ul li:nth-child(9){
+    background-color:#1547E9;
+}
+.desiTypeA ul li:nth-child(9) p{
+    color: #bbe3ff;
+}
+.desiTypeA ul li:nth-child(10){
+    background-color: #0F2C8A;
+}
+.desiTypeA ul li:nth-child(10) p{
+    color: #aeedff;
+}
+.desiTypeA ul li:nth-child(11){
+    background-color:#071C60;
+}
+.desiTypeA ul li:nth-child(11) p{
+    color: #88a7fe;
+}
+.desiTypeA ul li:nth-child(12){
+    background-color: #6b0a8d;
+}
+.desiTypeA ul li:nth-child(12) p{
+    color: #f988fe;
+}
+.desiTypeA ul li:nth-child(13){
+    background-color: #9e12cf;
+}
+.desiTypeA ul li:nth-child(13) p{
+    color: #fbcfff;
+}
+.desiTypeA ul li:nth-child(14){
+    background-color: #e915a2;
+}
+.desiTypeA ul li:nth-child(14) p{
+    color: #ffcaf4;
+}
+.desiTypeA ul li:nth-child(15){
+    background-color: #4798ce;
+}
+.desiTypeA ul li:nth-child(15) p{
+    color: #f4fbff;
+}
+.desiTypeA ul li:nth-child(16){
+    background-color: #15bde9;
+}
+.desiTypeA ul li:nth-child(16) p{
+    color: #ffffff;
+}
+@media(max-width:990px){
+    .desiTypeA ul li {
+        width: calc(50% - 2rem);
+    }
+}
+
+/*--------------------
+desiTypeB CSS
+---------------------*/
+.desiTypeB .imageWrap {height: 380px;width: 80%;background-size: cover;background-repeat: no-repeat;}
+
+.desiTypeB {width: 100%;margin-bottom: 2.5rem;position: relative;}
+
+.desiTypeB .textCont {background: #00B4EB;width: 35%;top: 10%;bottom: 10%;position: absolute;right: 0;filter: );padding: 4rem;}
+
+.desiTypeB .textCont p {color: #fff;font-weight: 600;height: 100%;overflow: hidden;}
+
+@media(max-width:768px){
+.desiTypeB .imageWrap {width: 100%;}
+
+.desiTypeB .textCont {top: inherit;bottom: -5%;right: 10%;left: 10%;width: calc(100% - 20%);}
+}
+/*--------------------
+desiTypeC CSS
+---------------------*/
+.imageWrap {height: 380px;width: 100%;background-size: cover;background-repeat: no-repeat;}
+
+.desiTypeC {width: 100%;margin-bottom: 2.5rem;position: relative;}
+
+.desiTypeC .textCont {background: #0000006b;width: 44%;top: 0;bottom: 0;position: absolute;filter: );padding: 7rem;backdrop-filter: blur(7px);}
+
+.desiTypeC .textCont p {color: #fff;font-weight: 600;height: 100%;overflow: hidden;}
+
+@media(max-width:768px){
+.desiTypeC .imageWrap {width: 100%;}
+
+.desiTypeC .textCont {top: inherit;bottom: 0;right: 0;left: 0;width: calc(100% );padding: 2rem 3rem;}
+
+.desiTypeC .textCont p {margin-bottom: 0;}.desiTypeC .textCont p {margin-bottom: 0;}
+}
+
+/*--------------------
+desiTypeD CSS
+---------------------*/
+
+.desiTypeD .imageWrap {height: 364px;width: 100%;background-size: cover;background-repeat: no-repeat;position: relative;overflow: hidden;}
+.desiTypeD .imageWrap:before {content: " ";background: white;width: 100%;display: block;transform: skew(0deg, -9deg);height: 23%;margin-top: -30px;position: absolute;}
+.desiTypeD ul {display: flex;}
+.desiTypeD ul li {width: 33.33%;list-style: none;margin: 1rem;align-items: stretch;display: flex;flex-direction: column;/* height: 100%; */}
+
+.desiTypeD .textCont:before {
+    content: " ";background: #07b3e9;width: 100%;display: block;transform: skew(0deg, -9deg);height: 68%;margin-top: -27px;position: absolute;
+}
+.desiTypeD .textCont:after {
+    content: " ";background: #07b3e9;width: 100%;display: block;transform: skew(0deg, -9deg);height: 52px;;margin-top: -44px;position: absolute;
+}
+.desiTypeD .textCont p{
+    position:relative;
+}
+.desiTypeD .textCont {position: relative;background: #07b3e9;min-height: 50%;bottom: 0;}
+
+.desiTypeD .textCont p {position: relative;padding: 2rem 1.5rem;z-index: 3;height: 100%;display: block;}
+
+.desiTypeD .desiTypeD ul {padding: 0;margin: 0;width: 100%;display: flex;list-style: none;align-items: stretch;}
+
+@media(max-width:768px){
+.desiTypeD ul {flex-wrap: wrap;}
+.desiTypeD ul li {width: calc(50% - 20px);margin-top: 40px;}
+}
+/*--------------------
+desiTypeE CSS
+---------------------*/
+.desiTypeE .imageWrap {height: 234px;width: 100%;background-size: cover;background-repeat: no-repeat;}
+.desiTypeE ul {display: flex;padding: 0 0 3rem 0;margin: 0;}
+.content-page-wrap .desiTypeE ul li {margin: 1rem;position: relative;list-style: none;width: 50%;}
+.desiTypeE .imageWrap {border-radius: 3rem;overflow: hidden;}
+.desiTypeE .textCont {background: #00000094;height: 100%;display: flex;align-items: flex-end;}
+.desiTypeE .textCont p {color: #fff;padding: 2rem 2.5rem;margin-bottom: 0;font-weight: 500;}
+
+
+
+/*--------------------
+desiTypeF CSS
+---------------------*/
+.desiTypeF .imageWrap {min-height: 644px;border-radius: 3rem;background-repeat: no-repeat;background-size: cover;width: 80%;}
+.desiTypeF {margin-bottom: 3rem;position: relative;width: 50%;float: left;}
+.desiTypeF .textCont {padding: 4rem 4rem;background: #00b4eb;border-radius: 0 6rem 6rem 6rem;position: absolute;bottom: 68px;right: 0;width: 221px;}
+.desiTypeF .textCont p {font-weight: 600;color: #fff;line-height: 1.3;}
+@media(max-width:768px){
+.desiTypeF {width: 100%;}
+}
+
+.introConte {margin-left: 10rem;width: calc(100% - 300px);}
+.introConte p.highlight {font-size: 5.5rem;line-height: 1.2;border-left: solid 8px blue;padding-left: 4rem;border-image: linear-gradient(3deg, rgb(133 0 235), rgb(40 141 255)) 1;color: #7a11ed;}
+
+div.IntroWrap {display: flex; margin-top: 5rem;}
+
+.KeyPoints {width: 400px;padding: 4rem;background: #00215e;margin-left: 3rem;border-radius: 27px;margin-right: 4rem;}
+
+.KeyPoints h5 {letter-spacing: normal;font-size: 3rem;margin-bottom: 2rem;}
+
+.KeyPoints ul li {
+              margin-bottom: 10px;
+              color: #98bbef;
+              font-size: 1.7rem;                  
+              
+list-style: circle;}
+
+.introConte h3 {margin-bottom: 2rem;}
+
+.introConte p {font-size: 2rem;}
+
+.KeyPoints ul {margin-left: 2rem;
+              }
+@media(max-width:990px){
+div.IntroWrap {flex-wrap: wrap;}
+
+.introConte {margin-left: 20px;width: 100%;}
+
+.introConte p.highlight {font-size: 3rem;width: 100%;border-bottom: solid 8px blue;border-left: none;padding-bottom: 3rem;border-top: solid 8px blue;clear: both;padding-top: 3rem;}
+
+.introConte h3 {display: block;margin-bottom: 11px;}
+
+.KeyPoints {width: 100%;margin: 0 20px;}
+    }
+
+/*------------Boostrap Chnage Overwrite-------------*/
+.inner-fullwidth-block.text-center.body-text {position: inherit;float: none;margin-top: 15px;}
+.container.container-custom.home-section .inner-slide {width: 100%; display:flex; align-items: flex-start;}
+@media(max-width:768px){
+.container.container-custom.home-section .inner-slide {flex-wrap: wrap;}
+.container.container-custom.home-section .inner-page-slider .inner-slide .inner-side {width: 100%;order: 2;}
+.container.container-custom.home-section .col-sm-6.col-xs-12.inner-side.bg-section {order: 1;}
+}

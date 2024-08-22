@@ -1,0 +1,127 @@
+/* -------------------------------------------- */
+/* ************ image banner area *********** */
+/* -------------------------------------------- */
+.imageabnnerconWrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+.bannerContain {
+    width: calc(50% - 50px);
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0px 0px 14px #00000030;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    position: relative;
+}
+
+.bannerContain img {
+    width: 100%;
+}
+
+.bannerImage {
+    max-height: 230px;
+    overflow: hidden;
+    border-radius: 24px 24px 0 0;
+}
+
+.bannerConteArea {
+    padding: 3.2rem 3.2rem 9.68rem 3.2rem;
+    /* height: 100%; */
+    display: flex;
+    justify-content: stretch;
+}
+
+.imageabnnerWrap {
+    background-color: #dfebff;
+    padding: 5.2rem 3.2rem;
+    margin-bottom: 75px;
+}
+
+.bannerContain a {
+    text-decoration: none !important;
+}
+
+.bannerContain h5 a {
+    background: #00B4EB;
+    color: #fff;
+    font-size: 0.825rem;
+    padding: 0.35rem 0.8rem;
+    border-radius: 0.25rem;
+}
+
+.bannerContain h3 a {
+    color: #000;
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin: 0.48rem 0 0.8rem 0;
+    display: block;
+}
+
+.bannerContain p a {
+    font-size: 1.6rem;
+    color: #000;
+}
+
+.bannerConteArea .textContent > a {
+    border: solid 2px #0054A2;
+    padding: 1rem 2.88rem;
+    border-radius: 17rem;
+    color: #0054A2;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top: auto;
+    margin-bottom: 0;
+    display: block;
+    width: fit-content;
+    position: absolute;
+    bottom: 4rem;
+    left: 2.88rem;
+    font-weight: 800;
+    letter-spacing: normal;
+}
+.textContent {
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    /* height: auto; */
+}
+/*---------- responsive -----------*/
+@media(max-width:992px){
+    .bannerContain {width: 100% !important;margin: 25px 10px;}
+   
+    .imageabnnerWrap {
+        /* flex-direction: row; */
+        width: 100%;
+        /* flex-wrap: nowrap; */
+        padding: 0.5rem;
+    }/*
+    .block-views-blockhome-page-views-product-highlights2 .responsscroll{
+        overflow-x: inherit;
+        padding-bottom: inherit;
+    }*/
+    .respons {
+    /*display: flex;
+    width: fit-content;
+    flex-direction: row;
+    flex-wrap: nowrap;*/
+}
+.imageabnnerconWrap {
+    flex-wrap: nowrap;
+    margin-left: 0;
+    margin-right: 0;
+}
+    }
+@media(min-width:992px){
+div#mobproducts {display: none;}
+}
+@media(max-width:990px){
+.imageabnnerconWrap {display: none;}
+}
+/* -------------------------------------------- */
+/* ************ image banner end *********** */
+/* -------------------------------------------- */

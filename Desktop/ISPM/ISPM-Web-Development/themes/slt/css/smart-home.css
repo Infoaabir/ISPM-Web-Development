@@ -1,0 +1,288 @@
+.smart-home-banner {
+    position: relative;
+    height: 569px;
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+
+.layers {
+    height: 113%;
+    width: 120%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin-left: -10%;
+    top: -50px !important;
+}
+
+.bottom-end {
+    position: relative;
+    overflow: hidden;
+}
+
+.bottom-end:after {
+    content: "";
+    position: absolute;
+    left: -2px;
+    bottom: -2px;
+    width: 101%;
+    background-image: url(../images/white-wave-1-06.svg);
+    height: 567px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.smart-feat-wrap {
+    margin-top: -150px;
+}
+
+
+.AnimImage{
+	width:100%
+}
+.AnimImage img {
+    position: absolute !important;
+    right: 10% !important;
+    top: 65px !important;
+}
+.feat-cont p {
+    color: #000000;
+    font-size: 14px;
+}
+
+.sm-home-why img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.sm-home-why {
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+.smart-service {
+    margin-top: 50px;
+}
+
+.smart-service:last-child {
+    margin-bottom: 40px;
+}
+
+.sm-home-why .sm-content h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #5c5c5c;
+    line-height: 1.0;
+}
+
+.sm-home-why .sm-content p {
+    font-size: 18px;
+    color: #000;
+    line-height: 1.6;
+}
+
+.sm-home-why .sm-content {
+    max-width: 615px;
+    padding-top: 25px;
+}
+
+.sm-home-why {
+    position: relative;
+    display: flex;
+    display: -ms-flexbox;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+        font-size: 16px;
+}
+
+.smh-logo {
+    width: 160px;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+.smh-logo img {
+    width: 100%;
+}
+
+
+/*owl carousel customize*/
+
+.owl-carousel.owl-arrow-custom {
+    position: relative;
+    padding-left: 45px;
+    padding-right: 45px;
+    z-index: 0;
+}
+
+.owl-carousel.owl-arrow-custom .owl-nav {
+    position: absolute;
+    top: calc(50% - 18px);
+    width: 100%;
+    display: flex;
+    display: -ms-flexbox;
+    justify-content: space-between;
+    -ms-flex-pack: justify;
+    height: 0;
+    left: 0;
+    right: 0;
+}
+
+.owl-carousel.owl-arrow-custom .owl-nav.disabled {
+    display: none;
+}
+
+.owl-carousel.owl-arrow-custom .owl-nav button {
+    background-image: url(../images/owl-arrow-01.svg) !important;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: 20px;
+    background-position: center;
+    border-radius: 50%;
+    line-height: 0;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ccc;
+}
+
+.owl-carousel.owl-arrow-custom .owl-nav button.owl-prev {
+    transform: rotate(180deg) !important;
+    margin-left: 45px;
+}
+
+.owl-carousel.owl-arrow-custom .owl-nav button.owl-next {
+    margin-right: 45px;
+}
+
+.owl-carousel.owl-arrow-custom .owl-nav button:hover {
+    background-image: url(../images/owl-arrow-01.svg) !important;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: 20px;
+    background-position: center;
+    background-color: transparent !important;
+    transform: scale(1);
+}
+
+.owl-carousel.owl-arrow-custom .owl-nav button span {
+    font-size: 0;
+}
+
+
+@media (max-width: 1380px) {
+    .smh-logo {
+        width: 80px;
+    }
+    .sm-home-why .sm-content {
+        padding: 0 25px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .smh-logo {
+        display: none;
+    }
+    .sm-home-why .sm-content h3 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 992px) {
+    .sm-home-why .sm-content {
+        max-width: 100%;
+    }
+    .sm-home-why .sm-content h3 {
+        font-size: 24px;
+    }
+    .smh-title h2 {
+        font-size: 20px;
+    }
+}
+
+
+/* Changes */
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #fff;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 4px 6px #bbb;
+    border: solid 1px #3b4eff;
+    z-index: 90;
+}
+
+.my-float{
+	margin-top:22px;
+}
+.float  img {
+    width: 74%;
+    margin: 8px 1px;
+}
+.float span {
+    position: absolute;
+    background: blue;
+    right: 59px;
+    width: 170px;
+    font-style: initial;
+    font-weight: 700;
+    border-radius: 33px;
+    padding: 13px;
+    top: 6px;
+    box-shadow: 1px 3px 5px #2525255e;
+}
+.addInfoIcon:after {content: "";background-image: url(../images/info-icon.svg);height: 23px;width: 23px;background-repeat: no-repeat;display: inline-block;vertical-align: -8px;padding-left: 14px;margin-left: 6px;}
+.container-fluid.position-relative.banner-area {
+   margin-top: 72px;
+}
+.sm-home-logo img {
+    position: absolute;
+    z-index: 2;
+    top: 56px;
+    right: 25px;
+    max-width: 200px;
+}
+/* Responsive Home */
+
+/* menu */
+div#digilife-menu {
+    height: 40px;
+    width: 34px;
+    background: #5bb9e8;
+    position: absolute;
+    top: -100px;
+    z-index: 99999;
+    left: 152px;
+    border-radius: 0 25px  25px 0;
+    padding-top: 2px;
+}
+
+div#digilife-menu span {
+    display: block;
+    height: 2px;
+    background: #ffffff;
+    width: 20px;
+    margin-top: 18px;
+    margin-left: 3px;
+}
+
+div#digilife-menu span:before, div#digilife-menu span:after {content: "";display: block;height: 2px;background: #ffffff;width: 20px;margin: 6px 0px;position: absolute;}
+
+div#digilife-menu span:after {
+    top: 8px;
+}
+
+img.appSmartHome {
+        max-width: 106px;
+        float: left;
+        margin-right: 30px;
+}

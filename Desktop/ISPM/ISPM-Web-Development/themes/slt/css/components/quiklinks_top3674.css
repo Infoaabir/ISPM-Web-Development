@@ -1,0 +1,143 @@
+
+/* -------------------------------------------- */
+/* ************sliderQuickLinks*********** */
+/* -------------------------------------------- */
+ul.quicklinks-links {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+ul.quicklinks-links li {
+    width: 100%;
+    list-style: none;
+    min-width: 100px;
+}
+
+ul.quicklinks-links a {
+    border: solid 1px #0056A2;
+    display: flex;
+    position: relative;
+    padding: 1.2rem 1.8rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: #0056A2;
+    margin-left: -1px;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+    align-items: center;
+    height: 100%;
+}
+ul.quicklinks-links a strong {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1.4rem 1.6rem;
+    font-size: 1.25em;
+    background: #023b8bad 0% no-repeat padding-box;
+    opacity: 1;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    display:block;
+    z-index:140;
+    color:#fff;
+    opacity:0;
+    transition:all 0.5s ease;
+    width:calc(100% + 1px);
+    overflow: hidden;
+    font-weight: 400;
+}
+ul.quicklinks-links a:hover strong{
+    opacity:1;
+    display:block;
+    top: -91px;
+    height: 90px;
+}
+ul.quicklinks-links a span i{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    height: 5rem;
+    width: 5rem;
+    margin-top: -2.45rem;
+    /* border: solid; */
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center;
+    transition:all 0.5s ease;
+    background-color: transparent;
+}
+
+ul.quicklinks-links a span {
+    max-width: 12rem;
+    line-height: 1.3;
+    word-break: break-word;
+    font-size: 2rem;
+    letter-spacing: -0.2px;
+}
+ul#quicktopcarosol .owl-stage {display: flex;}
+
+@media(min-width:990px){
+    ul.quicklinks-links a:hover {
+    background-color: #003564;
+    color:#fff;
+}
+ul.quicklinks-links a:hover span i {
+    background-color: #ffffffed;
+     padding: 2.5rem;
+     border-radius: 50%;
+    background-position: center;
+
+}
+
+}
+@media(max-width:990px){
+    ul.quicklinks-links a strong, ul.quicklinks-links a:hover strong {
+        display: none;
+    }
+    
+    ul.quicklinks-links a span i {
+        position: inherit;
+        margin: 0.25rem auto 1.2rem auto;
+        height: 4rem;
+    }
+    ul.quicklinks-links a:hover {
+    background-color: #e0f1ff;
+        border:solid 1px #0075a9;
+}
+
+    ul.quicklinks-links a span {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        font-size: 1.4rem;
+        color: #000;
+        line-height: 1.2;
+    }
+    
+    ul.quicklinks-links a {
+        justify-content: center;
+        border-radius: 0.8rem;
+        box-shadow: 0px 0px 8px #ccc;
+        margin: 0 0.8rem;
+        min-width: 103px;
+        padding: 2rem 0.32rem;
+        border: solid 1px #ccc;
+    }
+        
+    .quickLinksSlider {
+        overflow-x: scroll;
+        padding: 1.5rem 0;
+        margin-left: 0.5rem;
+         margin-right: 0.5rem;
+    }
+        }
+@media(max-width:620px){
+        ul.quicklinks-links {
+        width: fit-content;
+        overflow-x: scroll;
+    }
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:none;stroke:#213FFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:none;stroke:#00B4EB;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:none;stroke:#213FFF;stroke-width:2;}
+	.st5{fill:none;stroke:#00B4EB;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st6{fill:none;stroke:#00B4EB;stroke-width:1.5;stroke-linecap:round;}
+</style>
+<g id="payOnline" transform="translate(-1462.5 -660.75)">
+	<g id="Group_956" transform="translate(1462.5 660.75)">
+		<path id="Path_685" class="st0" d="M1.2,7.4h46.2v37.9H1.2V7.4z"/>
+		<path id="Rectangle_132" class="st1" d="M5.5,9.1h33c1.5,0,2.7,1.2,2.7,2.7v20.5c0,1.5-1.2,2.7-2.7,2.7h-33
+			c-1.5,0-2.7-1.2-2.7-2.7V11.8C2.8,10.3,4,9.1,5.5,9.1z"/>
+		<line id="Line_32" class="st1" x1="2.8" y1="18.1" x2="41.2" y2="18.1"/>
+		<line id="Line_33" class="st2" x1="8.9" y1="29.6" x2="8.9" y2="29.6"/>
+		<line id="Line_34" class="st2" x1="17.5" y1="29.7" x2="22" y2="29.7"/>
+	</g>
+	<g id="Ellipse_69" transform="translate(1501 696)">
+		<circle class="st3" cx="1.4" cy="-0.4" r="9.4"/>
+		<circle class="st4" cx="1.4" cy="-0.4" r="8.5"/>
+	</g>
+	<path id="Path_684" class="st5" d="M1498.3,691.5l8,2.7l-3.6,1.8l-1.8,3.6L1498.3,691.5"/>
+	<line id="Line_31" class="st6" x1="1503.3" y1="696.5" x2="1506.8" y2="700"/>
+</g>
+</svg>

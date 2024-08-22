@@ -1,0 +1,1218 @@
+
+/* ========================================================================== */
+/* =========  "Contact us > Bill payment options" Styles start ================ */
+
+/* Style Four Start */
+.table-block table.style-four {
+	border-collapse: collapse;
+	width: 100%;
+	margin: 20px 0;
+	-webkit-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.15);
+	-moz-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.15);
+	box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.15);
+}
+.tab-style-four .list-wrap {
+	background: url("../images/BG-tab-style-four.png") repeat-x left bottom #ededed;
+	border: 1px solid #bbbbbb;
+	height: auto !important;
+	width: 100%;
+    padding: 10px;
+}
+.table-block table.style-four tr th.no-style {
+	background: none;
+	border: none;
+}
+.table-block table.style-four tr th {
+	background: url("../images/bg-table-common.png") repeat-x bottom left #f4f4f4;
+	color: #3d3d3d;
+	font-size: 12px;
+	border: 1px solid #c6c6c6;
+	font-weight: normal;
+	padding: 5px 10px;
+	vertical-align: middle;
+	-webkit-box-shadow: 1px 1px 0 rgba(255,255,255,.8) inset;
+	-moz-box-shadow: 1px 1px 0 rgba(255,255,255,.8) inset;
+	box-shadow: 1px 1px 0 rgba(255,255,255,.8) inset;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	width: 47px;
+}
+.table-block table.style-four tr th.title-main {
+	padding: 20px;
+	width: 435px;
+	text-align: center;
+}
+.table-block table.style-four tr td {
+	text-align: center;
+	border: 1px solid #c6c6c6;
+	vertical-align: middle;
+	font-weight: normal;
+	-webkit-box-shadow: 1px 1px 0 rgba(255,255,255,.8) inset;
+	-moz-box-shadow: 1px 1px 0 rgba(255,255,255,.8) inset;
+	box-shadow: 1px 1px 0 rgba(255,255,255,.8) inset;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	padding: 20px 10px;
+	width: 47px;
+}
+.table-block table.style-four tr td.title-logo {
+	text-align: left;
+	padding: 5px 10px;
+	width: 220px;
+}
+
+/* Style Four End */
+
+
+@media only screen and (max-width:980px) {
+}
+
+@media only screen and (max-width:992px) {
+.title-logo > img {
+	width: 100px !important;
+}
+.table-block table.style-four tr td.title-logo {
+	padding: 0;
+	text-align: left;
+	width: auto;
+}
+.style-four td img {
+	height: auto;
+	width: 15px;
+}
+}
+/* End 992px */
+
+@media only screen and (max-width:768px) {
+.title-logo > img {
+	width: auto;
+}
+.table-block table.style-four tr td.title-logo {
+	padding: 5px 10px;
+	text-align: center;
+	width: auto;
+}
+}
+/* End 768px */
+
+@media only screen and (max-width:480px) {
+.style-four .title-logo > img {
+	min-width: 70px;
+	padding: 0;
+	width: 100%;
+}
+.table-block table.style-four tr td.title-logo {
+	padding: 0;
+	text-align: left;
+	width: auto;
+}
+.table-block table.style-four tr th {
+	background: url("../images/bg-table-common.png") repeat-x scroll left bottom #f4f4f4;
+	border: 1px solid #c6c6c6;
+	box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8) inset;
+	color: #3d3d3d;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px 0;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	vertical-align: middle;
+	width: 47px;
+}
+.style-four td img {
+	height: auto;
+	width: 15px;
+}
+.table-block table.style-four tr td {
+	border: 1px solid #c6c6c6;
+	box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8) inset;
+	font-weight: normal;
+	padding: 14px 0;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	vertical-align: middle;
+	width: 47px;
+	border-left-width: 1px !important;
+}
+}
+/* End 480px */
+
+@media only screen and (max-width:360px) {
+.style-four .title-logo > img {
+	min-width: 70px;
+	padding: 0;
+	width: 100%;
+}
+.table-block table.style-four tr td.title-logo {
+	padding: 0;
+	text-align: left;
+	width: auto;
+}
+.table-block table.style-four tr th {
+	background: url("../images/bg-table-common.png") repeat-x scroll left bottom #f4f4f4;
+	border: 1px solid #c6c6c6;
+	box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8) inset;
+	color: #3d3d3d;
+	font-size: 10px;
+	font-weight: normal;
+	padding: 5px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	vertical-align: middle;
+	width: 47px;
+	text-transform: rotate(90deg);
+}
+.table-block table.style-four tr th.title-main {
+	padding: 11px 20px;
+	text-align: center;
+	transform: rotate(0deg);
+	width: 435px;
+}
+.style-four td img {
+	height: auto;
+	width: 10px;
+}
+.style-four .title-logo > img {
+	min-width: 70px;
+	padding: 0;
+	width: 100%;
+}
+.table-block table.style-four tr th {
+	background: url("../images/bg-table-common.png") repeat-x scroll left bottom #f4f4f4;
+	border: 1px solid #c6c6c6;
+	box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8) inset;
+	color: #3d3d3d;
+	font-size: 10px;
+	font-weight: normal;
+	padding: 0;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	vertical-align: middle;
+	width: 47px;
+}
+.table-head {
+	font-size: 9px;
+}
+}
+/* End 360px */
+
+/* =========  "Contact us > Bill payment options" Styles end ================ */
+/* ========================================================================== */
+
+/* ======================================================================================= */
+/* =========  "Contact us > Our Locations > Dealer Network"  Styles start ================ */
+
+.dealer-network-main {
+	float: left;
+	margin: 20px 0;
+	width: 100%;
+}
+.dealer-network-main .slt-msg{
+    margin-top: 5px;
+    padding-top: 5px;
+    float: left;
+    width: 100%;
+}
+.filter-block-main {
+	float: left;
+	padding: 10px 15px;
+	width: 100%;
+}
+.filter-block-main .button-blue-shade{
+    margin-top: 24px;
+}
+.filter-block-main .banner-button-block{
+    height: auto;
+}
+.gradiant-gray-1 {
+	border: 1px solid #cfcfcf;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #F6F6F6;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#F6F6F6), to(#EDEDED));
+	background: -webkit-linear-gradient(#F6F6F6, #EDEDED);
+	background: -moz-linear-gradient(#F6F6F6, #EDEDED);
+	background: -ms-linear-gradient(#F6F6F6, #EDEDED);
+	background: -o-linear-gradient(#F6F6F6, #EDEDED);
+	background: linear-gradient(#F6F6F6, #EDEDED);
+	-pie-background: linear-gradient(#F6F6F6, #EDEDED);
+}
+.border-radius-5 {
+	border: 1px solid #cfcfcf;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.margin-top-1 {
+	margin-top: 5px;
+}
+.margin-top-2 {
+	margin-top: 10px;
+}
+.margin-top-3 {
+	margin-top: 15px;
+}
+.margin-top-4 {
+  margin-top: 14px;
+}
+.dropdown-block {
+	min-height: 62px;
+	min-width: 215px;
+}
+.dropdown-block .drop-caption {
+	display: block;
+	color: #4b4b4b;
+	font-size: 14px;
+	height: 22px;
+	line-height: 22px;
+    margin-bottom: 5px;
+}
+.dropdown-block select {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #6d6d6d;
+	margin-right: 13px;
+	padding: 11px;
+	border: 1px solid #c0c0c0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #f6f6f6 !important;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fbfbfb), to(#EDEDED));
+	background: -webkit-linear-gradient(#fbfbfb, #EDEDED);
+	background: -moz-linear-gradient(#fbfbfb, #EDEDED);
+	background: -ms-linear-gradient(#fbfbfb, #EDEDED);
+	background: -o-linear-gradient(#fbfbfb, #EDEDED);
+	background: linear-gradient(#fbfbfb, #EDEDED);
+	-pie-background: linear-gradient(#fbfbfb, #EDEDED);
+}
+.dropdown-block select.country {
+  width: 259px;
+}
+.dropdown-block select.service {
+	width: 260px;
+}
+/* Filter Content Css Start */
+.dealer-network-main .filter-col ul {
+	float: left;
+	margin: 20px 0;
+	width: 724px;
+}
+.dealer-network-main .filter-col ul li {
+	border-bottom: 1px solid #ababab;
+	float: left;
+	padding: 12px 0;
+	width: 722px;
+}
+.dealer-network-main .filter-col ul li .logo-block {
+	border: 2px solid #cccccc;
+	float: left;
+	height: 94px;
+	margin-right: 25px;
+	width: 215px;
+}
+.dealer-network-main .filter-col ul li .logo-block img {
+	height: 94px;
+	width: 215px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.service-outerblock {
+	float: left;
+	width: 100%;
+}
+.service-outerblock .head {
+	color: #222;
+	font-weight: bold;
+	font-size: 13px;
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	width: 100%;
+}
+.service-outerblock .service-block {
+	float: left;
+	height: 50px;
+	margin: 8px 8px 8px 8px;
+	width: 152px;
+}
+.service-outerblock .service-block .icon-type {
+	float: left;
+	height: 36px;
+	margin-right: 10px;
+	width: 36px;
+}
+.service-outerblock .service-block .icon-type.bill-pay {
+	background: url("../images/service-icon.html") 0 0
+}
+.service-outerblock .service-block .icon-type.purch-cdma {
+	background: url("../images/service-icon.html") -36px 0
+}
+.service-outerblock .service-block .icon-type.fault-report {
+	background: url("../images/service-icon.html") -72px 0
+}
+.service-outerblock .service-block .icon-type.new-connection {
+	background: url("../images/service-icon.html") -108px 0
+}
+.service-outerblock .service-block .type-info {
+	color: #4B4B4B;
+	float: left;
+	font-size: 12px;
+	line-height: 14px;
+	margin-top: 5px;
+	width: 104px;
+}
+/* Filter Content Css End */
+.map-block {
+	float: left;
+	margin: 20px 0;
+	width: 724px;
+}
+.button-blue-shade {
+    background: #0a8bff none repeat scroll 0 0;
+    border: 1px solid #0a8bff;
+    border-radius: 4px !important;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    height: 34px;
+    line-height: 1.1;
+    padding: 10px 16px;
+    text-align: center;
+    /*text-transform: uppercase;*/
+    text-transform: inherit;
+    width: auto;
+}
+.button-blue-shade a:hover {
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width:992px) {
+.filter-block-main {
+  float: left;
+  padding: 10px 15px;
+}
+.dropdown-block select.service {
+  width: 184px;
+}
+.dropdown-block {
+  min-height: 62px;
+  min-width: 172px;
+}
+.margin-top-4 {
+  margin-top: 12px;
+}
+
+.map-block #map {
+  width: 500px !important;
+}
+.dropdown-block select.country {
+  width: 158px;
+}
+.dropdown-block select.service {
+  width: 167px;
+}
+.dealer-network-main .filter-col ul li {
+  border-bottom: 1px solid #ababab;
+  float: left;
+  padding: 12px 0;
+  width: 500px;
+}
+.service-outerblock {
+  float: left;
+  width: 254px !important;
+}
+
+/* dealer network */
+.tab-style-four .list-wrap {
+	width:100%;
+}
+.tab-location-block-outer .service-outerblock {
+  float: left;
+  width: 100% !important;
+}
+.view-branch-network .service-outerblock .service-block .type-info{
+background:none;
+padding-left:0;
+}
+.view-branch-network  .service-outerblock{
+  padding-bottom: 10px;
+}
+.tab-location-service-main {
+  margin-bottom: 10px;
+}
+.view-branch-network   .location-inner .branch-block {
+    width: 97%;
+}
+.view-branch-network   .location-inner .branch-block address {
+    width: 100%;
+}
+    
+
+
+}
+
+
+@media only screen and (max-width:980px) {}
+
+@media only screen and (max-width:768px) {
+.dealer-network-main .filter-col ul li{
+width:100%;
+}
+.service-outerblock .service-block {
+  width: 165px !important;
+}
+.service-outerblock {
+  float: left;
+    width: 100%;
+}
+.icon-type {
+  display: block;
+}
+.dealer-network-main .filter-col ul {
+  width: 100%;
+}
+.dealer-network-main {
+  float: left;
+  margin: 20px 0;
+  width: 100%;
+}
+.filter-block-main {
+  float: left;
+  padding: 10px 15px;
+  width: 100%;
+}
+.map-block #map {
+  width: 100% !important;
+}
+.map-block {
+  float: left;
+  margin: 20px 0;
+  width: 100%;
+}
+.dropdown-block {
+  min-height: 62px;
+  min-width: 172px;
+  width: 38%;
+}
+.dropdown-block select.country {
+  width: 95%;
+}
+.dropdown-block select.service {
+  width: 95%;
+}
+/* branch-network */
+.view-branch-network .tab-style-four {
+  width: 100%;
+}
+.view-branch-network .tab-style-four .list-wrap {
+    width: 100%;
+}
+
+.view-branch-network .location-inner .branch-block {
+    width: 45%;
+}
+.view-branch-network  .services-thumb-block .service-thumb-head {
+    float: none;
+    width: 100%;
+}
+    
+}
+/* End 768px */
+
+@media only screen and (max-width:640px) {
+    /***** dealer-network-main Start */
+    .dealer-network-main .filter-block-main .dropdown-block {
+        width: 100%;
+    }
+    .dealer-network-main .filter-block-main .dropdown-block select.country,
+    .dealer-network-main .filter-block-main .dropdown-block select.service {
+        width: 100%;
+    }
+    .dealer-network-main .filter-block-main .dropdown-block .drop-caption {
+        margin-top: 15px;
+    }
+    /***** dealer-network-main End */
+}
+/* End 640px; */
+
+@media only screen and (max-width:480px) {
+	.dropdown-block {
+    min-height: 62px;
+    min-width: 172px;
+    width: 100%;
+}
+.dropdown-block select.country , .dropdown-block select.service {
+  width: 100%;
+}
+.dealer-network-main .filter-col ul li .logo-block {
+  height: 80px;
+  width: 168px;
+}
+.dealer-network-main .filter-col ul li .logo-block img {
+  height: 73px;
+  width: 160px;
+}
+.dealer-network-main .button-blue-shade.right.margin-top-4 {
+  margin:10px auto;
+}
+.service-outerblock {
+  float: left;
+  width: 100%;
+}
+.view-branch-network  .icon-type {
+    display: block;
+}
+.view-branch-network .service-outerblock .service-block {
+  width: 46% !important;
+}
+.tab-style-four .nav li a {
+  border-radius: 5px 5px 0 0 !important;
+  font-size: 12px !important;
+  height: 35px !important;
+  line-height: 34px !important;
+    padding: 0 8px !important;
+}
+.view-branch-network .location-inner .branch-block address {
+  margin-bottom: 0;
+  width: 100%;
+}
+.view-branch-network .location-inner .branch-block {
+  width: 97%;
+}
+}
+
+@media only screen and (max-width:360px) {
+	.dropdown-block {
+  float: left;
+  min-height: 62px;
+  min-width: 172px;
+  width: 100%;
+}
+.margin-top-4 {
+  margin-top: 0;
+}
+.banner-button-block {
+  float: left;
+  height: 40px;
+  margin: 10px 0;
+}
+.dealer-network-main .filter-col ul li .logo-block {
+  border: 2px solid #cccccc;
+  float: left;
+  height: 57px;
+  margin-right: 25px;
+  width: 136px;
+}
+.dealer-network-main .filter-col ul li .logo-block img {
+  border-radius: 5px;
+  height: 52px;
+  width: 131px;
+}
+.service-outerblock {
+  float: left;
+  width: 160px !important;
+}
+.dealer-network-main .filter-col ul li .logo-block {
+  text-align: center;
+  width: 100%;
+}
+.service-outerblock .head {
+  font-size: 18px;
+  margin-top: 10px;
+}
+}
+
+/* =========  "Contact us > Our Locations > Dealer Network"  Styles start ================ */
+.tab-location-service-main .location-head {
+    background: none repeat scroll 0 0 #dadada;
+    border-radius: 5px 5px 0 0;
+    color: #444444;
+    display: table-cell;
+    float: left;
+    font-size: 13px;
+    font-weight: 600;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+.service-outerblock {
+    float: left;
+    width: 100%;
+}
+.view-branch-network .service-outerblock .service-block {
+    width: 22%;
+}
+.tab-location-service-main {
+    background-color: #ffffff;
+    float: left;
+    min-height: 51px;
+    padding: 10px 10px 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.tab-location-block-outer {
+    float: left;
+    /*width: auto;*/
+    width: 100%;
+}
+.view-branch-network .service-outerblock .service-block .type-info {
+    width: calc(100% - 48px);
+}
+.view-branch-network .filter-body {
+    clear: both;
+}
+.location-inner .branch-block address {
+    color: #444444;
+    float: left;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 17px;
+    width: 212px;
+    height: 110px;
+    overflow: hidden;
+}
+.branch-block address strong {
+    color: #0054a3;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.branch-block address span.poiter {
+    background: url("../images/bullet-pointer-address.png") no-repeat scroll 0 2px transparent;
+    float: left;
+    height: 16px;
+    margin-right: 7px;
+    width: 7px;
+}
+.location-inner .branch-block address b.land {
+    background: url("../images/bullet-address-landline.png") no-repeat scroll 0 3px rgba(0, 0, 0, 0);
+}
+
+.location-inner .branch-block address b.fax {
+    background: url("../images/bullet-address-Fax.png") no-repeat scroll 0 3px rgba(0, 0, 0, 0);
+}
+
+.location-inner .branch-block address b.mail {
+    background: url("../images/bullet-address-email.png") no-repeat scroll 0 3px rgba(0, 0, 0, 0);
+}
+.branch-block address b {
+    float: left;
+    height: 15px;
+    margin-right: 5px;
+    width: 13px;
+}
+.location-inner .branch-block address a {
+    color: #0072ad;
+    text-decoration: none;
+}
+.services-thumb-block {
+    border-bottom: 1px solid #c4c4c4;
+    border-top: 1px solid #c4c4c4;
+    float: left;
+    margin: 10px 0;
+    padding: 5px 0;
+    width: 100%;
+}
+.services-thumb-block .service-thumb-head {
+    color: #0374df;
+    float: left;
+    font-size: 11px;
+    width: 59px;
+}
+.services-thumb-block ul.service-thumb {
+    float: left;
+    width: 150px;
+}
+
+.services-thumb-block ul.service-thumb li {
+    float: left;
+    height: 29px;
+    margin: 0 1px 1px 0;
+    width: 29px;
+}
+.location-inner .branch-block {
+    float: left;
+    margin: 10px;
+    width: 212px;
+}
+.tab-style-four .nav {
+    margin-bottom: -1px;
+    overflow: hidden;
+}
+.tab-style-four .nav li {
+    float: left;
+}
+.tab-style-four .nav li a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("../images/bg-tab-blue.png") repeat-x scroll left bottom #0091cd;
+    border-color: #4578ad #4578ad #92a0a9;
+    border-image: none;
+    border-radius: 10px 10px 0 0;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    display: block;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: 600;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 15px;
+    text-align: left;
+    text-decoration: none;
+}
+.tab-style-four li a.current,
+.tab-style-four li a.current:hover {
+    background: url("../images/bg-tab-gray.png") repeat-x scroll left bottom rgba(0, 0, 0, 0) !important;
+    border-color: #b9b9b9 #b9b9b9 #e8e8e8;
+    border-style: solid;
+    border-width: 1px;
+    color: #014b90;
+    white-space: nowrap;
+}
+/* new*/
+.location-inner .branch-block address{
+    margin-bottom: 0;
+}
+/* ======================================================================================= */
+
+
+
+
+/* ------------------------------------------------------------- Buddika Added Css Start */
+
+.table-content-area-wrap {
+	float: left;
+	width: 100%;
+}
+
+/* ========= Training Center Menu Start */
+.slt-tc-landing .leftmenu-subhead {
+  margin-bottom: 15px;
+}
+/* ========= Training Center Menu End */
+
+/* ========= CotactUs - Media Feedback css Start */
+
+.media-feedback-left input[type=number]::-webkit-inner-spin-button, 
+.media-feedback-left input[type=number]::-webkit-outer-spin-button,
+input::-o-outer-spin-button {  /* Chrome */
+	-webkit-appearance: none; 
+	margin: 0; 
+}
+input::-o-outer-spin-button,
+input::-o-inner-spin-button { /* Opera */
+    -o-appearance: none;
+    margin: 0;
+}
+.media-feedback-left input[type=number] { /* Fire fox 29 */
+    -moz-appearance:textfield;
+}
+.media-feedback-left .form-item,
+.media-feedback-left .form-actions{
+	margin-top:0;
+}
+.media-feedback-left .form-item .description {
+	margin-top: 5px;
+}
+.media-feed-wrapper{
+	float:left;
+	width:100%;
+}
+.media-feed-wrapper .media-feedback-left{
+	float:left;
+	padding-right:2%;
+	width:63%;
+}
+.media-feed-wrapper .media-feedback-right{
+	background:url("../images/media-cent-bg.jpg") left top no-repeat;
+	padding-left:27px;
+	float:left;
+	width:35%;
+}
+.media-feedback-right h1{
+	font-size:17px;
+	font-weight:bold;
+	color:#5b5b5b;
+	padding-bottom: 14px;
+	line-height:17px;
+	width:100%;
+}
+.media-feedback-right h2{
+	font-size:14px;
+	font-weight:bold;
+	color:#202020;
+	width:100%;
+}
+.media-feedback-right address {
+    color: #414141;
+    float: left;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 18px;
+    margin: 4px 0 10px;
+    width: 100%;
+}
+.media-feedback-right address a{
+	text-decoration:none;
+	color:#014b90;
+}
+.media-feedback-right address a:hover{
+	text-decoration:underline;
+	color:#014b90;
+}
+
+/* ========= CotactUs - Media Feedback css End */
+
+
+/* ========= Scroll css Start */
+.scroler-btn .left-scrol a,
+.scroler-btn .right-scrol a{
+	background: none repeat 0 0 #0056a9;
+	display:block;
+	color: #fff;
+	font-size:20px;
+	line-height:24px;
+	text-decoration: none;
+}
+.scroler-btn .left-scrol > a {
+	border-radius: 50px 15px 15px 50px;
+	padding: 2px 26px 0px 2px;
+}
+.scroler-btn .right-scrol > a {
+	border-radius: 15px 50px 50px 15px;
+	padding: 2px 2px 0px 26px;
+}
+.scroler-btn .left-scrol,
+.scroler-btn .right-scrol{
+	display: none;
+}
+/* ========= Scroll css End */
+
+/* ========= About us Best Performers PAGE CSS Strat */
+.inner-rightplain-block {
+    margin-top: 0;
+    width: 100%;
+}
+.best-performers-border {
+    border-top: 1px solid #efefef;
+    margin-top: 10px;
+}
+.best-performers-year {
+    background: url("../images/best-performers-flag1.html") no-repeat;
+    width: 64px;
+    height: 102px;
+    position: absolute;
+    bottom: -90px;
+    left: 16px;
+    z-index: 8;
+}
+.best-performers-year-cont {
+    color: #014C92;
+    font-size: 17px;
+    font-weight: bold;
+    height: auto;
+    margin: 37px auto 0;
+    text-align: center;
+    width: 42px;
+}
+.best-performers-year-gray {
+    background: url("../images/best-performers-flag2.html") no-repeat;
+}
+.best-performers-year-cont-color {
+    color: #3e5973;
+}
+/* ========= About us Best Performers PAGE CSS END */
+
+/* ========= contact us call center services PAGE CSS Start */
+.tilebase {
+	background: url("../images/devider-bg-tilebase.png") repeat-y center bottom;
+	width: 100%;
+}
+.call-center-hotline{
+	float: left;
+  	margin-bottom: 15px;
+  	width: 100%;
+}
+.call-center-hotline span.hotline-bt{
+	float:left;
+	background:url("../images/call-no-icon.png") no-repeat;
+	width:28px;
+	height:28px;
+	font-size:18px;
+	color:#0054a3;
+	font-weight:bold;
+	padding: 1px 0 0 8px;
+	margin-right:2px;
+}
+.call-center-hotline h3.hotline-text{
+	color: #0054A3;
+  	float: left;
+  	font-size: 18px;
+  	line-height: 18px;
+	margin:5px 0 0 5px;
+	width:63%;
+}
+.call-center-services{
+	float:left;
+	width:100%;
+	margin-top:10px;
+}
+.call-center-services h6.services-text{
+	float:left;
+	font-size:12px;
+	color:#313131;
+	margin-bottom: 3px;
+}
+ul.call-common-list {
+    float: left;
+    width: 97%;
+	margin-left: 3%;
+}
+ul.call-common-list li {
+    background: url("../images/bullet-common-blue.png") no-repeat scroll left top transparent;
+    color: #606060;
+    font-size: 12px;
+    margin-bottom: 2px;
+    padding-left: 20px;
+    width: auto;
+}
+.block-inner p strong.call-numbers {
+    background: url("../images/telegree-nobg.png") no-repeat scroll 0 0 transparent;
+    color: #FEFEFE;
+    font-size: 12px;
+    font-weight: bold;
+    height: 18px;
+    margin-right: -2px;
+    padding: 2px 6px;
+    width: 61px;
+}
+.block-inner h1.check-time{
+	float:left;
+	font-size:18px;
+	font-weight:bold;
+	color:#0054a3;
+	margin-top: 4px;
+	margin-bottom:15px;
+}
+.call-checktime-block{
+	border-bottom: 1px dotted #9ccfff;
+	float: left;
+	margin-bottom: 5px;
+	width: 100%;
+}
+.call-checktime-block span.call-timein{
+	color: #484848;
+	float: left;
+	font-size: 12px;
+	width: 65%;
+}
+.call-checktime-block .call-checktime-number strong.call-numbers-two{
+	float:left;
+	background: url("../images/telegree-nobg.png") no-repeat;
+	width:19px;
+	height:20px;
+	font-size:12px;
+	color:#fefefe;
+	font-weight:bold;
+	text-align:center;
+	padding-top:1px;
+	margin-right:4px;
+    line-height: 16px;
+}
+.call-checktime-number{
+	float:right;
+	width: auto;
+	height:22px;
+}
+/* ========= contact us call center services PAGE CSS END */
+
+@media only screen and (max-width:992px){
+/* ========= CotactUs - Media Feedback css Start */
+.media-feed-wrapper .media-feedback-left {
+	padding-right: 0;
+	width: 100%;
+}
+.media-feed-wrapper .media-feedback-right {
+	background: none;
+	background-color:#C8E7FC;
+	margin:3%;
+	padding:4%;
+	width: 94%;
+}
+/* ========= CotactUs - Media Feedback css End */
+
+/* ========= contact us call center services PAGE CSS Start */
+.call-center-hotline h3.hotline-text {
+  width: 100%;
+}
+.tilebase {
+	background: none;
+}
+.tile-block-half-leftcolumn, .tile-block-half-rightfcolumn,
+.tile-block-half-leftcolumn, .tile-block-half-rightfcolumn{
+	width:100%;
+}
+.call-center-hotline h3.hotline-text {
+	width: 70%;
+}
+.tile-block-half-rightfcolumn .block-inner{
+	padding-left:0;
+	border-right:0;
+}
+.tile-block-half-leftcolumn .block-inner {
+	border-right:0;
+}
+/* ========= contact us call center services PAGE CSS END */
+}
+
+@media only screen and (max-width:768px){
+/* ========= Training Center Menu Start */
+#menu #block-menu-menu-slt-training-centre ul li.active{
+	background-image: none;
+}
+#menu #block-menu-menu-slt-training-centre ul li {
+	width: 100%;
+}
+#menu #block-menu-menu-slt-training-centre ul li .sub-level ul li {
+	width: 100%;
+}
+/* ========= Training Center Menu End */
+
+/* ========= Scroll css Start */
+.scroler-btn .right-scrol{
+	display: block;
+}
+/* ========= Scroll css End */
+
+/* ========= contact us call center services PAGE CSS Start */
+.call-checktime-block .call-checktime-number strong.call-numbers-two{
+	font-weight: normal;
+}
+/* ========= contact us call center services PAGE CSS END */
+
+}
+
+@media only screen and (max-width:360px){
+/* ========= CotactUs - Media Feedback css Start */
+.media-feed-wrapper .media-feedback-right {
+	margin: 5%;
+	width: 90%;
+}
+/* ========= CotactUs - Media Feedback css End */
+
+}
+
+
+/* ------------------------------------------------ Buddika Added Css End */
+/* ---------------------Contact Us New additions form style missing---------------------- */
+.media-feedback-left  input {
+	display: block;
+	width: calc(100% - 0px);
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+	box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	/* margin-right: 40px; */
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+input#edit-field-city-0-value {}
+@media(min-width:990px){
+.media-feed-wrapper .media-feedback-left {
+display: flex;
+flex-wrap: wrap;
+}
+}
+.media-feedback-left .form-group select#edit-field-title {
+margin: 4px 0 0 0;
+width: 67px;
+}
+@media(min-width:990px){
+	.media-feedback-left  input{
+		width: calc(100% - 10px);
+	}
+}
+
+/*-------------User Login--------------*/
+.user-login-form input {    display: block;
+    width: calc(100% - 0px);
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    /* margin-right: 40px; */
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.user-login-form label, .user-login-form .form-required {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.user-login-form .form-item .description {
+    font-size: 1.2rem;
+}
+
+form#user-login-form {
+    max-width: 360px;
+}
+
+/*business Feedback*/
+#block-businessservicerequestform  .media-feedback-left > div:nth-child(1), #block-businessservicerequestform  .media-feedback-left > div:nth-child(2) {float: left;flex: inherit;/* width:inherit; */}
+#block-businessservicerequestform  .media-feedback-left > div:nth-child(1){
+	width: 20%;
+	margin-left: 15px;
+	}
+#block-businessservicerequestform  .media-feedback-left > div:nth-child(3) {
+    clear: both;
+
+}
+
+#block-businessservicerequestform .media-feedback-left > div:nth-child(2){
+/* width:80%; */
+width:calc(80% - 15px);
+}
+
+
+
+
+#block-businessservicerequestform .media-feedback-left .form-group select#edit-field-bs-title {
+    font-size: 12px;
+    width: calc(100% - 15px);
+}
+@media(max-width:768px){
+#block-businessservicerequestform .media-feed-wrapper .media-feedback-left {
+    padding-right: 0;
+}
+#block-businessservicerequestform  .media-feedback-left div {
+    width: 100%;
+}
+
+    }
+

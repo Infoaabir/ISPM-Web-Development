@@ -1,0 +1,5 @@
+<svg id="light" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path id="Path_767" data-name="Path 767" d="M0,0H24V24H0Z" fill="none"/>
+  <circle id="Ellipse_112" data-name="Ellipse 112" cx="4" cy="4" r="4" transform="translate(8 8)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Path_768" data-name="Path 768" d="M3,12H4m8-9V4m8,8h1m-9,8v1M5.6,5.6l.7.7m12.1-.7-.7.7m0,11.4.7.7M6.3,17.7l-.7.7" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+</svg>

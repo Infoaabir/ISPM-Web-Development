@@ -1,0 +1,470 @@
+body.path-frontpage.darkmodeon {
+    background: #000;
+}
+.darkmodeon h2 {
+    color: #566897;
+}
+.darkmodeon .header-wrapper {
+    background-color: #000;
+}
+
+.header.darkmodeon .dropdown-menu a.dropdown-item,.darkmodeon .dropdown-item, .darkmodeon .custom-card .carousel-card-body h3, .darkmodeon .custom-card .carousel-card-body p,
+.darkmodeon  .bannerContain h3 a, .darkmodeon  .bannerContain p a, .darkmodeon .special-title a,
+.darkmodeon .slt-tile-caption h3, .darkmodeon h4.sell-price,
+.darkmodeon .footer-top h4, .footer-top h4 a,
+.darkmodeon .footer-top ul li a  {
+    color: #ffffffbf !important;
+}
+.darkmodeon span.themeLight {
+    color: #939393;
+}
+
+.darkmodeon span.themeDark {
+    color: #ffff;
+}
+.darkmodeon ul.navbar-nav.ms-auto.toprightMenu a, .darkmodeon .mainLev > a.nav-link.dropdown-toggle  {
+    color: #a9a1a1 !important;
+}
+.darkmodeon a.nav-link img {
+    filter: invert(1);
+}
+.darkmodeon .search.dropdown-toggle::before {
+    background-image: url(../../images/assets/search-icon-light.svg);
+}
+
+.darkmodeon .mainLev > a.nav-link.dropdown-toggle {
+    border-top-color: black;
+    color: #ffffff96;
+}
+
+.darkmodeon div#main_nav {
+    border-left-color: #3B3B3B;
+}
+
+.darkmodeon li.nav-item.sitemap {
+    border-right-color: #3B3B3B;
+}
+
+.darkmodeon a.nav-link.dropdown-toggle.search {
+    border-left-color: #3B3B3B;
+    border-right-color: #3B3B3B;
+}
+.darkmodeon #header_nav nav.navbar.navbar-expand-lg {
+    border-bottom: solid 1px #3B3B3B !important;
+    background: #000;
+}
+.darkmodeon .mainrightNav {
+    border-top-color: #3B3B3B;
+}
+
+.darkmodeon .mainLev a.nav-link.dropdown-toggle.show {
+    background: #63636361;
+    border-top: solid 2px #00B4EB;
+    color: #fff !important;
+}
+.darkmodeon .imageabnnerWrap {
+    background-color: black;
+}
+
+.darkmodeon  .bannerContain {
+    background: #ffffff1f;
+}
+
+.darkmodeon .container-fluid.home-section.bg-light {
+    background-color: #000 !important;
+}
+/* home Teleshop and news */
+.darkmodeon .newsandTeleshop .sell-item-img {
+    max-height: 240px;
+    overflow: hidden;
+}
+
+.darkmodeon .newsandTeleshop .sell-item-card {
+    background: transparent;
+    /* color: red; */
+    border-left-color: #ffffff33;
+    border-bottom-color: #ffffff33;
+    border-top-color: #ffffff33;
+}
+
+.darkmodeon .newsandTeleshop .sell-body h3 a {
+    color: #ffffffbf;
+    text-decoration: none;
+}
+
+.darkmodeon .newsandTeleshop .sell-footer-links {
+    background-color: transparent;
+    border-top-color: #ffffff33;
+}
+
+
+.darkmodeon .newsandTeleshop .sell-footer-links a.more-info {
+    color: #0476db;
+}
+
+
+.darkmodeon .newsandTeleshop .owl-stage-outer, .darkmodeon .newsandTeleshop .owl-carousel.teleshop-offers .owl-stage-outer  {
+    border-right-color: #ffffff33;
+}
+
+.darkmodeon .newsandTeleshop .owl-carousel.teleshop-offers .owl-nav .owl-next, .darkmodeon .newsandTeleshop .owl-carousel.teleshop-offers .owl-nav .owl-prev {
+    background-color: transparent;
+    border-color: #ffffff3d;
+}
+.darkmodeon .footer-top {
+    background: #000000;
+    border-top: solid 1px #cccccc4a;
+}
+
+.darkmodeon .footer-bot {
+    background-color: #ffffff0f;
+}
+.darkmodeon .dropdown-menu>li:hover {
+    background-color: transparent;
+    color: #08c6ff !important;
+    border-bottom: solid 2px #309dff;
+}
+
+.darkmodeon .dropdown-menu>li:hover > a {
+    color: #31c6ff !important;
+}
+.darkmodeon .menuExpand{
+ background-color: #000 !important;
+}
+.darkmodeon .more-news-new a {
+    border: solid 2px rgb(4 109 202);
+    color: rgb(4 109 202);
+}
+/*----------------SUBMEENU-------------------*/
+
+.darkmodeon .submenu.dropdown-menu.megabase {
+    background-color: #000;
+}
+.darkmodeon .submenu.dropdown-menu.megabase:before {
+    background-color: #1e1e1e;
+}
+
+.darkmodeon .menuCo p {
+    color: #a7a6a6;
+}
+
+.darkmodeon .megabase h5 {
+    color: #c5c2c2;
+}
+
+.darkmodeon .megabase .levTwo a span {
+    color: #e3dede;
+}
+/*----------------SUBMEENU END-------------------*/
+/*-------------------SIDE MENU----------*/
+.darkmodeon .dropdown-menu>li:hover, .darkmodeon .dropdown-menu>li:active, .darkmodeon .dropdown-menu>li:focus   {
+    background-color: transparent;
+    color: #08c6ff !important;
+    border-bottom: solid 2px #309dff;
+}
+
+.darkmodeon .dropdown-menu>li:hover > a {
+    color: #31c6ff !important;
+}
+
+.darkmodeon .submenu.dropdown-menu.megabase {
+    background-color: #000;
+}
+.darkmodeon .submenu.dropdown-menu.megabase:before {
+    background-color: #1e1e1e;
+}
+
+.darkmodeon .menuCo p {
+    color: #a7a6a6;
+}
+
+.darkmodeon .megabase h5 {
+    color: #c5c2c2;
+}
+
+.darkmodeon .megabase .levTwo a span {
+    color: #e3dede;
+}
+
+.darkmodeon div#menuSitemap {
+    background: #222;
+}
+
+.darkmodeon a.heading {
+    color: #fff;
+}
+
+.darkmodeon .sidecol a {
+    color: #fff;
+}
+
+.darkmodeon ul.offcmainLinks li {
+    background: #3e3e3e;
+}
+
+.darkmodeon ul.offcmainLinks a {
+    color: #fff;
+}
+
+.darkmodeon .region.region-main-content-menu {
+    border-top: none;
+}
+/*-------------------SIDE MENU END------*/
+
+/*------------------Inner Pages-------------------*/
+body.darkmodeon {
+    background: #000;
+}
+
+body.darkmodeon p, body.darkmodeon ul li, body.darkmodeon ul.common-list li {
+    color: #fff;
+}
+
+.darkmodeon .table-block .table-four ul.table:first-child li {
+    color: #7a7a7a;
+}
+/*------------------Inner Pages END-------------------*/
+
+/*-------------DESKTOP ONLY---------------*/
+@media(min-width:990px){
+.darkmodeon .hasarrow > a::before, .darkmodeon .toprightMenu .dropdown-toggle::after {
+    filter: brightness(0.9);
+}
+/*lagage Menu*/
+.darkmodeon .navbar-expand-lg .navbar-nav .dropdown-menu.dropdown-menu-left.show .dropdown-menu{
+     background:#424141;
+}
+.darkmodeon .dropdown-menu.dropdown-menu-left.show .dropdown-menu>li:hover {
+  
+    border-bottom:none;
+    color:white;
+    
+}
+}
+/*-------------MOBILE ONLY---------------*/
+@media(max-width:990px){
+.darkmodeon .active .collapsed .navbar-toggler-icon, .darkmodeon .navbar-toggler.active .navbar-toggler-icon {background-image: url(../../images/assets/hamberger-icon-white.svg);}
+.darkmodeon .darkmodeMobile {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+.darkmodeMobile {
+    display: flex;
+    margin-left: 10px;
+}
+.darkmodeon ul.dropdown-menu.baseLev.starmain.show > li > a {
+    background: #141313 !important;
+}
+.darkmodeon .dropdown-menu.dropdown-menu-left.search.show {
+    background-color: #404040;
+    border-top: solid 1px #ffffff3d;
+}
+.darkmodeon .miniHeader a {
+    color: rgba(255, 255, 255, 0.75);
+}
+.darkmodeon .active .collapsed .navbar-toggler-icon, .darkmodeon .navbar-toggler.active .navbar-toggler-icon {
+    background-image: url(../../images/assets/hamberger-icon-white.svg);
+}
+.darkmodeon span.themeLight, .darkmodeon span.themeDark {
+    display: block;
+    font-size: 1.2rem;
+}
+.darkmodeon span.themeLight {
+    color: rgb(187, 187, 187);
+}
+.darkmodeon .navbar-expand-lg .navbar-nav .dropdown-menu.baseLev {
+    background: rgb(25, 25, 26);
+}
+.darkmodeon ul.navbar-nav.mainMenu {
+    background: rgb(32, 31, 31);
+    border-top: 1px solid rgba(233, 221, 221, 0.24);
+}
+
+.darkmodeon .miniHeader {
+    border-bottom: 1px solid rgb(233 221 221 / 12%);
+}
+.darkmodeon .miniHeader a {
+    color: #fff;
+}
+.darkmodeon .navbar-expand-lg a.nav-link.dropdown-toggle.search {
+    background-image: url(../../images/assets/search-icon-light.svg);
+}
+.darkmodeon ul.quicklinks-links a span {
+    color: rgb(255, 255, 255);
+}
+.darkmodeon ul.quicklinks-links a {
+    box-shadow: rgba(109, 133, 255, 0.35) 0px 0px 8px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(204, 204, 204, 0.24);
+    border-image: initial;
+}
+.darkmodeon .newsandTeleshop .sell-item-img {
+    max-height: 222px;
+    background: #fff;
+}
+.darkmodeon .corporateInfo {
+    background: #1e1d1d;
+}
+.darkmodeon .main-carousel.car-slider {
+    background: #383636;
+}
+}
+@media(max-width:990px){
+.darkmodeon .active .collapsed .navbar-toggler-icon, .darkmodeon .navbar-toggler.active .navbar-toggler-icon {
+    /* border: #ff3434 solid; */
+}
+}
+/*----------SMART LINE CALLING PLANS-----------*/
+.darkmodeon .mega-plane-outer .data-block ul li, .darkmodeon .table-block .table-three ul li {
+    color: #c1c1c1;
+}
+
+.darkmodeon h6 {
+    color: #d1d1d1;
+}
+
+.darkmodeon .table-seven .five-col ul li.last-col {
+    color: #4e5052;
+}
+
+.darkmodeon .align-right .data-block p {
+    color: #fff;
+}
+/*-------IVR----------*/
+.darkmodeon  .services-offer-block ul.services li {
+    color: #bfbfbf;
+}
+
+.darkmodeon  .services-offer-block ul.services li.title {
+    color: #fff;
+}
+/*-----------------Broadband---------------*/
+.darkmodeon .twocoll-container article p {
+    color: #fff;
+}
+/*---------Packages---------*/
+.darkmodeon .view-broadband-packages .color-card-body .card-title {
+    color: #ababab;
+}
+
+.darkmodeon .view-broadband-packages .title-amount span {
+    color: #fff;
+}
+
+.darkmodeon .view-broadband-packages .result-title h4 {
+    background-color: #000;
+    color: #438eff;
+}
+
+
+.darkmodeon .view-broadband-packages .result-title:after {
+    background-color: #232638;
+}
+.darkmodeon .table-eight ul li, .table-nine ul li {
+    background-color: #fff;
+}
+/*------------------Acordian--------------*/
+.darkmodeon .accordion-block.ui-helper-reset .ui-widget-content li {
+    background-image: none;
+    background-color: #000;
+    border-bottom: solid 1px #cccccc1a;
+}
+.darkmodeon .accordion-block.ui-helper-reset .ui-widget-content li,
+.darkmodeon .accordion-2.accordion-block ul.gray-list li,
+.darkmodeon .accordion-2 .acco-inner-block ul.list-content li {
+    color: #fff;
+}
+/*-----PEO TV-----------------*/
+.darkmodeon #demoFour-nav .ln-letters a {
+    background-color: #161515;
+}
+/*---------SMART HOME---------------*/
+.darkmodeon .smart-service .bg-light {
+    background-color: #0c0c0c !important;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.darkmodeon .smart-service  ul {
+    padding-left: 0;
+}
+
+.darkmodeon .sm-home-why .sm-content p {
+    color: #fff;
+}
+
+.darkmodeon .container-fluid.smart-feat-wrap {
+    background: #fff;
+    color: #000;
+}
+
+.darkmodeon .container-fluid.smart-feat-wrap p {
+    color: #000;
+}
+
+.darkmodeon span.p-sub-detail.addInfoIcon {
+    color: #fff;
+}
+
+.darkmodeon span.p-sub-detail {
+    color: #fff;
+}
+
+
+.darkmodeon .p-title:after {
+    border-bottom-color: black;
+}
+
+.darkmodeon p.p-title {
+    border-bottom: solid 1px #424242;
+}
+.darkmodeon .bg-light {
+    background: #161616 !important;
+}
+/*-----Storage-----*/
+.darkmodeon .inner-page-banner h1 {
+    color: #fff;
+}
+
+.darkmodeon .background-curve .inner-page-banner p {
+    color: #fff;
+}
+/*------------PROMO-----------*/
+.darkmodeon .navigation .btn.active {
+    background-color: #000;
+}
+
+.darkmodeon .navigation .btn {
+    background-color: #000;
+    color: #ffffff87;
+}
+
+.darkmodeon .navContainer {
+    border-bottom: solid 1px #cccccc38;
+}
+
+.darkmodeon .promoMat .product-banner {
+    background-color: #c6e4fd1a;
+}
+.darkmodeon .navigation .btn:hover {
+    background-color: #000;
+}
+/* --------------CONTAVCT US---------------- */
+.darkmodeon .media-feed-wrapper .media-feedback-right {
+    background: none;
+}
+
+.darkmodeon .media-feedback-right h1 {
+    color: #fff;
+}
+
+.darkmodeon .media-feedback-right h2 {
+    color: #afafaf;
+}
+/* --------------LOGIN PAGE---------------- */
+.darkmodeon .user-login-form label, .darkmodeon .user-login-form .form-required {
+    color: #fff;
+}

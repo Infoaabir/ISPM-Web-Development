@@ -1,0 +1,538 @@
+.position-relative {
+    position: relative;
+}
+.promoMat .product-banner {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    background: #c6e4fd;
+}
+.promoMat .banner-content {
+    position: absolute;
+    top: 140px;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: -10px;
+}
+.promoMat a {
+        color: #0090ff;
+        font-weight: 500;
+        text-decoration: none;
+}
+.item.supMainCard {
+    background: #fff;
+    width: 100%;
+    margin: 1em;
+    padding: 0;
+    border-radius: 1.5em;
+    box-shadow: 0px 1px  6px #ccc;
+    transition: all ease 0.25s;
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
+    max-height: 38px;
+}
+
+span.cardHeading {
+    display: flex;
+    width: 100%;
+    margin-top: 1.2em;
+    border-top: solid 1px #cccccc73;
+    padding-top: 0.8em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+i.icon.arrow {
+    width: 35px;
+    height: 35px;
+    background: #0000001c;
+    border-radius: 50%;
+    transition: all ease 0.25s;
+}
+
+i.icon.arrow:before {content: "";background-image: url(../images/right-arrow.svg);width: 30px;height: 30px;display: block; vertical-align:14px; text-align: center;background-position: 5px 5px;background-repeat: no-repeat;}
+
+.item.supMainCard a {
+    padding: 1.4em  1.5em;
+    display: block;
+}
+
+.item.supMainCard:hover {
+    box-shadow: 0px 1px 6px #727686;
+    transform: scale(1.0);
+    border: solid 1px #45a6ff;
+}
+.item.supMainCard a{
+    transition:all ease 0.5s;
+    text-decoration:none;
+}
+.item.supMainCard a:hover i.icon.arrow {
+    background: #0056a4;
+    transform: scale(1.05);
+}
+
+.item.supMainCard a:hover i.icon.arrow:before {
+    filter: hue-rotate(320deg);
+}
+
+.item.supMainCard a:hover span.cardHeading {
+    text-decoration: none;
+}
+
+.item.supMainCard a:hover span.cardHeading strong {
+    transform: scale(1.12);
+    margin-left: 7px;
+}
+
+.promoMat .txt-inner h2 {
+    font-weight: 500 !important;
+    color: #0056a4;
+    margin-left: 30px;
+}
+.promoMat .owl-carousel .owl-nav button.owl-next, .promoMat .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #0a0a0a40;
+    top: 50%;
+    margin-top: -33px;
+    border-radius: 50%;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.promoMat .owl-carousel .owl-nav button.owl-next {
+    background-image: url(../images/next-arrow-owl.svg) !important;
+    right: -12px;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.promoMat .owl-carousel .owl-nav button.owl-prev {
+    left: -14px;
+}
+
+.promoMat .owl-carousel .owl-nav button.owl-next span, .promoMat .owl-carousel .owl-nav button.owl-prev span {
+    display: none;
+}
+
+.promoMat .owl-carousel .owl-nav button.owl-prev {
+    background-image: url(../images/pre-arrow-owl.svg) !important;
+    background-size: 15px;
+}
+
+.promoMat .owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: #00000085;
+}
+.Rectangle-7{
+    background-size: 410px;
+}
+.Rectangle-9{
+    background-size: 1200px;
+    background-position: 185px 182px;
+}
+.Rectangle-10{
+    background-size: 1200px;
+    background-position: 185px 182px;
+}
+
+/*-----------------filtering area-----------------*/
+.promoMat.container {
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  /* Style the buttons */
+.navigation .btn {
+    border: none;
+    outline: none;
+    padding: 18px 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin: 0 15px;
+  }
+  
+.navigation .btn:hover {
+    background-color: #fff;
+    color: #01a2ff;
+  }
+.navigation .btn:focus {
+        outline: none;
+}
+.navigation .btn.active {
+    background-color: #fff;
+    color: white;
+    border-radius: 0;
+    border-bottom: solid 2px #03588a;
+    color: #0257a5;
+    box-shadow: none;
+  }
+/*-----------------filtering End-----------------*/
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.filterbleCont{
+    margin: auto;
+}
+.navContainer{
+width: 100%;
+border-bottom: solid 1px #ccc;
+}
+.navContainer .navigation{
+    max-width: 1500px;
+    margin: 40px auto 0 auto;
+}
+.filterbleCont:first-child .navigation{
+    margin-top:0;
+}
+.brandLogo {
+        margin-right: 0;
+        margin-left: auto;
+}
+
+.headder h5 {
+        margin-right: 20px;
+        font-size: 28px;
+}
+/*----------Content------------*/
+div#parent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: auto;
+    justify-content: stretch;
+    align-items: stretch;
+    transition: all ease 0.3s;
+}
+
+div#parent .box {
+    width: calc(25% - 30px);
+    background: #000;
+    padding: 0px;
+    margin: 15px;
+    overflow: hidden;
+    border-radius: 20px;
+    height: auto;
+    max-height: 175px;
+}
+div#parent .box img {
+        width: 100%;
+        height: auto;
+        transform: scale(1);
+        transition: all ease 0.3s;
+}
+
+div#parent .box.video a:before, div#parent .box.download a:after, div#parent .box.brochure a:before {
+        content: "";
+        height: 40px;
+        width: 40px;
+        display: block;
+        position: absolute;
+        border-radius: 50%;
+        right: 10px;
+        top: 10px;
+        background-position:center;
+        background-size:28px;
+        background-repeat:no-repeat;
+        opacity:0.85;
+        transition: all ease 0.3s;
+        z-index: 5;
+}
+div#parent .box.video a:before{
+        background-color:#ffc800;
+        background-image:url(../images/video-icon.svg);
+}
+div#parent .box.download a:after{
+        background-color:#7042ff;
+        background-image:url(../images/download-icon.svg);
+}
+div#parent .box.brochure a:before{
+        background-color:#1f007d;
+        background-image:url(../images/image-icon.svg);
+}
+div#parent .box.brochure.download a:after, div#parent .box.video.download a:after{
+        right:55px;
+         background-color:#47318e;
+}
+.box a {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: block;
+        display: flex;
+        overflow: hidden;
+        align-items: baseline;
+        min-height: 175px;
+        transition: all ease 0.3s;
+}
+.box span {
+        margin-bottom: 10px;
+        margin-top: auto;
+        margin-left: 30px;
+        transition: all ease 0.3s;
+}
+.box a span h5, .box a span p {
+        color: #fff;
+        text-decoration: none;
+        padding: 0;
+        margin: 0;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: calc(100% - 44px);
+}
+
+.box a:hover span h5, .box a:hover span p {
+        text-decoration: none;
+}
+div#parent .box.bgpurp {
+        background-color: #AE00BB;
+}
+div#parent .box.seaGreen {
+    background-color: #00BBBB;
+}
+div#parent .box.drkBlue {
+    background-color: #1f0050;
+}
+
+.box a span p {
+        margin-bottom: 10px;
+        font-weight: 600;
+}
+
+.box a span h5 {
+        line-height: 23px;
+        font-size: 20px;
+}
+.box a:hover span {
+        border-radius: 20px;
+        transform: scale(0.90);
+}
+
+div#parent .box a:hover img {
+        transform: scale(1.2);
+}
+
+.box a:hover {
+        text-decoration: none;
+}
+.promoModal img {
+        width: 100%;
+}
+
+.promoModal .modal-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.promoModal button.close {
+        position: inherit;
+        margin-right: 0;
+        margin-left: auto;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #cccccc57;
+}
+
+.promoModal button.btn.btn-primary.download {
+        margin-left: auto;
+        background: #0099FF;
+        padding: 6px 8px  6px 15px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+}
+
+.promoModal button.close {
+        font-weight: 100;
+        font-size: 26px;
+        line-height: 20px !important;
+        vertical-align: baseline;
+        margin-left: 15px;
+}
+.promoModal .close span {
+        display: none;
+}
+.promoModal .modal-title {
+        margin: 0;
+        line-height: 1.42857143;
+        margin-right: auto;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        padding-right: 15px;
+}
+
+.promoModal button.close:before {content: " ";background-image: url(../images/close.svg);background-repeat: no-repeat;height: 40px;width: 40px;display: block;background-position: center;opacity: 0.5;}
+
+.promoModal button.btn.btn-primary:after {content: " ";height: 30px;width: 30px;background-color: #17b76a;margin-left: 10px;border-radius: 50%;display: block;background-image: url(../images/download-icon.svg);background-size: 20px;background-repeat: no-repeat;background-position: center;}
+.modal-footer button.btn.btn-primary {
+    display: flex;
+    padding: 0;
+    color: #003d73;
+    align-items: center;
+}
+.modal-footer button.btn.btn-primary {
+    display: flex;
+    padding: 0;
+    color: #003d73;
+    align-items: center;
+    background: none;
+    border: none;
+}
+.modal-header:before, .modal-header:after {
+        display: none;
+}
+.modal-footer button.btn.btn-primary:hover, .modal-footer button.btn.btn-primary:foucs, .modal-footer button.btn.btn-primary:active{
+    text-decoration:none;
+    outline:none;
+}
+.modal-footer button.btn:hover.btn-primary {
+    background: none !important;
+    color: #17b76a;
+    border: none;
+    outline: none;
+    background-color: none;
+    box-shadow: none;
+}
+.navContainer .navigation {
+        max-width: 1360px;
+        margin: auto ;
+}
+@media (max-width:1280px){
+div#parent .box {
+        width: calc(33.33% - 30px);
+}
+.navContainer .navigation {
+                max-width: 1100px;
+                margin: auto;
+        }
+        
+.filterbleCont .container {
+                max-width: 1130px;
+}
+.item.supMainCard a {
+        padding: 0.85em 1.2em;
+}
+
+.promoMat .product-banner {
+        height: 375px;
+}
+
+.box a {
+        min-height: 133px;
+}
+
+div#parent .box {
+        max-height: 160px;
+}
+}
+@media (max-width:990px){
+div#parent .box {
+        width: calc(100% - 0px);
+}
+.navigation {
+        flex-wrap: wrap;
+}
+
+.brandLogo {
+        order: 2;
+}
+
+.headder {
+        order: 1;
+}
+
+div.buttons {
+        order: 3;
+}
+
+.buttons .btn {
+        font-size: 10px;
+        padding: 10px 0;
+        margin: 4px 12px 0 12px;
+}
+
+.brandLogo img {
+        max-height: 20px;
+}
+
+.headder h5 {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-bottom: 0;
+}
+
+.box a {
+        flex-wrap: wrap;
+}
+
+.box span {
+        display: block;
+        width: 100%;
+        flex-wrap: wrap;
+}
+
+.box a span p {
+        float: left;
+}
+.item.supMainCard a {
+        padding: 1em  1.5em;
+}
+
+span.cardHeading {
+        margin-top: 0.85em;
+        padding-top: 6px;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+}
+
+.promoMat .owl-carousel .owl-nav button.owl-next, .promoMat .owl-carousel .owl-nav button.owl-prev {
+        width: 20px;
+        height: 20px;
+        margin-top: -14px;
+        background-size: 11px !important;
+}
+i.icon.arrow {
+        width: 30px;
+        height: 30px;
+        margin-top: 0px;
+}
+
+
+.promoMat .banner-content {
+        align-items: inherit;
+        justify-content: inherit;
+}
+    .promoMat .product-banner {
+        height: 340px;
+    }
+    i.icon.arrow:before {
+        background-size: 20px;
+}
+}
+@media (max-width:480px){
+    .promoMat .product-banner {
+        height: 240px;
+}
+}
+@media (max-width:1280px){
+.navContainer .navigation {
+        max-width: 1100px;
+        margin: auto;
+}
+
+.filterbleCont .container {
+        max-width: 1130px;
+}
+}

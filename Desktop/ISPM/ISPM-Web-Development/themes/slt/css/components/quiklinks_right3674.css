@@ -1,0 +1,113 @@
+/* -------------------------------------------- */
+/* ************ quickmenu-Right *********** */
+/* -------------------------------------------- */
+.quicklinks {
+    display: flex;
+    background: #fff;
+    box-shadow: 1px 1px 24px #000;
+    width: fit-content;
+    border-radius: 20px 0 0 20px;
+    position: fixed;
+    right: -400px;
+    top: 26%;
+    /* right: 0; */
+    transition: all 0.5s ease;
+    z-index: 1000;
+}
+
+a.qlink span {
+    display: none;
+}
+
+a.qlink {
+    background-image: url(../../images/quicklink-text.svg);
+    display: block;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+    display: block;
+    /* border: solid; */
+}
+
+.qlinklayout ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 15px 15px 15px 0px;
+    align-items: center;
+}
+
+.qlinklayout {
+    max-width: 395px;
+}
+
+.qlinklayout ul li i {
+    display: block;
+    height: 61px;
+    width: 61px;
+    margin: auto;
+}
+
+.qlinklayout a {
+    display: block;
+    padding: 0px 20px 8px 20px;
+    border: solid 1px #9d9d9d;
+    text-decoration: none;
+    width: 106px;
+    line-height: 1;
+    text-align: center;
+    min-height: 104px;
+}
+
+.qlinklayout a span {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+    color: #000;
+    text-decoration: none;
+}
+
+a.extragb span {
+    display: none;
+}
+
+.qlinklayout ul li {
+    margin: 10px;
+}
+
+i.extraGB {
+    padding-top: 39px;
+}
+
+a.extragb i {
+    margin-top: 20px !important;
+}
+
+.qlinklayout a:hover {
+    background-color: #dddee5;
+    border-color: #525151;
+}
+.quicklinks.dokeron {
+    right: 0;
+}
+/* -------------media quiery------------ */
+@media(max-width:480px){
+    .qlinklayout {
+        max-width: 263px;
+    }
+   
+    .qlinklayout ul {
+        padding-right: 1px;
+    }
+   
+    a.qlink {
+        width: 50px;
+        background-position: 23px center;
+    }
+    }
+/* -------------------------------------------- */
+/* ************ quickmenu-Right END*********** */
+/* -------------------------------------------- */

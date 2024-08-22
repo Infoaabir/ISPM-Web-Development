@@ -1,0 +1,103 @@
+/************ Bubble Info-2 css css ************/
+.bubbleInfo-2 {
+	float:left;
+    width: 100% !important;
+}
+.bubbleInfo-2 .trigger {
+	display:block;
+	float:left;
+	position:relative;
+    overflow: hidden;
+    width: 100%;
+}
+.bubbleInfo-2 .trigger img {
+
+}
+ .popup {
+	display: none;
+	border-collapse: collapse;
+	width:208px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:99;
+}
+ .popup .popup-contents{
+	background-color:#fff;
+	color:#444;
+	font: normal 12px/16px Arial, Helvetica, sans-serif;
+	float:left;
+	padding:0;
+	margin:0;
+	text-align:left;
+	width:158px;
+}
+ .popup .popoup-title{
+	width:160px; 
+	height:35px;
+	padding-top:8px;
+	float:left;
+	color:#444;
+	font: bold 13px/27px Arial, Helvetica, sans-serif;
+	overflow:hidden;
+	text-align:left;
+	position:absolute;
+	top:0;
+}
+*+html .popup .popoup-title{
+	width:160px;
+	height:25px;
+}
+ .popup th.corner {
+	height: 40px;
+	width: 19px;
+}
+ .popup td.corner {
+	height: 20px;
+	width: 25px;
+}
+ .popup th.corner {
+	height: 40px;
+	width: 19px;
+}
+ .popup th.topleft {
+	background-image: url(../images/bubble2-1.png);
+}
+ .popup th.top {
+	background-image: url(../images/bubble2-2.png);
+}
+ .popup th.topright {
+	background-image: url(../images/bubble2-3.png);
+}
+ .popup td.left {
+	background-image: url(../images/bubble2-4.png);
+    float: none;
+}
+ .popup td.right {
+	background-image: url(../images/bubble2-5.png);
+    float: none;
+}
+ .popup td.bottomleft {
+	background-image: url(../images/bubble2-6.png);
+}
+ .popup td.bottom {
+	background-image: url(../images/bubble2-7.png);
+	text-align: center;
+}
+ .popup td.bottom img {
+	display: block;
+	margin: 0 auto;
+}
+ .popup td.bottomright {
+	background-image: url(../images/bubble2-8.png);
+}
+
+
+ .popup.right th.topleft {
+	 background-image: url(../images/bubble2-1-arrow.png);
+ }
+ 
+ .popup.left th.topright {
+	 background-image: url(../images/bubble2-3-arrow.png);
+ }
+

@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="163" height="163" viewBox="0 0 163 163">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_227" data-name="Rectangle 227" width="72" height="14" transform="translate(1642 887)" fill="none" stroke="#3d3d3d" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="72" height="11" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="55.001" height="13" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="SME-MicroBusiness" transform="translate(-1605 -743)">
+    <path id="Path_672" data-name="Path 672" d="M0,0H10.453" transform="translate(1743.057 875.745)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5" opacity="0.4"/>
+    <rect id="Rectangle_209" data-name="Rectangle 209" width="163" height="163" rx="81.5" transform="translate(1605 743)" fill="#e9f8fd" opacity="0.8"/>
+    <g id="Group_1075" data-name="Group 1075" transform="translate(90 687)">
+      <g id="Union_5" data-name="Union 5" transform="translate(-10779 127.044)" fill="none">
+        <path d="M12347,37V0h56V37Z" stroke="none"/>
+        <path d="M 12399 33.00117874145508 L 12399 4.000002384185791 L 12350.9990234375 4.000002384185791 L 12350.9990234375 33.00117874145508 L 12399 33.00117874145508 M 12403 37.00117874145508 L 12346.9990234375 37.00117874145508 L 12346.9990234375 2.38918732975435e-06 L 12403 2.38918732975435e-06 L 12403 37.00117874145508 Z" stroke="none" fill="#3d3d3d"/>
+      </g>
+      <g id="Rectangle_226" data-name="Rectangle 226" transform="translate(1560 115.044)" fill="none" stroke="#3d3d3d" stroke-width="4">
+        <path d="M10,0H62A10,10,0,0,1,72,10v6a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" stroke="none"/>
+        <path d="M10,2H62a8,8,0,0,1,8,8v4a0,0,0,0,1,0,0H2a0,0,0,0,1,0,0V10A8,8,0,0,1,10,2Z" fill="none"/>
+      </g>
+      <g id="Mask_Group_7" data-name="Mask Group 7" transform="translate(-82 -758.956)" clip-path="url(#clip-path)">
+        <g id="Repeat_Grid_16" data-name="Repeat Grid 16" transform="translate(1642 882)" clip-path="url(#clip-path-2)">
+          <g transform="translate(-1617 -917)">
+            <g id="Ellipse_93" data-name="Ellipse 93" transform="translate(1613 918)" fill="none" stroke="#3d3d3d" stroke-width="4">
+              <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+              <circle cx="4.5" cy="4.5" r="2.5" fill="none"/>
+            </g>
+          </g>
+          <g transform="translate(-1610 -917)">
+            <g id="Ellipse_93-2" data-name="Ellipse 93" transform="translate(1613 918)" fill="none" stroke="#3d3d3d" stroke-width="4">
+              <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+              <circle cx="4.5" cy="4.5" r="2.5" fill="none"/>
+            </g>
+          </g>
+          <g transform="translate(-1603 -917)">
+            <g id="Ellipse_93-3" data-name="Ellipse 93" transform="translate(1613 918)" fill="none" stroke="#3d3d3d" stroke-width="4">
+              <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+              <circle cx="4.5" cy="4.5" r="2.5" fill="none"/>
+            </g>
+          </g>
+          <g transform="translate(-1596 -917)">
+            <g id="Ellipse_93-4" data-name="Ellipse 93" transform="translate(1613 918)" fill="none" stroke="#3d3d3d" stroke-width="4">
+              <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+              <circle cx="4.5" cy="4.5" r="2.5" fill="none"/>
+            </g>
+          </g>
+          <g transform="translate(-1589 -917)">
+            <g id="Ellipse_93-5" data-name="Ellipse 93" transform="translate(1613 918)" fill="none" stroke="#3d3d3d" stroke-width="4">
+              <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+              <circle cx="4.5" cy="4.5" r="2.5" fill="none"/>
+            </g>
+          </g>
+          <g transform="translate(-1582 -917)">
+            <g id="Ellipse_93-6" data-name="Ellipse 93" transform="translate(1613 918)" fill="none" stroke="#3d3d3d" stroke-width="4">
+              <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+              <circle cx="4.5" cy="4.5" r="2.5" fill="none"/>
+            </g>
+          </g>
+          <g transform="translate(-1575 -917)">
+            <g id="Ellipse_93-7" data-name="Ellipse 93" transform="translate(1613 918)" fill="none" stroke="#3d3d3d" stroke-width="4">
+              <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+              <circle cx="4.5" cy="4.5" r="2.5" fill="none"/>
+            </g>
+          </g>
+          <g transform="translate(-1568 -917)">
+            <g id="Ellipse_93-8" data-name="Ellipse 93" transform="translate(1613 918)" fill="none" stroke="#3d3d3d" stroke-width="4">
+              <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+              <circle cx="4.5" cy="4.5" r="2.5" fill="none"/>
+            </g>
+          </g>
+          <g transform="translate(-1561 -917)">
+            <g id="Ellipse_93-9" data-name="Ellipse 93" transform="translate(1613 918)" fill="none" stroke="#3d3d3d" stroke-width="4">
+              <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+              <circle cx="4.5" cy="4.5" r="2.5" fill="none"/>
+            </g>
+          </g>
+          <g transform="translate(-1554 -917)">
+            <g id="Ellipse_93-10" data-name="Ellipse 93" transform="translate(1613 918)" fill="none" stroke="#3d3d3d" stroke-width="4">
+              <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+              <circle cx="4.5" cy="4.5" r="2.5" fill="none"/>
+            </g>
+          </g>
+          <g transform="translate(-1547 -917)">
+            <g id="Ellipse_93-11" data-name="Ellipse 93" transform="translate(1613 918)" fill="none" stroke="#3d3d3d" stroke-width="4">
+              <circle cx="4.5" cy="4.5" r="4.5" stroke="none"/>
+              <circle cx="4.5" cy="4.5" r="2.5" fill="none"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <line id="Line_67" data-name="Line 67" y1="7" transform="translate(1577.5 110.544)" fill="none" stroke="#3d3d3d" stroke-width="4"/>
+      <line id="Line_68" data-name="Line 68" y1="7" transform="translate(1616.5 110.544)" fill="none" stroke="#3d3d3d" stroke-width="4"/>
+      <g id="Rectangle_228" data-name="Rectangle 228" transform="translate(1568 97.044)" fill="none" stroke="#3d3d3d" stroke-width="4">
+        <rect width="56" height="14" rx="4" stroke="none"/>
+        <rect x="2" y="2" width="52" height="10" rx="2" fill="none"/>
+      </g>
+      <line id="Line_69" data-name="Line 69" x2="65" transform="translate(1563.5 162.544)" fill="none" stroke="#3d3d3d" stroke-linecap="round" stroke-width="4"/>
+      <path id="Union_6" data-name="Union 6" d="M12393.5,17.5h0a5,5,0,0,1,5-5c.169,0,.337.008.5.025v0a5,5,0,0,1,4.5,4.977h0a5,5,0,0,1-10,0Z" transform="translate(-10802 163.951)" fill="#fff" stroke="#3d3d3d" stroke-width="4"/>
+      <g id="Repeat_Grid_19" data-name="Repeat Grid 19" transform="translate(1568.499 148.137)" clip-path="url(#clip-path-3)">
+        <g transform="translate(-1575.5 -147.5)">
+          <line id="Line_75" data-name="Line 75" y1="13" transform="translate(1576.5 147.5)" fill="none" stroke="#3d3d3d" stroke-width="4"/>
+        </g>
+        <g transform="translate(-1566.5 -147.5)">
+          <line id="Line_75-2" data-name="Line 75" y1="13" transform="translate(1576.5 147.5)" fill="none" stroke="#3d3d3d" stroke-width="4"/>
+        </g>
+        <g transform="translate(-1557.5 -147.5)">
+          <line id="Line_75-3" data-name="Line 75" y1="13" transform="translate(1576.5 147.5)" fill="none" stroke="#3d3d3d" stroke-width="4"/>
+        </g>
+        <g transform="translate(-1548.5 -147.5)">
+          <line id="Line_75-4" data-name="Line 75" y1="13" transform="translate(1576.5 147.5)" fill="none" stroke="#3d3d3d" stroke-width="4"/>
+        </g>
+        <g transform="translate(-1539.5 -147.5)">
+          <line id="Line_75-5" data-name="Line 75" y1="13" transform="translate(1576.5 147.5)" fill="none" stroke="#3d3d3d" stroke-width="4"/>
+        </g>
+        <g transform="translate(-1530.5 -147.5)">
+          <line id="Line_75-6" data-name="Line 75" y1="13" transform="translate(1576.5 147.5)" fill="none" stroke="#3d3d3d" stroke-width="4"/>
+        </g>
+        <g transform="translate(-1521.5 -147.5)">
+          <line id="Line_75-7" data-name="Line 75" y1="13" transform="translate(1576.5 147.5)" fill="none" stroke="#3d3d3d" stroke-width="4"/>
+        </g>
+      </g>
+      <line id="Line_76" data-name="Line 76" x2="52" transform="translate(1570 146.73)" fill="none" stroke="#3c3c3c" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

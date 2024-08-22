@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="163" height="163" viewBox="0 0 163 163">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="24" height="5" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="broadband" transform="translate(-448 -743)">
+    <rect id="Rectangle_209" data-name="Rectangle 209" width="163" height="163" rx="81.5" transform="translate(448 743)" fill="#def5fd" opacity="0.8"/>
+    <g id="Rectangle_213" data-name="Rectangle 213" transform="translate(489 843)" fill="none" stroke="#3d3d3d" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+      <rect width="83" height="26" rx="4" stroke="none"/>
+      <rect x="2" y="2" width="79" height="22" rx="2" fill="none"/>
+    </g>
+    <g id="Repeat_Grid_14" data-name="Repeat Grid 14" transform="translate(540 856)" clip-path="url(#clip-path)">
+      <g transform="translate(-532 -931)">
+        <circle id="Ellipse_78" data-name="Ellipse 78" cx="2.5" cy="2.5" r="2.5" transform="translate(532 931)" fill="#1e1e1e"/>
+      </g>
+      <g transform="translate(-523 -931)">
+        <circle id="Ellipse_78-2" data-name="Ellipse 78" cx="2.5" cy="2.5" r="2.5" transform="translate(532 931)" fill="#1e1e1e"/>
+      </g>
+      <g transform="translate(-514 -931)">
+        <circle id="Ellipse_78-3" data-name="Ellipse 78" cx="2.5" cy="2.5" r="2.5" transform="translate(532 931)" fill="#1e1e1e"/>
+      </g>
+    </g>
+    <line id="Line_63" data-name="Line 63" y1="15" transform="translate(552 828)" fill="none" stroke="#3d3d3d" stroke-linecap="round" stroke-width="4"/>
+    <g id="Ellipse_79" data-name="Ellipse 79" transform="matrix(-0.616, -0.788, 0.788, -0.616, 549.385, 847.296)" fill="none" stroke="#3d3d3d" stroke-linecap="round" stroke-width="5" stroke-dasharray="43 79">
+      <ellipse cx="15.172" cy="15.172" rx="15.172" ry="15.172" stroke="none"/>
+      <ellipse cx="15.172" cy="15.172" rx="12.672" ry="12.672" fill="none"/>
+    </g>
+    <g id="Ellipse_80" data-name="Ellipse 80" transform="translate(538.604 859.157) rotate(-113)" fill="none" stroke="#3d3d3d" stroke-linecap="round" stroke-width="5" stroke-dasharray="58 187">
+      <ellipse cx="25.287" cy="25.287" rx="25.287" ry="25.287" stroke="none"/>
+      <ellipse cx="25.287" cy="25.287" rx="22.787" ry="22.787" fill="none"/>
+    </g>
+    <g id="Ellipse_81" data-name="Ellipse 81" transform="matrix(-0.259, -0.966, 0.966, -0.259, 526.77, 869.701)" fill="none" stroke="#3d3d3d" stroke-linecap="round" stroke-width="5" stroke-dasharray="76 186">
+      <ellipse cx="35.682" cy="35.682" rx="35.682" ry="35.682" stroke="none"/>
+      <ellipse cx="35.682" cy="35.682" rx="33.182" ry="33.182" fill="none"/>
+    </g>
+    <g id="Ellipse_82" data-name="Ellipse 82" transform="translate(517.048 881.936) rotate(-103)" fill="none" stroke="#3d3d3d" stroke-linecap="round" stroke-width="5" stroke-dasharray="95 312">
+      <ellipse cx="46.639" cy="46.639" rx="46.639" ry="46.639" stroke="none"/>
+      <ellipse cx="46.639" cy="46.639" rx="44.139" ry="44.139" fill="none"/>
+    </g>
+    <g id="Ellipse_83" data-name="Ellipse 83" transform="translate(546 820)" fill="#3d3d3d" stroke="#3d3d3d" stroke-width="1">
+      <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+      <circle cx="6.5" cy="6.5" r="6" fill="none"/>
+    </g>
+  </g>
+</svg>

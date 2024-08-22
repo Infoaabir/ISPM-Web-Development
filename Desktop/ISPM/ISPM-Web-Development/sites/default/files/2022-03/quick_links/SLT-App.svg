@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="SLT-App" transform="translate(15.358 11.645)">
+    <g id="Group_2" data-name="Group 2">
+      <g id="Group_1" data-name="Group 1">
+        <path id="Path_1" data-name="Path 1" d="M12.884,26.842a1.914,1.914,0,0,1-1.06-.3,2.195,2.195,0,0,1-.806-2.968l10.3-17.853A2.175,2.175,0,0,1,25.1,7.886L14.75,25.782A2.118,2.118,0,0,1,12.884,26.842Z" transform="translate(-10.736 -4.636)" fill="#84888a"/>
+      </g>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(0 17.26)">
+      <g id="Group_3" data-name="Group 3">
+        <path id="Path_2" data-name="Path 2" d="M12.884,67.542a1.914,1.914,0,0,1-1.06-.3,2.195,2.195,0,0,1-.806-2.969l10.3-17.853A2.175,2.175,0,0,1,25.1,48.586L14.75,66.44A2.074,2.074,0,0,1,12.884,67.542Z" transform="translate(-10.736 -45.336)" fill="#84888a"/>
+      </g>
+    </g>
+    <g id="Group_6" data-name="Group 6" transform="translate(17.005 17.26)">
+      <g id="Group_5" data-name="Group 5">
+        <path id="Path_3" data-name="Path 3" d="M53.026,67.542a2.158,2.158,0,0,1-1.1-.3,2.195,2.195,0,0,1-.806-2.969l10.3-17.853A2.175,2.175,0,1,1,65.2,48.586L54.892,66.44A2.074,2.074,0,0,1,53.026,67.542Z" transform="translate(-50.836 -45.336)" fill="#84888a"/>
+      </g>
+    </g>
+    <g id="Group_8" data-name="Group 8" transform="translate(16.354 21.57)">
+      <g id="Group_7" data-name="Group 7">
+        <circle id="Ellipse_1" data-name="Ellipse 1" cx="2.163" cy="2.163" r="2.163" fill="#84888a"/>
+      </g>
+    </g>
+    <path id="Path_755" data-name="Path 755" d="M0-3.86H60v60H0Z" transform="translate(-15.358 -7.784)" fill="none"/>
+  </g>
+</svg>

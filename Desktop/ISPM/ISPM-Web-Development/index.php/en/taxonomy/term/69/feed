@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://www.slt.lk/index.php/en">
+  <channel>
+    <title>Fault Reporting</title>
+    <link>https://www.slt.lk/index.php/en</link>
+    <description/>
+    <language>en</language>
+    
+    <item>
+  <title>Kelaniya</title>
+  <link>https://www.slt.lk/index.php/en/node/5016</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Kelaniya&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang="" about="https://www.slt.lk/en/user/15" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;sltuser&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;Tue, 11/29/2022 - 09:38&lt;/span&gt;
+
+  &lt;div class="clearfix text-formatted field field--name-field-bn-address field--type-text-long field--label-above"&gt;
+    &lt;div class="field__label"&gt;Address&lt;/div&gt;
+              &lt;div class="field__item"&gt;&lt;p&gt;Station Road,&lt;br /&gt;
+Kelaniya&lt;/p&gt;&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-telephone field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Telephone&lt;/div&gt;
+              &lt;div class="field__item"&gt;011 2984555&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-email field--type-email field--label-above"&gt;
+    &lt;div class="field__label"&gt;Email&lt;/div&gt;
+              &lt;div class="field__item"&gt;buddhikam@slt.com.lk&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-branch-type field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Type&lt;/div&gt;
+          &lt;div class="field__items"&gt;
+              &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/branch-types/regional-offices" hreflang="en"&gt;Regional offices&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-sevices-available field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Sevices available&lt;/div&gt;
+          &lt;div class="field__items"&gt;
+              &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/bill-payment" hreflang="en"&gt;Bill Payment&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/fault-reporting" hreflang="en"&gt;Fault Reporting&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/new-connection" hreflang="en"&gt;New Connection&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/purchase-cpes" hreflang="en"&gt;Purchase CPEs&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;div class="field field--name-field-br-google-map-icons-color field--type-list-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Google Map Icons Color&lt;/div&gt;
+              &lt;div class="field__item"&gt;Purple&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-branch-latitude field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Latitude&lt;/div&gt;
+              &lt;div class="field__item"&gt;6.958632&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-branch-longitude field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Longitude&lt;/div&gt;
+              &lt;div class="field__item"&gt;79.894829&lt;/div&gt;
+          &lt;/div&gt;
+</description>
+  <pubDate>Tue, 29 Nov 2022 04:08:46 +0000</pubDate>
+    <dc:creator>sltuser</dc:creator>
+    <guid isPermaLink="false">5016 at https://www.slt.lk</guid>
+    </item>
+<item>
+  <title>Jaffna</title>
+  <link>https://www.slt.lk/index.php/en/node/4953</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Jaffna&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang="" about="https://www.slt.lk/en/user/15" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;sltuser&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;Wed, 10/05/2022 - 13:24&lt;/span&gt;
+
+  &lt;div class="clearfix text-formatted field field--name-field-bn-address field--type-text-long field--label-above"&gt;
+    &lt;div class="field__label"&gt;Address&lt;/div&gt;
+              &lt;div class="field__item"&gt;&lt;p&gt;MPCS Building,&lt;br /&gt; KKS Road,&lt;br /&gt; Jaffna.&lt;/p&gt;&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-telephone field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Telephone&lt;/div&gt;
+              &lt;div class="field__item"&gt;212222249&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-fax field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Fax&lt;/div&gt;
+              &lt;div class="field__item"&gt;212224054&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-email field--type-email field--label-above"&gt;
+    &lt;div class="field__label"&gt;Email&lt;/div&gt;
+              &lt;div class="field__item"&gt;narein@slt.com.lk&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-branch-type field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Type&lt;/div&gt;
+          &lt;div class="field__items"&gt;
+              &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/branch-types/teleshops" hreflang="en"&gt;Teleshops&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-sevices-available field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Sevices available&lt;/div&gt;
+          &lt;div class="field__items"&gt;
+              &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/bill-payment" hreflang="en"&gt;Bill Payment&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/fault-reporting" hreflang="en"&gt;Fault Reporting&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/new-connection" hreflang="en"&gt;New Connection&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/purchase-cpes" hreflang="en"&gt;Purchase CPEs&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;div class="field field--name-field-br-google-map-icons-color field--type-list-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Google Map Icons Color&lt;/div&gt;
+              &lt;div class="field__item"&gt;Purple&lt;/div&gt;
+          &lt;/div&gt;
+</description>
+  <pubDate>Wed, 05 Oct 2022 07:54:04 +0000</pubDate>
+    <dc:creator>sltuser</dc:creator>
+    <guid isPermaLink="false">4953 at https://www.slt.lk</guid>
+    </item>
+<item>
+  <title>Ja-ela</title>
+  <link>https://www.slt.lk/index.php/en/node/4952</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Ja-ela&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang="" about="https://www.slt.lk/en/user/15" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;sltuser&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;Wed, 10/05/2022 - 13:16&lt;/span&gt;
+
+  &lt;div class="clearfix text-formatted field field--name-field-bn-address field--type-text-long field--label-above"&gt;
+    &lt;div class="field__label"&gt;Address&lt;/div&gt;
+              &lt;div class="field__item"&gt;&lt;p&gt;Negombo Road,&lt;br /&gt; Jaela.&lt;/p&gt;&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-telephone field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Telephone&lt;/div&gt;
+              &lt;div class="field__item"&gt;112245794&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-fax field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Fax&lt;/div&gt;
+              &lt;div class="field__item"&gt;112245792&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-email field--type-email field--label-above"&gt;
+    &lt;div class="field__label"&gt;Email&lt;/div&gt;
+              &lt;div class="field__item"&gt;melani@slt.com.lk&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-branch-type field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Type&lt;/div&gt;
+          &lt;div class="field__items"&gt;
+              &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/branch-types/teleshops" hreflang="en"&gt;Teleshops&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-sevices-available field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Sevices available&lt;/div&gt;
+          &lt;div class="field__items"&gt;
+              &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/bill-payment" hreflang="en"&gt;Bill Payment&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/fault-reporting" hreflang="en"&gt;Fault Reporting&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/new-connection" hreflang="en"&gt;New Connection&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/purchase-cpes" hreflang="en"&gt;Purchase CPEs&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;div class="field field--name-field-br-google-map-icons-color field--type-list-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Google Map Icons Color&lt;/div&gt;
+              &lt;div class="field__item"&gt;Purple&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-branch-latitude field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Latitude&lt;/div&gt;
+              &lt;div class="field__item"&gt;7.077894238601356 &lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-branch-longitude field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Longitude&lt;/div&gt;
+              &lt;div class="field__item"&gt;79.89068765733018&lt;/div&gt;
+          &lt;/div&gt;
+</description>
+  <pubDate>Wed, 05 Oct 2022 07:46:07 +0000</pubDate>
+    <dc:creator>sltuser</dc:creator>
+    <guid isPermaLink="false">4952 at https://www.slt.lk</guid>
+    </item>
+<item>
+  <title>Horana</title>
+  <link>https://www.slt.lk/index.php/en/node/4951</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Horana&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang="" about="https://www.slt.lk/en/user/15" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;sltuser&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;Wed, 10/05/2022 - 13:09&lt;/span&gt;
+
+  &lt;div class="clearfix text-formatted field field--name-field-bn-address field--type-text-long field--label-above"&gt;
+    &lt;div class="field__label"&gt;Address&lt;/div&gt;
+              &lt;div class="field__item"&gt;&lt;p&gt;Anguruwathota Road,&lt;br /&gt;Horana.&lt;/p&gt;&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-telephone field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Telephone&lt;/div&gt;
+              &lt;div class="field__item"&gt;034-2265464&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-fax field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Fax&lt;/div&gt;
+              &lt;div class="field__item"&gt;342263530&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-email field--type-email field--label-above"&gt;
+    &lt;div class="field__label"&gt;Email&lt;/div&gt;
+              &lt;div class="field__item"&gt;skarunarathna@slt.com.lk&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-branch-type field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Type&lt;/div&gt;
+          &lt;div class="field__items"&gt;
+              &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/branch-types/teleshops" hreflang="en"&gt;Teleshops&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-sevices-available field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Sevices available&lt;/div&gt;
+          &lt;div class="field__items"&gt;
+              &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/bill-payment" hreflang="en"&gt;Bill Payment&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/fault-reporting" hreflang="en"&gt;Fault Reporting&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/new-connection" hreflang="en"&gt;New Connection&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/purchase-cpes" hreflang="en"&gt;Purchase CPEs&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;div class="field field--name-field-br-google-map-icons-color field--type-list-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Google Map Icons Color&lt;/div&gt;
+              &lt;div class="field__item"&gt;Purple&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-branch-latitude field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Latitude&lt;/div&gt;
+              &lt;div class="field__item"&gt;6.715263015585671&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-branch-longitude field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Longitude&lt;/div&gt;
+              &lt;div class="field__item"&gt;80.06174601042075&lt;/div&gt;
+          &lt;/div&gt;
+</description>
+  <pubDate>Wed, 05 Oct 2022 07:39:38 +0000</pubDate>
+    <dc:creator>sltuser</dc:creator>
+    <guid isPermaLink="false">4951 at https://www.slt.lk</guid>
+    </item>
+<item>
+  <title>Homagama</title>
+  <link>https://www.slt.lk/index.php/en/node/4950</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Homagama&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang="" about="https://www.slt.lk/en/user/15" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;sltuser&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;Wed, 10/05/2022 - 13:07&lt;/span&gt;
+
+  &lt;div class="clearfix text-formatted field field--name-field-bn-address field--type-text-long field--label-above"&gt;
+    &lt;div class="field__label"&gt;Address&lt;/div&gt;
+              &lt;div class="field__item"&gt;&lt;p&gt;Highlevel Road,&lt;br /&gt;Homagama.&lt;/p&gt;&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-telephone field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Telephone&lt;/div&gt;
+              &lt;div class="field__item"&gt;112748765&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-fax field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Fax&lt;/div&gt;
+              &lt;div class="field__item"&gt;112748766&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-email field--type-email field--label-above"&gt;
+    &lt;div class="field__label"&gt;Email&lt;/div&gt;
+              &lt;div class="field__item"&gt;nishanid@slt.com.lk&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-branch-type field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Type&lt;/div&gt;
+          &lt;div class="field__items"&gt;
+              &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/branch-types/teleshops" hreflang="en"&gt;Teleshops&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-sevices-available field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Sevices available&lt;/div&gt;
+          &lt;div class="field__items"&gt;
+              &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/bill-payment" hreflang="en"&gt;Bill Payment&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/fault-reporting" hreflang="en"&gt;Fault Reporting&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/new-connection" hreflang="en"&gt;New Connection&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/purchase-cpes" hreflang="en"&gt;Purchase CPEs&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;div class="field field--name-field-br-google-map-icons-color field--type-list-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Google Map Icons Color&lt;/div&gt;
+              &lt;div class="field__item"&gt;Purple&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-branch-latitude field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Latitude&lt;/div&gt;
+              &lt;div class="field__item"&gt;6.841109&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-branch-longitude field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Longitude&lt;/div&gt;
+              &lt;div class="field__item"&gt;80.00148&lt;/div&gt;
+          &lt;/div&gt;
+</description>
+  <pubDate>Wed, 05 Oct 2022 07:37:53 +0000</pubDate>
+    <dc:creator>sltuser</dc:creator>
+    <guid isPermaLink="false">4950 at https://www.slt.lk</guid>
+    </item>
+<item>
+  <title>Gampaha</title>
+  <link>https://www.slt.lk/index.php/en/node/4949</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Gampaha&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang="" about="https://www.slt.lk/en/user/15" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;sltuser&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;Wed, 10/05/2022 - 13:01&lt;/span&gt;
+
+  &lt;div class="clearfix text-formatted field field--name-field-bn-address field--type-text-long field--label-above"&gt;
+    &lt;div class="field__label"&gt;Address&lt;/div&gt;
+              &lt;div class="field__item"&gt;&lt;p&gt;Queens Road,&lt;br /&gt;Gamapaha.&lt;/p&gt;&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-telephone field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Telephone&lt;/div&gt;
+              &lt;div class="field__item"&gt;332229991&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-fax field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Fax&lt;/div&gt;
+              &lt;div class="field__item"&gt;332229995&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-email field--type-email field--label-above"&gt;
+    &lt;div class="field__label"&gt;Email&lt;/div&gt;
+              &lt;div class="field__item"&gt;sandyak@slt.com.lk&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-branch-type field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Type&lt;/div&gt;
+          &lt;div class="field__items"&gt;
+              &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/branch-types/teleshops" hreflang="en"&gt;Teleshops&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-sevices-available field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Sevices available&lt;/div&gt;
+          &lt;div class="field__items"&gt;
+              &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/bill-payment" hreflang="en"&gt;Bill Payment&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/fault-reporting" hreflang="en"&gt;Fault Reporting&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/new-connection" hreflang="en"&gt;New Connection&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/purchase-cpes" hreflang="en"&gt;Purchase CPEs&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;div class="field field--name-field-br-google-map-icons-color field--type-list-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Google Map Icons Color&lt;/div&gt;
+              &lt;div class="field__item"&gt;Purple&lt;/div&gt;
+          &lt;/div&gt;
+</description>
+  <pubDate>Wed, 05 Oct 2022 07:31:18 +0000</pubDate>
+    <dc:creator>sltuser</dc:creator>
+    <guid isPermaLink="false">4949 at https://www.slt.lk</guid>
+    </item>
+<item>
+  <title>Chilaw</title>
+  <link>https://www.slt.lk/index.php/en/node/4948</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Chilaw&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang="" about="https://www.slt.lk/en/user/15" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;sltuser&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;Wed, 10/05/2022 - 12:42&lt;/span&gt;
+
+  &lt;div class="clearfix text-formatted field field--name-field-bn-address field--type-text-long field--label-above"&gt;
+    &lt;div class="field__label"&gt;Address&lt;/div&gt;
+              &lt;div class="field__item"&gt;&lt;p&gt;Kurunegala Road,&lt;br /&gt; Puttalam.&lt;/p&gt;&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-telephone field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Telephone&lt;/div&gt;
+              &lt;div class="field__item"&gt;322266888&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-fax field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Fax&lt;/div&gt;
+              &lt;div class="field__item"&gt;322266555&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-email field--type-email field--label-above"&gt;
+    &lt;div class="field__label"&gt;Email&lt;/div&gt;
+              &lt;div class="field__item"&gt;chandaniw@slt.com.lk&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-branch-type field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Type&lt;/div&gt;
+          &lt;div class="field__items"&gt;
+              &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/branch-types/teleshops" hreflang="en"&gt;Teleshops&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-sevices-available field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Sevices available&lt;/div&gt;
+          &lt;div class="field__items"&gt;
+              &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/bill-payment" hreflang="en"&gt;Bill Payment&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/fault-reporting" hreflang="en"&gt;Fault Reporting&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/new-connection" hreflang="en"&gt;New Connection&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/purchase-cpes" hreflang="en"&gt;Purchase CPEs&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;div class="field field--name-field-br-google-map-icons-color field--type-list-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Google Map Icons Color&lt;/div&gt;
+              &lt;div class="field__item"&gt;Purple&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-branch-latitude field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Latitude&lt;/div&gt;
+              &lt;div class="field__item"&gt;7.582050240921852&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-branch-longitude field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Longitude&lt;/div&gt;
+              &lt;div class="field__item"&gt;79.79619836571148&lt;/div&gt;
+          &lt;/div&gt;
+</description>
+  <pubDate>Wed, 05 Oct 2022 07:12:53 +0000</pubDate>
+    <dc:creator>sltuser</dc:creator>
+    <guid isPermaLink="false">4948 at https://www.slt.lk</guid>
+    </item>
+<item>
+  <title>Beruwela</title>
+  <link>https://www.slt.lk/index.php/en/node/4947</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Beruwela&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang="" about="https://www.slt.lk/en/user/15" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;sltuser&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;Wed, 10/05/2022 - 12:39&lt;/span&gt;
+
+  &lt;div class="clearfix text-formatted field field--name-field-bn-address field--type-text-long field--label-above"&gt;
+    &lt;div class="field__label"&gt;Address&lt;/div&gt;
+              &lt;div class="field__item"&gt;&lt;p&gt;Mangala Road, &lt;br /&gt;Beruwela.&lt;/p&gt;&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-telephone field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Telephone&lt;/div&gt;
+              &lt;div class="field__item"&gt;342278260&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-fax field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Fax&lt;/div&gt;
+              &lt;div class="field__item"&gt;342278261&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-email field--type-email field--label-above"&gt;
+    &lt;div class="field__label"&gt;Email&lt;/div&gt;
+              &lt;div class="field__item"&gt;rexyp@slt.com.lk&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-branch-type field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Type&lt;/div&gt;
+          &lt;div class="field__items"&gt;
+              &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/branch-types/teleshops" hreflang="en"&gt;Teleshops&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-sevices-available field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Sevices available&lt;/div&gt;
+          &lt;div class="field__items"&gt;
+              &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/bill-payment" hreflang="en"&gt;Bill Payment&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/fault-reporting" hreflang="en"&gt;Fault Reporting&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/new-connection" hreflang="en"&gt;New Connection&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/purchase-cpes" hreflang="en"&gt;Purchase CPEs&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;div class="field field--name-field-br-google-map-icons-color field--type-list-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Google Map Icons Color&lt;/div&gt;
+              &lt;div class="field__item"&gt;Purple&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-branch-latitude field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Latitude&lt;/div&gt;
+              &lt;div class="field__item"&gt;6.473134008957032&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-branch-longitude field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Longitude&lt;/div&gt;
+              &lt;div class="field__item"&gt;79.98317363995531&lt;/div&gt;
+          &lt;/div&gt;
+</description>
+  <pubDate>Wed, 05 Oct 2022 07:09:09 +0000</pubDate>
+    <dc:creator>sltuser</dc:creator>
+    <guid isPermaLink="false">4947 at https://www.slt.lk</guid>
+    </item>
+<item>
+  <title>Ambalangoda</title>
+  <link>https://www.slt.lk/index.php/en/node/4946</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Ambalangoda&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang="" about="https://www.slt.lk/en/user/15" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;sltuser&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;Wed, 10/05/2022 - 12:37&lt;/span&gt;
+
+  &lt;div class="clearfix text-formatted field field--name-field-bn-address field--type-text-long field--label-above"&gt;
+    &lt;div class="field__label"&gt;Address&lt;/div&gt;
+              &lt;div class="field__item"&gt;&lt;p&gt;Galle Road,&lt;br /&gt;Ambalangoda.&lt;/p&gt;&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-telephone field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Telephone&lt;/div&gt;
+              &lt;div class="field__item"&gt;912255915&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-fax field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Fax&lt;/div&gt;
+              &lt;div class="field__item"&gt;912255910&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-email field--type-email field--label-above"&gt;
+    &lt;div class="field__label"&gt;Email&lt;/div&gt;
+              &lt;div class="field__item"&gt;sltag@slt.com.lk&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-branch-type field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Type&lt;/div&gt;
+          &lt;div class="field__items"&gt;
+              &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/branch-types/teleshops" hreflang="en"&gt;Teleshops&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-sevices-available field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Sevices available&lt;/div&gt;
+          &lt;div class="field__items"&gt;
+              &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/bill-payment" hreflang="en"&gt;Bill Payment&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/fault-reporting" hreflang="en"&gt;Fault Reporting&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/new-connection" hreflang="en"&gt;New Connection&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/purchase-cpes" hreflang="en"&gt;Purchase CPEs&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;div class="field field--name-field-br-google-map-icons-color field--type-list-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Google Map Icons Color&lt;/div&gt;
+              &lt;div class="field__item"&gt;Purple&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-branch-latitude field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Latitude&lt;/div&gt;
+              &lt;div class="field__item"&gt;6.23474&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-branch-longitude field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Longitude&lt;/div&gt;
+              &lt;div class="field__item"&gt;80.05450&lt;/div&gt;
+          &lt;/div&gt;
+</description>
+  <pubDate>Wed, 05 Oct 2022 07:07:10 +0000</pubDate>
+    <dc:creator>sltuser</dc:creator>
+    <guid isPermaLink="false">4946 at https://www.slt.lk</guid>
+    </item>
+<item>
+  <title>Biyagama</title>
+  <link>https://www.slt.lk/index.php/en/node/4945</link>
+  <description>&lt;span class="field field--name-title field--type-string field--label-hidden"&gt;Biyagama&lt;/span&gt;
+&lt;span class="field field--name-uid field--type-entity-reference field--label-hidden"&gt;&lt;span lang="" about="https://www.slt.lk/en/user/15" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;sltuser&lt;/span&gt;&lt;/span&gt;
+&lt;span class="field field--name-created field--type-created field--label-hidden"&gt;Wed, 10/05/2022 - 12:33&lt;/span&gt;
+
+  &lt;div class="clearfix text-formatted field field--name-field-bn-address field--type-text-long field--label-above"&gt;
+    &lt;div class="field__label"&gt;Address&lt;/div&gt;
+              &lt;div class="field__item"&gt;&lt;p&gt;Samurdhi Mawatha,&lt;br /&gt; Biyagama.&lt;/p&gt;&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-telephone field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Telephone&lt;/div&gt;
+              &lt;div class="field__item"&gt;112487966&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-fax field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Fax&lt;/div&gt;
+              &lt;div class="field__item"&gt;112487997&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-email field--type-email field--label-above"&gt;
+    &lt;div class="field__label"&gt;Email&lt;/div&gt;
+              &lt;div class="field__item"&gt;ashokak@slt.com.lk&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-branch-type field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Type&lt;/div&gt;
+          &lt;div class="field__items"&gt;
+              &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/branch-types/teleshops" hreflang="en"&gt;Teleshops&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;div class="field field--name-field-bn-sevices-available field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Sevices available&lt;/div&gt;
+          &lt;div class="field__items"&gt;
+              &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/bill-payment" hreflang="en"&gt;Bill Payment&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/fault-reporting" hreflang="en"&gt;Fault Reporting&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/new-connection" hreflang="en"&gt;New Connection&lt;/a&gt;&lt;/div&gt;
+          &lt;div class="field__item"&gt;&lt;a href="https://www.slt.lk/en/services-available/purchase-cpes" hreflang="en"&gt;Purchase CPEs&lt;/a&gt;&lt;/div&gt;
+              &lt;/div&gt;
+      &lt;/div&gt;
+
+  &lt;div class="field field--name-field-br-google-map-icons-color field--type-list-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Google Map Icons Color&lt;/div&gt;
+              &lt;div class="field__item"&gt;Purple&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-branch-latitude field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Latitude&lt;/div&gt;
+              &lt;div class="field__item"&gt;6.96284111810187&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;div class="field field--name-field-branch-longitude field--type-string field--label-above"&gt;
+    &lt;div class="field__label"&gt;Branch Longitude&lt;/div&gt;
+              &lt;div class="field__item"&gt;80.00845091512765&lt;/div&gt;
+          &lt;/div&gt;
+</description>
+  <pubDate>Wed, 05 Oct 2022 07:03:10 +0000</pubDate>
+    <dc:creator>sltuser</dc:creator>
+    <guid isPermaLink="false">4945 at https://www.slt.lk</guid>
+    </item>
+
+  </channel>
+</rss>

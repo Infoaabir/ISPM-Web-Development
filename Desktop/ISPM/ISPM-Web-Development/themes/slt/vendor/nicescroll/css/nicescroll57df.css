@@ -1,0 +1,10 @@
+#boxscroll4 {
+    height: 100vh;
+    padding: 20px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.nicescroll-rails {
+    background-color: #fff;
+}

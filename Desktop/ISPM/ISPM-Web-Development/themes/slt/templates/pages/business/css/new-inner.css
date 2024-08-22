@@ -1,0 +1,2147 @@
+/* Left Menu Start *****************************************/
+
+.inner-left-main section {
+    display: block;
+}
+
+#inner-left-main {
+    background: #f4f4f4;
+    float: left;
+    width: 100%;
+}
+
+#inner-left-main .leftmenu-head {
+    background-color: #2162b1;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 12px 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.leftmenu-subhead {
+    float: left;
+    position: relative;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.leftmenu-subhead .icon:before {
+    color: #fff;
+    font-size: 24px;
+}
+
+.leftmenu-subhead .icon-managed-services:before {
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.leftmenu-subhead .icon {
+    float: left;
+    margin: 10px 5px 0 15px;
+}
+
+.leftmenu-subhead a {
+    display: table-cell;
+    font-size: 14px;
+    line-height: 1.2;
+    text-decoration: none;
+    display: block;
+    font-weight: 700;
+    padding: 0 25px 0 51px;
+    text-transform: uppercase;
+}
+
+.leftmenu-subhead.subhead-seperator {
+    border-bottom: 1px solid #3772a7;
+}
+
+.menu-block-wrapper ul {
+    margin: 0;
+}
+
+.glossymenu {
+    float: left;
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.glossymenu ul {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.glossymenu li.menuitem a {
+    border-left: 1px solid rgba(143, 143, 143, .2);
+    color: #8f8f8f;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-left: 15px;
+    padding: 6px 0 6px 20px;
+    position: relative;
+    text-decoration: none;
+}
+
+.glossymenu li.menuitem a.active {
+    font-weight: 600;
+}
+
+.glossymenu li.menuitem a.active::after {
+    background-color: #f4f4f4;
+    background-size: 12px;
+    background-position: 0 7px;
+    background-repeat: no-repeat;
+    content: "";
+    height: 26px;
+    left: -6px;
+    position: absolute;
+    top: 0;
+    width: 12px;
+}
+
+.menuitem.submenuheader.hide-menu > a {
+    background: url("../images/menuDD-gray.html");
+    background-size: 9px;
+    background-position: right 9px;
+    background-repeat: no-repeat;
+}
+
+.menuitem.submenuheader.show-menu > a {
+    background-size: 9px;
+    background-position: right 10px;
+    background-repeat: no-repeat;
+}
+
+.menu-name-menu-slt-navigation .active,
+.prod-cat-menu .active {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.leftmenu-subhead a.active {
+    color: #fff;
+}
+
+body.mob-left-menu-start {
+    overflow: hidden;
+}
+
+
+/* Sub Menu */
+
+#inner-left-main .submenu {
+    display: none;
+    width: 100%;
+}
+
+#inner-left-main .submenu ul {
+    display: block !important;
+    padding-right: 0;
+    margin-left: 30px;
+}
+
+#inner-left-main .submenu ul li a {
+    border-top: 0 !important;
+    margin-left: 5px !important;
+}
+
+#inner-left-main .subhed-arow {
+    height: 8px;
+    right: 0;
+    position: absolute;
+    width: 210px;
+    z-index: 100;
+    display: none;
+}
+
+
+/* Social Net */
+
+#inner-left-main .leftmenu-socialnet {
+    padding: 20px 25px 30px 25px;
+    float: left;
+    width: 100%;
+}
+
+.leftmenu-socialnet .header {
+    color: #9e9e9e;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 7px 0;
+    float: left;
+    width: 100%;
+}
+
+.leftmenu-socialnet .liks-block {
+    margin-top: 10px;
+    min-height: 60px;
+    width: 100%;
+}
+
+.leftmenu-socialnet .netgroup {
+    margin-top: 0 !important;
+    width: auto !important;
+}
+
+.leftmenu-socialnet .netgroup ul li {
+    cursor: pointer;
+    float: left;
+    height: 27px;
+    margin-right: 8px;
+    width: 27px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.leftmenu-socialnet .netgroup ul li a {
+    display: block;
+    height: 27px;
+    width: 27px;
+}
+
+.leftmenu-socialnet .netgroup ul li a img {
+    width: 100%;
+}
+
+.socialmedia-outer .ms-block ul li a.fb,
+.socialmedia-outer .ms-block ul li a.twitter,
+.socialmedia-outer .ms-block ul li a.gplus,
+.socialmedia-outer .ms-block ul li a.mail,
+.socialmedia-outer .ms-block ul li a.print {
+    background-image: none;
+}
+
+.leftmenu-socialnet .block.block-addthis {
+    display: none;
+}
+
+
+/* New */
+
+
+/* Menu show/hide */
+
+.color-pink .hide-menu > a {
+    color: #8f8f8f !important;
+}
+
+.glossymenu li.show-menu a.active::after {
+    display: none;
+}
+
+.glossymenu li.show-menu .submenu a.active::after {
+    display: block;
+}
+
+
+/* Left Menu Color Category CSS Start *****/
+
+
+/***** Blue */
+
+.color-blue .leftmenu-subhead a {
+    color: #2463b2;
+}
+
+.color-blue .glossymenu li.menuitem a {
+    border-left-color: rgba(2, 91, 172, 0.3);
+}
+
+.color-blue .glossymenu li.menuitem a.active::after,
+.color-blue .glossymenu li.menuitem.show-menu .submenu a.active::after {
+    background-image: url("../images/menutick-blue.html");
+}
+
+.color-blue .glossymenu li.menuitem a:hover,
+.color-blue .glossymenu li.menuitem a.active {
+    color: #2463b2;
+}
+
+.color-blue .menuitem.submenuheader.hide-menu > a:hover {
+    background-image: url("../images/menuDD-blue.html");
+}
+
+.color-blue .menuitem.submenuheader.show-menu > a {
+    background-image: url("../images/menuDU-blue.html");
+}
+
+.color-blue .show-menu > a {
+    color: #2463b2 !important;
+}
+
+
+/***** Pink  */
+
+.color-pink .leftmenu-subhead a {
+    color: #fd7fb4;
+}
+
+.color-pink .glossymenu li.menuitem a {
+    border-left-color: rgba(253, 127, 180, 0.3);
+    padding-right: 15px;
+}
+
+.color-pink .glossymenu li.menuitem a.active::after {
+    background-image: url("../images/menutick-pink.html");
+}
+
+.color-pink .glossymenu li.menuitem a:hover,
+.color-pink .glossymenu li.menuitem a.active {
+    color: #fd7fb4;
+}
+
+.color-pink .menuitem.submenuheader.hide-menu > a:hover {
+    background-image: url("../images/menuDD-pink.html");
+}
+
+.color-pink .menuitem.submenuheader.show-menu > a {
+    background-image: url("../images/menuDU-pink.html");
+}
+
+.color-pink .show-menu > a {
+    color: #fd7fb4 !important;
+}
+
+
+/***** Yellow */
+
+.color-yellow .leftmenu-subhead a {
+    color: #fcc10c;
+}
+
+.color-yellow .glossymenu li.menuitem a {
+    border-left-color: rgba(252, 193, 12, 0.3);
+}
+
+.color-yellow .glossymenu li.menuitem a.active::after,
+.color-yellow .glossymenu li.menuitem.show-menu .submenu a.active::after {
+    background-image: url("../images/menutick-yellow.html");
+}
+
+.color-yellow .glossymenu li.menuitem a:hover,
+.color-yellow .glossymenu li.menuitem a.active {
+    color: #fcc10c;
+}
+
+.color-yellow .menuitem.submenuheader.hide-menu > a:hover {
+    background-image: url("../images/menuDD-yellow.html");
+}
+
+.color-yellow .menuitem.submenuheader.show-menu > a {
+    background-image: url("../images/menuDU-yellow.html");
+}
+
+.color-yellow .show-menu > a {
+    color: #fcc10c !important;
+}
+
+
+/***** Green */
+
+.color-green .leftmenu-subhead a {
+    color: #92bf4c;
+}
+
+.color-green .glossymenu li.menuitem a {
+    border-left-color: rgba(146, 191, 76, 0.3);
+}
+
+.color-green .glossymenu li.menuitem a.active::after,
+.color-green .glossymenu li.menuitem.show-menu .submenu a.active::after {
+    background-image: url("../images/menutick-green.html");
+}
+
+.color-green .glossymenu li.menuitem a:hover,
+.color-green .glossymenu li.menuitem a.active {
+    color: #92bf4c;
+}
+
+.color-green .menuitem.submenuheader.hide-menu > a:hover {
+    background-image: url("../images/menuDD-green.html");
+}
+
+.color-green .menuitem.submenuheader.show-menu > a {
+    background-image: url("../images/menuDU-green.html");
+}
+
+.color-green .show-menu > a {
+    color: #92bf4c !important;
+}
+
+
+/***** Blue Light */
+
+.color-bluelight .leftmenu-subhead a {
+    color: #45baee;
+}
+
+.color-bluelight .glossymenu li.menuitem a {
+    border-left-color: rgba(69, 186, 238, 0.3);
+}
+
+.color-bluelight .glossymenu li.menuitem a.active::after,
+.color-bluelight .glossymenu li.menuitem.show-menu .submenu a.active::after {
+    background-image: url("../images/menutick-bluelight.html");
+}
+
+.color-bluelight .glossymenu li.menuitem a:hover,
+.color-bluelight .glossymenu li.menuitem a.active {
+    color: #45baee;
+}
+
+.color-bluelight .menuitem.submenuheader.hide-menu > a:hover {
+    background-image: url("../images/menuDD-bluelight.html");
+}
+
+.color-bluelight .menuitem.submenuheader.show-menu > a {
+    background-image: url("../images/menuDU-bluelight.html");
+}
+
+.color-bluelight .show-menu > a {
+    color: #45baee !important;
+}
+
+/* new colors*/
+/***** SLT-Purple */
+
+.SLT-Purple .leftmenu-subhead a {
+    color: #5a01a2;
+}
+
+.SLT-Purple .glossymenu li.menuitem a {
+    border-left-color: #5a01a2;
+}
+
+.SLT-Purple .glossymenu li.menuitem a:hover,
+.SLT-Purple .glossymenu li.menuitem a.active {
+    color: #5a01a2;
+}
+
+.SLT-Purple .show-menu > a {
+    color: #5a01a2 !important;
+}
+
+/***** SLT-Blue */
+
+.SLT-Blue .leftmenu-subhead a {
+    color: #1b2a7e;
+}
+
+.SLT-Blue .glossymenu li.menuitem a {
+    border-left-color: #1b2a7e;
+}
+
+.SLT-Blue .glossymenu li.menuitem a:hover,
+.SLT-Blue .glossymenu li.menuitem a.active {
+    color: #1b2a7e;
+}
+
+.SLT-Blue .show-menu > a {
+    color: #1b2a7e !important;
+}
+
+/***** SLT-Yellow */
+
+.SLT-Yellow .leftmenu-subhead a {
+    color: #fcdf1f;
+}
+
+.SLT-Yellow .glossymenu li.menuitem a {
+    border-left-color: #fcdf1f;
+}
+
+.SLT-Yellow .glossymenu li.menuitem a:hover,
+.SLT-Yellow .glossymenu li.menuitem a.active {
+    color: #fcdf1f;
+}
+
+.SLT-Yellow .show-menu > a {
+    color: #fcdf1f !important;
+}
+
+/*  Icon Color by Category Start */
+
+.leftmenu-subhead .icon-cat {
+    height: 21px;
+    left: 21px;
+    position: absolute;
+    top: -5px;
+    width: 21px;
+    background-repeat: no-repeat;
+    background-size: 21px;
+    background-position: 0 0;
+}
+
+
+/* New Connection */
+
+.color-blue .leftmenu-subhead .icon-new-connection {
+    background-image: url("../images/menuicon-NewConnect-blue.html");
+    background-size: 20px;
+}
+
+.color-pink .leftmenu-subhead .icon-new-connection {
+    background-image: url("../images/menuicon-NewConnect-pink.html");
+    background-size: 20px;
+}
+
+.color-yellow .leftmenu-subhead .icon-new-connection {
+    background-image: url("../images/menuicon-NewConnect-yellow.html");
+    background-size: 20px;
+}
+
+.color-green .leftmenu-subhead .icon-new-connection {
+    background-image: url("../images/menuicon-NewConnect-green.html");
+    background-size: 20px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-new-connection {
+    background-image: url("../images/menuicon-NewConnect-bluelight.html");
+    background-size: 20px;
+}
+
+
+/* Calling Plans */
+
+.color-blue .leftmenu-subhead .icon-calling-plans {
+    background-image: url("../images/menuicon-CallPlane-blue.html");
+    background-size: 19px;
+}
+
+.color-pink .leftmenu-subhead .icon-calling-plans {
+    background-image: url("../images/menuicon-CallPlane-pink.html");
+    background-size: 19px;
+    top: -1px;
+}
+
+.color-yellow .leftmenu-subhead .icon-calling-plans {
+    background-image: url("../images/menuicon-CallPlane-yellow.html");
+    background-size: 19px;
+}
+
+.color-green .leftmenu-subhead .icon-calling-plans {
+    background-image: url("../images/menuicon-CallPlane-green.html");
+    background-size: 19px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-calling-plans {
+    background-image: url("../images/menuicon-CallPlane-bluelight.html");
+    background-size: 19px;
+}
+
+
+/* VAS */
+
+.color-blue .leftmenu-subhead .icon-vas {
+    background-image: url("../images/menuicon-VAS-blue.html");
+}
+
+.color-pink .leftmenu-subhead .icon-vas {
+    background-image: url("../images/menuicon-VAS-pink.html");
+}
+
+.color-yellow .leftmenu-subhead .icon-vas {
+    background-image: url("../images/menuicon-VAS-yellow.html");
+}
+
+.color-green .leftmenu-subhead .icon-vas {
+    background-image: url("../images/menuicon-VAS-green.html");
+}
+
+.color-bluelight .leftmenu-subhead .icon-vas {
+    background-image: url("../images/menuicon-VAS-bluelight.html");
+}
+
+
+/* Support */
+
+.color-blue .leftmenu-subhead .icon-suport {
+    background-image: url("../images/menuicon-Support-blue.html");
+    background-size: 18px;
+}
+
+.color-pink .leftmenu-subhead .icon-suport {
+    background-image: url("../images/menuicon-Support-pink.html");
+    background-size: 18px;
+}
+
+.color-yellow .leftmenu-subhead .icon-suport {
+    background-image: url("../images/menuicon-Support-yellow.html");
+    background-size: 18px;
+}
+
+.color-green .leftmenu-subhead .icon-suport {
+    background-image: url("../images/menuicon-Support-green.html");
+    background-size: 18px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-suport {
+    background-image: url("../images/menuicon-Support-bluelight.html");
+    background-size: 18px;
+}
+
+
+/* Broadband/Megaline */
+
+.color-blue .leftmenu-subhead .icon-megalineBroad {
+    background-image: url("../images/menuicon-Megaline-blue.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-pink .leftmenu-subhead .icon-megalineBroad {
+    background-image: url("../images/menuicon-Megaline-pink.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-yellow .leftmenu-subhead .icon-megalineBroad {
+    background-image: url("../images/menuicon-Megaline-yellow.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-green .leftmenu-subhead .icon-megalineBroad {
+    background-image: url("../images/menuicon-Megaline-green.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-megalineBroad {
+    background-image: url("../images/menuicon-Megaline-bluelight.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+
+/* Wi-Fi */
+
+.color-blue .leftmenu-subhead .icon-wifi {
+    background-image: url("../images/menuicon-WiFi-blue.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-pink .leftmenu-subhead .icon-wifi {
+    background-image: url("../images/menuicon-WiFi-pink.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-yellow .leftmenu-subhead .icon-wifi {
+    background-image: url("../images/menuicon-WiFi-yellow.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-green .leftmenu-subhead .icon-wifi {
+    background-image: url("../images/menuicon-WiFi-green.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-wifi {
+    background-image: url("../images/menuicon-WiFi-bluelight.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+
+/* Dial-up Internet */
+
+.color-blue .leftmenu-subhead .icon-dialup {
+    background-image: url("../images/menuicon-DialUp-blue.html");
+    background-size: 17px;
+    background-position: 1px 3px;
+}
+
+.color-pink .leftmenu-subhead .icon-dialup {
+    background-image: url("../images/menuicon-DialUp-pink.html");
+    background-size: 17px;
+    background-position: 1px 3px;
+}
+
+.color-yellow .leftmenu-subhead .icon-dialup {
+    background-image: url("../images/menuicon-DialUp-yellow.html");
+    background-size: 17px;
+    background-position: 1px 3px;
+}
+
+.color-green .leftmenu-subhead .icon-dialup {
+    background-image: url("../images/menuicon-DialUp-green.html");
+    background-size: 17px;
+    background-position: 1px 3px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-dialup {
+    background-image: url("../images/menuicon-DialUp-bluelight.html");
+    background-size: 17px;
+    background-position: 1px 3px;
+}
+
+
+/* Hosting Services */
+
+.color-blue .leftmenu-subhead .icon-hostingS {
+    background-image: url("../images/menuicon-HostingServices-blue.html");
+    background-size: 19px;
+    background-position: 0 3px;
+}
+
+.color-pink .leftmenu-subhead .icon-hostingS {
+    background-image: url("../images/menuicon-HostingServices-pink.html");
+    background-size: 19px;
+    background-position: 0 3px;
+}
+
+.color-yellow .leftmenu-subhead .icon-hostingS {
+    background-image: url("../images/menuicon-HostingServices-yellow.html");
+    background-size: 19px;
+    background-position: 0 3px;
+}
+
+.color-green .leftmenu-subhead .icon-hostingS {
+    background-image: url("../images/menuicon-HostingServices-green.html");
+    background-size: 19px;
+    background-position: 0 3px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-hostingS {
+    background-image: url("../images/menuicon-HostingServices-bluelight.html");
+    background-size: 19px;
+    background-position: 0 3px;
+}
+
+
+/* PeoTV */
+
+.color-blue .leftmenu-subhead .icon-peoTv {
+    background-image: url("../images/menuicon-PeoTV-blue.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-pink .leftmenu-subhead .icon-peoTv {
+    background-image: url("../images/menuicon-PeoTV-pink.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-yellow .leftmenu-subhead .icon-peoTv {
+    background-image: url("../images/menuicon-PeoTV-yellow.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-green .leftmenu-subhead .icon-peoTv {
+    background-image: url("../images/menuicon-PeoTV-green.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-peoTv {
+    background-image: url("../images/menuicon-PeoTV-bluelight.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+
+/* IDD */
+
+.color-blue .leftmenu-subhead .icon-iddCall {
+    background-image: url("../images/menuicon-IDD-blue.html");
+    background-size: 16px;
+    background-position: 0 5px;
+}
+
+.color-pink .leftmenu-subhead .icon-iddCall {
+    background-image: url("../images/menuicon-IDD-pink.html");
+    background-size: 16px;
+    background-position: 0 5px;
+}
+
+.color-yellow .leftmenu-subhead .icon-iddCall {
+    background-image: url("../images/menuicon-IDD-yellow.html");
+    background-size: 16px;
+    background-position: 0 5px;
+}
+
+.color-green .leftmenu-subhead .icon-iddCall {
+    background-image: url("../images/menuicon-IDD-green.html");
+    background-size: 16px;
+    background-position: 0 5px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-iddCall {
+    background-image: url("../images/menuicon-IDD-bluelight.html");
+    background-size: 16px;
+    background-position: 0 5px;
+}
+
+
+/* Prestige Card */
+
+.color-blue .leftmenu-subhead .icon-presCard {
+    background-image: url("../images/menuicon-Prestige-blue.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-pink .leftmenu-subhead .icon-presCard {
+    background-image: url("../images/menuicon-Prestige-pink.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-yellow .leftmenu-subhead .icon-presCard {
+    background-image: url("../images/menuicon-Prestige-yellow.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-green .leftmenu-subhead .icon-presCard {
+    background-image: url("../images/menuicon-Prestige-green.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-presCard {
+    background-image: url("../images/menuicon-Prestige-bluelight.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+
+/* Promotions & Offers / Offers */
+
+.color-blue .leftmenu-subhead .icon-offers {
+    background-image: url("../images/menuicon-Offers-blue.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-pink .leftmenu-subhead .icon-offers {
+    background-image: url("../images/menuicon-Offers-pink.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-yellow .leftmenu-subhead .icon-offers {
+    background-image: url("../images/menuicon-Offers-yellow.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-green .leftmenu-subhead .icon-offers {
+    background-image: url("../images/menuicon-Offers-green.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-offers {
+    background-image: url("../images/menuicon-Offers-bluelight.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+
+/* Apply Online */
+
+.color-blue .leftmenu-subhead .icon-applyOnline {
+    background-image: url("../images/menuicon-ApplyOnline-blue.html");
+    background-size: 20px;
+    background-position: -3px 1px;
+}
+
+.color-pink .leftmenu-subhead .icon-applyOnline {
+    background-image: url("../images/menuicon-ApplyOnline-pink.html");
+    background-size: 20px;
+    background-position: -3px 1px;
+}
+
+.color-yellow .leftmenu-subhead .icon-applyOnline {
+    background-image: url("../images/menuicon-ApplyOnline-yellow.html");
+    background-size: 20px;
+    background-position: -3px 1px;
+}
+
+.color-green .leftmenu-subhead .icon-applyOnline {
+    background-image: url("../images/menuicon-ApplyOnline-green.html");
+    background-size: 20px;
+    background-position: -3px 1px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-applyOnline {
+    background-image: url("../images/menuicon-ApplyOnline-bluelight.html");
+    background-size: 20px;
+    background-position: -3px 1px;
+}
+
+
+/* Voice */
+
+.color-blue .leftmenu-subhead .icon-voice {
+    background-image: url("../images/menuicon-Voice-blue.html");
+    background-size: 16px;
+    background-position: 1px 4px;
+}
+
+.color-pink .leftmenu-subhead .icon-voice {
+    background-image: url("../images/menuicon-Voice-pink.html");
+    background-size: 16px;
+    background-position: 1px 4px;
+}
+
+.color-yellow .leftmenu-subhead .icon-voice {
+    background-image: url("../images/menuicon-Voice-yellow.html");
+    background-size: 16px;
+    background-position: 1px 4px;
+}
+
+.color-green .leftmenu-subhead .icon-voice {
+    background-image: url("../images/menuicon-Voice-green.html");
+    background-size: 16px;
+    background-position: 1px 4px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-voice {
+    background-image: url("../images/menuicon-Voice-bluelight.html");
+    background-size: 16px;
+    background-position: 1px 4px;
+}
+
+
+/* Networking */
+
+.color-blue .leftmenu-subhead .icon-network {
+    background-image: url("../images/menuicon-Network-blue.html");
+    background-size: 16px;
+    background-position: 0 4px;
+}
+
+.color-pink .leftmenu-subhead .icon-network {
+    background-image: url("../images/menuicon-Network-pink.html");
+    background-size: 16px;
+    background-position: 0 4px;
+}
+
+.color-yellow .leftmenu-subhead .icon-network {
+    background-image: url("../images/menuicon-Network-yellow.html");
+    background-size: 16px;
+    background-position: 0 4px;
+}
+
+.color-green .leftmenu-subhead .icon-network {
+    background-image: url("../images/menuicon-Network-green.html");
+    background-size: 16px;
+    background-position: 0 4px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-network {
+    background-image: url("../images/menuicon-Network-bluelight.html");
+    background-size: 16px;
+    background-position: 0 4px;
+}
+
+
+/* Data Hosting */
+
+.color-blue .leftmenu-subhead .icon-hostingData {
+    background-image: url("../images/menuicon-HostingData-blue.html");
+    background-size: 16px;
+    background-position: 1px 4px;
+}
+
+.color-pink .leftmenu-subhead .icon-hostingData {
+    background-image: url("../images/menuicon-HostingData-pink.html");
+    background-size: 16px;
+    background-position: 1px 4px;
+}
+
+.color-yellow .leftmenu-subhead .icon-hostingData {
+    background-image: url("../images/menuicon-HostingData-yellow.html");
+    background-size: 16px;
+    background-position: 1px 4px;
+}
+
+.color-green .leftmenu-subhead .icon-hostingData {
+    background-image: url("../images/menuicon-HostingData-green.html");
+    background-size: 16px;
+    background-position: 1px 4px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-hostingData {
+    background-image: url("../images/menuicon-HostingData-bluelight.html");
+    background-size: 16px;
+    background-position: 1px 4px;
+}
+
+
+/* Data */
+
+.color-blue .leftmenu-subhead .icon-Data {
+    background-image: url("../images/menuicon-Data-blue.html");
+    background-size: 16px;
+    background-position: 0 5px;
+}
+
+.color-pink .leftmenu-subhead .icon-Data {
+    background-image: url("../images/menuicon-Data-pink.html");
+    background-size: 16px;
+    background-position: 0 5px;
+}
+
+.color-yellow .leftmenu-subhead .icon-Data {
+    background-image: url("../images/menuicon-Data-yellow.html");
+    background-size: 16px;
+    background-position: 0 5px;
+}
+
+.color-green .leftmenu-subhead .icon-Data {
+    background-image: url("../images/menuicon-Data-green.html");
+    background-size: 16px;
+    background-position: 0 5px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-Data {
+    background-image: url("../images/menuicon-Data-bluelight.html");
+    background-size: 16px;
+    background-position: 0 5px;
+}
+
+
+/* Managed Services */
+
+.color-blue .leftmenu-subhead .icon-manageS {
+    background-image: url("../images/menuicon-ManageService-blue.html");
+    background-size: 17px;
+    background-position: 1px 3px;
+}
+
+.color-pink .leftmenu-subhead .icon-manageS {
+    background-image: url("../images/menuicon-ManageService-pink.html");
+    background-size: 17px;
+    background-position: 1px 3px;
+}
+
+.color-yellow .leftmenu-subhead .icon-manageS {
+    background-image: url("../images/menuicon-ManageService-yellow.html");
+    background-size: 17px;
+    background-position: 1px 3px;
+}
+
+.color-green .leftmenu-subhead .icon-manageS {
+    background-image: url("../images/menuicon-ManageService-green.html");
+    background-size: 17px;
+    background-position: 1px 3px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-manageS {
+    background-image: url("../images/menuicon-ManageService-bluelight.html");
+    background-size: 17px;
+    background-position: 1px 3px;
+}
+
+
+/* Wholesale Business */
+
+.color-blue .leftmenu-subhead .icon-wholesale {
+    background-image: url("../images/menuicon-WholesaleBusiness-blue.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-pink .leftmenu-subhead .icon-wholesale {
+    background-image: url("../images/menuicon-WholesaleBusiness-pink.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-yellow .leftmenu-subhead .icon-wholesale {
+    background-image: url("../images/menuicon-WholesaleBusiness-yellow.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-green .leftmenu-subhead .icon-wholesale {
+    background-image: url("../images/menuicon-WholesaleBusiness-green.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-wholesale {
+    background-image: url("../images/menuicon-WholesaleBusiness-bluelight.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+
+/* Service Request */
+
+.color-blue .leftmenu-subhead .icon-serviceRequest {
+    background-image: url("../images/menuicon-ServiceRequest-blue.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-pink .leftmenu-subhead .icon-serviceRequest {
+    background-image: url("../images/menuicon-ServiceRequest-pink.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-yellow .leftmenu-subhead .icon-serviceRequest {
+    background-image: url("../images/menuicon-ServiceRequest-yellow.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-green .leftmenu-subhead .icon-serviceRequest {
+    background-image: url("../images/menuicon-ServiceRequest-green.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-serviceRequest {
+    background-image: url("../images/menuicon-ServiceRequest-bluelight.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+
+/* Broadband CPES */
+
+.color-blue .leftmenu-subhead .icon-bCPES {
+    background-image: url("../images/menuicon-BroadbandCPES-blue.html");
+    background-size: 16px;
+    background-position: 2px 4px;
+}
+
+.color-pink .leftmenu-subhead .icon-bCPES {
+    background-image: url("../images/menuicon-BroadbandCPES-pink.html");
+    background-size: 16px;
+    background-position: 2px 4px;
+}
+
+.color-yellow .leftmenu-subhead .icon-bCPES {
+    background-image: url("../images/menuicon-BroadbandCPES-yellow.html");
+    background-size: 16px;
+    background-position: 2px 4px;
+}
+
+.color-green .leftmenu-subhead .icon-bCPES {
+    background-image: url("../images/menuicon-BroadbandCPES-green.html");
+    background-size: 16px;
+    background-position: 2px 4px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-bCPES {
+    background-image: url("../images/menuicon-BroadbandCPES-bluelight.html");
+    background-size: 16px;
+    background-position: 2px 4px;
+}
+
+
+/* Telephones */
+
+.color-blue .leftmenu-subhead .icon-tele {
+    background-image: url("../images/menuicon-Telephone-blue.html");
+    background-size: 16px;
+    background-position: 2px 4px;
+}
+
+.color-pink .leftmenu-subhead .icon-tele {
+    background-image: url("../images/menuicon-Telephone-pink.html");
+    background-size: 16px;
+    background-position: 2px 4px;
+}
+
+.color-yellow .leftmenu-subhead .icon-tele {
+    background-image: url("../images/menuicon-Telephone-yellow.html");
+    background-size: 16px;
+    background-position: 2px 4px;
+}
+
+.color-green .leftmenu-subhead .icon-tele {
+    background-image: url("../images/menuicon-Telephone-green.html");
+    background-size: 16px;
+    background-position: 2px 4px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-tele {
+    background-image: url("../images/menuicon-Telephone-bluelight.html");
+    background-size: 16px;
+    background-position: 2px 4px;
+}
+
+
+/* Accessories */
+
+.color-blue .leftmenu-subhead .icon-accessoriesTele {
+    background-image: url("../images/menuicon-Accessories-blue.html");
+    background-size: 16px;
+    background-position: 2px 3px;
+}
+
+.color-pink .leftmenu-subhead .icon-accessoriesTele {
+    background-image: url("../images/menuicon-Accessories-pink.html");
+    background-size: 16px;
+    background-position: 2px 3px;
+}
+
+.color-yellow .leftmenu-subhead .icon-accessoriesTele {
+    background-image: url("../images/menuicon-Accessories-yellow.html");
+    background-size: 16px;
+    background-position: 2px 3px;
+}
+
+.color-green .leftmenu-subhead .icon-accessoriesTele {
+    background-image: url("../images/menuicon-Accessories-green.html");
+    background-size: 16px;
+    background-position: 2px 3px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-accessoriesTele {
+    background-image: url("../images/menuicon-Accessories-bluelight.html");
+    background-size: 16px;
+    background-position: 2px 3px;
+}
+
+
+/* Smart Home Solutions */
+
+.color-blue .leftmenu-subhead .icon-smartHome {
+    background-image: url("../images/menuicon-SmartHomeSolution-blue.html");
+    background-size: 16px;
+    background-position: 2px 5px;
+}
+
+.color-pink .leftmenu-subhead .icon-smartHome {
+    background-image: url("../images/menuicon-SmartHomeSolution-pink.html");
+    background-size: 16px;
+    background-position: 2px 5px;
+}
+
+.color-yellow .leftmenu-subhead .icon-smartHome {
+    background-image: url("../images/menuicon-SmartHomeSolution-yellow.html");
+    background-size: 16px;
+    background-position: 2px 5px;
+}
+
+.color-green .leftmenu-subhead .icon-smartHome {
+    background-image: url("../images/menuicon-SmartHomeSolution-green.html");
+    background-size: 16px;
+    background-position: 2px 5px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-smartHome {
+    background-image: url("../images/menuicon-SmartHomeSolution-bluelight.html");
+    background-size: 16px;
+    background-position: 2px 5px;
+}
+
+
+/* Profile */
+
+.color-blue .leftmenu-subhead .icon-profile {
+    background-image: url("../images/menuicon-Profile-blue.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-pink .leftmenu-subhead .icon-profile {
+    background-image: url("../images/menuicon-Profile-pink.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-yellow .leftmenu-subhead .icon-profile {
+    background-image: url("../images/menuicon-Profile-yellow.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-green .leftmenu-subhead .icon-profile {
+    background-image: url("../images/menuicon-Profile-green.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-profile {
+    background-image: url("../images/menuicon-Profile-bluelight.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+
+/* Corporate Responsibility */
+
+.color-blue .leftmenu-subhead .icon-CorporateRes {
+    background-image: url("../images/menuicon-CorporateResponsibility-blue.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-pink .leftmenu-subhead .icon-CorporateRes {
+    background-image: url("../images/menuicon-CorporateResponsibility-pink.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-yellow .leftmenu-subhead .icon-CorporateRes {
+    background-image: url("../images/menuicon-CorporateResponsibility-yellow.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-green .leftmenu-subhead .icon-CorporateRes {
+    background-image: url("../images/menuicon-CorporateResponsibility-green.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-CorporateRes {
+    background-image: url("../images/menuicon-CorporateResponsibility-bluelight.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+
+/* Investors */
+
+.color-blue .leftmenu-subhead .icon-investors {
+    background-image: url("../images/menuicon-Investors-blue.html");
+    background-size: 17px;
+    background-position: 0 4px;
+}
+
+.color-pink .leftmenu-subhead .icon-investors {
+    background-image: url("../images/menuicon-Investors-pink.html");
+    background-size: 17px;
+    background-position: 0 4px;
+}
+
+.color-yellow .leftmenu-subhead .icon-investors {
+    background-image: url("../images/menuicon-Investors-yellow.html");
+    background-size: 17px;
+    background-position: 0 4px;
+}
+
+.color-green .leftmenu-subhead .icon-investors {
+    background-image: url("../images/menuicon-Investors-green.html");
+    background-size: 17px;
+    background-position: 0 4px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-investors {
+    background-image: url("../images/menuicon-Investors-bluelight.html");
+    background-size: 17px;
+    background-position: 0 4px;
+}
+
+
+/* Media Center */
+
+.color-blue .leftmenu-subhead .icon-MediaCenter {
+    background-image: url("../images/menuicon-MediaCenter-blue.html");
+    background-size: 17px;
+    background-position: 0 4px;
+}
+
+.color-pink .leftmenu-subhead .icon-MediaCenter {
+    background-image: url("../images/menuicon-MediaCenter-pink.html");
+    background-size: 17px;
+    background-position: 0 4px;
+}
+
+.color-yellow .leftmenu-subhead .icon-MediaCenter {
+    background-image: url("../images/menuicon-MediaCenter-yellow.html");
+    background-size: 17px;
+    background-position: 0 4px;
+}
+
+.color-green .leftmenu-subhead .icon-MediaCenter {
+    background-image: url("../images/menuicon-MediaCenter-green.html");
+    background-size: 17px;
+    background-position: 0 4px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-MediaCenter {
+    background-image: url("../images/menuicon-MediaCenter-bluelight.html");
+    background-size: 17px;
+    background-position: 0 4px;
+}
+
+
+/* Museum */
+
+.color-blue .leftmenu-subhead .icon-museum {
+    background-image: url("../images/menuicon-Museum-blue.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-pink .leftmenu-subhead .icon-museum {
+    background-image: url("../images/menuicon-Museum-pink.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-yellow .leftmenu-subhead .icon-museum {
+    background-image: url("../images/menuicon-Museum-yellow.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-green .leftmenu-subhead .icon-museum {
+    background-image: url("../images/menuicon-Museum-green.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-museum {
+    background-image: url("../images/menuicon-Museum-bluelight.html");
+    background-size: 18px;
+    background-position: 0 4px;
+}
+
+
+/* Careers */
+
+.color-blue .leftmenu-subhead .icon-careersSlt {
+    background-image: url("../images/menuicon-Careers-blue.html");
+    background-size: 16px;
+    background-position: 0 5px;
+}
+
+.color-pink .leftmenu-subhead .icon-careersSlt {
+    background-image: url("../images/menuicon-Careers-pink.html");
+    background-size: 16px;
+    background-position: 0 5px;
+}
+
+.color-yellow .leftmenu-subhead .icon-careersSlt {
+    background-image: url("../images/menuicon-Careers-yellow.html");
+    background-size: 16px;
+    background-position: 0 5px;
+}
+
+.color-green .leftmenu-subhead .icon-careersSlt {
+    background-image: url("../images/menuicon-Careers-green.html");
+    background-size: 16px;
+    background-position: 0 5px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-careersSlt {
+    background-image: url("../images/menuicon-Careers-bluelight.html");
+    background-size: 16px;
+    background-position: 0 5px;
+}
+
+
+/* Contact Center Services */
+
+.color-blue .leftmenu-subhead .icon-contactCenter {
+    background-image: url("../images/menuicon-ContactCenter-blue.html");
+    background-size: 19px;
+}
+
+.color-pink .leftmenu-subhead .icon-contactCenter {
+    background-image: url("../images/menuicon-ContactCenter-pink.html");
+    background-size: 19px;
+}
+
+.color-yellow .leftmenu-subhead .icon-contactCenter {
+    background-image: url("../images/menuicon-ContactCenter-yellow.html");
+    background-size: 19px;
+}
+
+.color-green .leftmenu-subhead .icon-contactCenter {
+    background-image: url("../images/menuicon-ContactCenter-green.html");
+    background-size: 19px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-contactCenter {
+    background-image: url("../images/menuicon-ContactCenter-bluelight.html");
+    background-size: 19px;
+}
+
+
+/* General Contact */
+
+.color-blue .leftmenu-subhead .icon-generalContact {
+    background-image: url("../images/menuicon-GeneralContact-blue.html");
+    background-size: 17px;
+    background-position: 2px 4px;
+}
+
+.color-pink .leftmenu-subhead .icon-generalContact {
+    background-image: url("../images/menuicon-GeneralContact-pink.html");
+    background-size: 17px;
+    background-position: 2px 4px;
+}
+
+.color-yellow .leftmenu-subhead .icon-generalContact {
+    background-image: url("../images/menuicon-GeneralContact-yellow.html");
+    background-size: 17px;
+    background-position: 2px 4px;
+}
+
+.color-green .leftmenu-subhead .icon-generalContact {
+    background-image: url("../images/menuicon-GeneralContact-green.html");
+    background-size: 17px;
+    background-position: 2px 4px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-generalContact {
+    background-image: url("../images/menuicon-GeneralContact-bluelight.html");
+    background-size: 17px;
+    background-position: 2px 4px;
+}
+
+
+/* Branch Locator */
+
+.color-blue .leftmenu-subhead .icon-branchLocator {
+    background-image: url("../images/menuicon-Location-blue.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-pink .leftmenu-subhead .icon-branchLocator {
+    background-image: url("../images/menuicon-Location-pink.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-yellow .leftmenu-subhead .icon-branchLocator {
+    background-image: url("../images/menuicon-Location-yellow.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-green .leftmenu-subhead .icon-branchLocator {
+    background-image: url("../images/menuicon-Location-green.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-branchLocator {
+    background-image: url("../images/menuicon-Location-bluelight.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+
+/* Souvenir */
+
+.color-blue .leftmenu-subhead .icon-souvenir {
+    background-image: url("../images/menuicon-Souvenir-blue.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-pink .leftmenu-subhead .icon-souvenir {
+    background-image: url("../images/menuicon-Souvenir-pink.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-yellow .leftmenu-subhead .icon-souvenir {
+    background-image: url("../images/menuicon-Souvenir-yellow.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-green .leftmenu-subhead .icon-souvenir {
+    background-image: url("../images/menuicon-Souvenir-green.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-souvenir {
+    background-image: url("../images/menuicon-Souvenir-bluelight.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+
+/* eTicketing */
+
+.color-blue .leftmenu-subhead .icon-eTicketing {
+    background-image: url("../images/menuicon-eTicketing-blue.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-pink .leftmenu-subhead .icon-eTicketing {
+    background-image: url("../images/menuicon-eTicketing-pink.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-yellow .leftmenu-subhead .icon-eTicketing {
+    background-image: url("../images/menuicon-eTicketing-yellow.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-green .leftmenu-subhead .icon-eTicketing {
+    background-image: url("../images/menuicon-eTicketing-green.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-eTicketing {
+    background-image: url("../images/menuicon-eTicketing-bluelight.html");
+    background-size: 18px;
+    background-position: 0 3px;
+}
+
+
+/* Study */
+
+.color-blue .leftmenu-subhead .icon-study {
+    background-image: url("../images/menuicon-Study-blue.html");
+    background-size: 17px;
+    background-position: 1px 4px;
+}
+
+.color-pink .leftmenu-subhead .icon-study {
+    background-image: url("../images/menuicon-Study-pink.html");
+    background-size: 17px;
+    background-position: 1px 4px;
+}
+
+.color-yellow .leftmenu-subhead .icon-study {
+    background-image: url("../images/menuicon-Study-yellow.html");
+    background-size: 17px;
+    background-position: 1px 4px;
+}
+
+.color-green .leftmenu-subhead .icon-study {
+    background-image: url("../images/menuicon-Study-green.html");
+    background-size: 17px;
+    background-position: 1px 4px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-study {
+    background-image: url("../images/menuicon-Study-bluelight.html");
+    background-size: 17px;
+    background-position: 1px 4px;
+}
+
+
+/* Delivery Info & Other */
+
+.color-blue .leftmenu-subhead .icon-infoDoc {
+    background-image: url("../images/menuicon-InfoDoc-blue.html");
+    background-size: 17px;
+    background-position: 1px 4px;
+}
+
+.color-pink .leftmenu-subhead .icon-infoDoc {
+    background-image: url("../images/menuicon-InfoDoc-pink.html");
+    background-size: 17px;
+    background-position: 1px 4px;
+}
+
+.color-yellow .leftmenu-subhead .icon-infoDoc {
+    background-image: url("../images/menuicon-InfoDoc-yellow.html");
+    background-size: 17px;
+    background-position: 1px 4px;
+}
+
+.color-green .leftmenu-subhead .icon-infoDoc {
+    background-image: url("../images/menuicon-InfoDoc-green.html");
+    background-size: 17px;
+    background-position: 1px 4px;
+}
+
+.color-bluelight .leftmenu-subhead .icon-infoDoc {
+    background-image: url("../images/menuicon-InfoDoc-bluelight.html");
+    background-size: 17px;
+    background-position: 1px 4px;
+}
+
+
+/*  Icon Color by Category End */
+
+
+/* Left Menu Color Category CSS End *****/
+
+
+/* Harsha Start */
+
+#menu .display-link .sub-level {
+    display: block !important;
+}
+
+#menu .active-hide .sub-level {
+    display: none !important;
+}
+
+.footer-top ul li.leaf {
+    list-style: outside none none;
+}
+
+
+/* Harsha End */
+
+
+/* Left Menu End *****************************************/
+
+
+/* New Right Column Start *****************************************/
+
+.innerLeftColl {
+    float: left;
+    width: -webkit-calc(100% - 270px);
+    width: -moz-calc(100% - 270px);
+    width: calc(100% - 270px);
+}
+
+.innerRightColl {
+    float: left;
+    margin-left: 40px;
+    width: 230px;
+}
+
+.rightcoll-wrapp {
+    border-bottom: 4px solid #e5e5e5;
+    float: left;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+
+/* Megaline popup Start */
+
+.innerRightColl .newMega-popup {
+    background: #1880d0 none repeat scroll 0 0;
+    border-radius: 0px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.innerRightColl .newMega-popup .popup-title::after {
+    background: rgba(0, 0, 0, 0) url("../images/popup-pointer.html") no-repeat scroll left bottom;
+    bottom: -15px;
+    content: " ";
+    height: 15px;
+    left: 50%;
+    margin-left: -22px;
+    position: absolute;
+    width: 46px;
+    z-index: 100;
+}
+
+.innerRightColl .newMega-popup .popup-title {
+    background-color: #ea146a;
+    border-radius: 0 0 25px 25px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 15px 30px 10px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.innerRightColl .newMega-popup .popup-title span {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: initial;
+}
+
+.innerRightColl .newMega-popup .popup-body {
+    float: left;
+    padding: 15px 4px 20px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.innerRightColl .newMega-popup .popup-body h2 {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    padding: 0 10px 10px;
+    text-align: center;
+}
+
+.innerRightColl .newMega-popup .popup-body .opt-block {
+    background-color: #fff;
+    border-radius: 100px;
+    float: left;
+    height: 86px;
+    margin-left: 15px;
+    position: relative;
+    width: 86px;
+}
+
+.innerRightColl .opt-block .subtitle {
+    color: #1880d0;
+    float: left;
+    font-family: "Raleway", sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    line-height: 1;
+    margin-left: 5px;
+    margin-top: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 75px;
+}
+
+.innerRightColl .opt-block .icon {
+    height: 23px;
+    left: 31px;
+    position: absolute;
+    top: 12px;
+    width: 25px;
+    z-index: 0;
+}
+
+.innerRightColl .opt-block .icon.submit {
+    background: rgba(0, 0, 0, 0) url("../images/submit-details.html") no-repeat scroll left bottom;
+}
+
+
+/* Megaline popup End */
+
+
+/* Banner Start */
+
+.innerRightColl .rightcoll-wrapp .banner-block {
+    width: 100%;
+    height: auto;
+}
+
+.innerRightColl .rightcoll-wrapp .banner-block img {
+    max-width: 100%;
+}
+
+
+/* Banner End */
+
+
+/* Item list  Start */
+
+.innerRightColl .item-thumb-block {
+    text-align: center;
+}
+
+.innerRightColl .item-thumb-block img {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.innerRightColl .item-thumb-block h5 {
+    font-size: 16px;
+    line-height: 1.1;
+    margin-bottom: 4px;
+}
+
+.innerRightColl .item-thumb-block .item-info {
+    text-align: center;
+}
+
+.innerRightColl .item-thumb-block .item-info .price {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.innerRightColl .item-thumb-block > div {
+    border: 2px solid #e6eff4;
+    padding: 25px;
+}
+
+.innerRightColl .item-thumb-block .item-info .more {
+    font-size: 14px;
+}
+
+.innerRightColl .item-thumb-block .item-info .button-group {
+    margin: 10px 0;
+}
+
+
+/* Item list  End*/
+
+
+/* New Right Column Start *****************************************/
+
+
+/***** Coverage Map Start */
+
+
+/* Filter Start */
+
+.map-filters {
+    text-align: center;
+    cursor: default;
+}
+
+.map-filters span a {
+    border: 1px solid #ccc;
+    display: inline-block;
+    font-size: 14px;
+    height: 25px;
+    line-height: 24px;
+    margin-bottom: 7px;
+    text-align: center;
+    width: 25px;
+}
+
+.map-filters span:first-child a {
+    width: 38px;
+}
+
+.map-filters span a {
+    text-decoration: none;
+}
+
+.map-filters span a:hover {
+    background-color: #337ab7;
+    border-color: #337ab7;
+    color: #fff;
+}
+
+.map-filters span.active a {
+    background-color: #337ab7;
+    border-color: #337ab7;
+    color: #fff;
+    cursor: default;
+}
+
+.map-filters span.inactive a {
+    background-color: #eae6e6;
+    border-color: #eae6e6;
+    color: #fff;
+    text-decoration: none;
+    cursor: default;
+    pointer-events: none;
+}
+
+
+/* Map Start */
+
+#map {
+    background-color: #e5e3df;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+
+/***** Coverage Map End */
+
+
+/***** Order Tracking Page Start */
+
+.view-order-tracking .form-item input,
+.view-order-tracking .form-item textarea,
+.view-order-tracking .form-item select {
+    border: 2px solid #2162b1;
+    padding: 10px 10px;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    color: #2162b1;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.view-order-tracking .form-item input:focus,
+.view-order-tracking .form-item textarea:focus,
+.view-order-tracking .form-item select:focus,
+.view-order-tracking .form-item input.error:focus,
+.view-order-tracking .form-item textarea.error:focus,
+.view-order-tracking .form-item select.error:focus {
+    border-color: #01a2ff;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    color: #01a2ff;
+}
+
+.view-order-tracking .views-exposed-widgets {
+    margin-bottom: 1em;
+}
+
+.view-order-tracking .views-exposed-form .views-exposed-widget .form-submit {
+    margin-top: 25px;
+    background-color: #0a8bff;
+    border-color: #0a8bff;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.view-order-tracking .views-exposed-form .views-exposed-widget .form-submit:hover {
+    background-color: #01509b;
+    border-color: #01509b;
+    -moz-transition: background-color 300ms linear, color 300ms linear;
+    -webkit-transition: background-color 300ms linear, color 300ms linear;
+    -o-transition: background-color 300ms linear, color 300ms linear;
+    transition: background-color 300ms linear, color 300ms linear;
+}
+
+
+/* Error */
+
+.view-order-tracking .form-item input.error,
+.view-order-tracking .form-item textarea.error,
+.view-order-tracking .form-item select.error {
+    border: 2px solid #d00101;
+    color: #d00101;
+}
+
+
+/* Table */
+
+.view-order-tracking table.views-table {
+    margin: 30px 0;
+    max-width: 100%;
+}
+
+.view-order-tracking table.views-table tr th,
+.view-order-tracking table.views-table tr td {
+    border: 1px solid #ccc;
+    font-size: 13px;
+    padding: 8px;
+}
+
+.view-order-tracking table.views-table tr th {
+    background-color: #f4f4f4;
+    font-weight: 600;
+}
+
+.view-order-tracking table.views-table tr td {
+    background-color: #fff;
+}
+
+
+/***** Order Tracking Page End */
+
+
+/***** Media Queries Start *****************************************************************/
+
+@media only screen and (max-width:1280px) {
+    /* New Right Column Start *****/
+    .innerLeftColl {
+        width: -webkit-calc(100% - 230px);
+        width: -moz-calc(100% - 230px);
+        width: calc(100% - 230px);
+    }
+    .innerRightColl {
+        margin-left: 20px;
+        width: 210px;
+    }
+    /* New Right Column End *****/
+}
+
+
+/* End 1280px */
+
+@media only screen and (max-width:1100px) {
+    .innerLeftColl {
+        float: left;
+        width: 100%;
+    }
+    .innerRightColl {
+        display: none;
+    }
+}
+
+
+/* End 1100px */
+
+@media only screen and (max-width:979px) {
+    /***** Order Tracking Page Start */
+    .view-order-tracking .views-exposed-form .views-exposed-widget .form-submit {
+        margin-top: 5px;
+    }
+    .view-order-tracking .views-submit-button {
+        clear: both;
+    }
+    /***** Order Tracking Page End */
+}
+
+
+/* End 979px */
+
+@media only screen and (max-width:768px) {
+    #inner-left-main .leftmenu-socialnet {
+        margin-top: 20px;
+    }
+    #inner-left-main .menu-block-wrapper > ul:first-child {
+        padding-top: 20px;
+    }
+    #inner-left-main .leftmenu-socialnet {
+        background-color: #025bac;
+    }
+    #inner-left-main .leftmenu-socialnet .header {
+        color: #fff;
+    }
+}
+
+
+/* End 768px */
+
+@media only screen and (max-width:640px) {
+    /***** Coverage Map Start */
+    /* Filter Start */
+    /* Map Start */
+    #map {
+        height: 300px;
+    }
+    /***** Coverage Map End */
+}
+
+
+/* End 640px */
+
+@media only screen and (max-width:480px) {
+    /***** Order Tracking Page Start */
+    .view-order-tracking .views-exposed-form .views-exposed-widget {
+        width: 100%;
+    }
+    .view-order-tracking .views-exposed-widget {
+        margin-bottom: 10px;
+    }
+    .view-order-tracking .form-item input,
+    .view-order-tracking .form-item textarea,
+    .view-order-tracking .form-item select {
+        width: 100%;
+    }
+    .view-order-tracking table.views-table {
+        width: 100%;
+    }
+    /***** Order Tracking Page End */
+}
+
+
+/* End 640px */
+
+
+}

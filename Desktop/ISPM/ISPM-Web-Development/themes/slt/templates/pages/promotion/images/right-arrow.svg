@@ -1,0 +1,6 @@
+<svg id="right-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path id="Path_33" data-name="Path 33" d="M0,0H24V24H0Z" fill="none"/>
+  <line id="Line_7" data-name="Line 7" x2="14" transform="translate(5 12)" fill="none" stroke="#08f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <line id="Line_8" data-name="Line 8" y1="6" x2="6" transform="translate(13 12)" fill="none" stroke="#08f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <line id="Line_9" data-name="Line 9" x2="6" y2="6" transform="translate(13 6)" fill="none" stroke="#08f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+</svg>

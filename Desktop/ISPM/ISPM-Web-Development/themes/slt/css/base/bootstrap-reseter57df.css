@@ -1,0 +1,107 @@
+html {
+    font-size: 10px;
+}
+@media (-webkit-device-pixel-ratio: 1.5) {
+  * {
+    zoom: 0.997;
+  }
+}
+@media(min-width:768px){
+.inner-fullwidth-block{
+margin-top:130px;
+}
+}
+/* ------------TABS UI FIX-------------- */
+.nav-tabs>li>a.nav-link {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 10px 10px 0 0;
+  width: fit-content;
+  margin: 0px 0 0 0;
+  display: block;
+  padding: 10px 15px;
+  position: relative;
+  top: 0;
+}
+/* PRO TV */
+.tab-style-one {
+  clear: both;
+}
+/* Digital Life */
+.custom-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.mt-5 {
+  margin-top: 80px;
+}
+
+.mt-5 {
+  margin-top: 80px !important;
+}
+
+.mb-3 {
+  margin-bottom: 30px !important;
+}
+/*---------------------SUPPORT------------------*/
+.container-fluid.support.SubCards {
+    width: calc(100% - 15px);
+}
+.container-fluid.support.mainCardWraper {
+    width: calc(100% - 15px);
+}
+.support a{
+text-decoration:none;
+}
+
+/* remove Underline */
+a{
+  text-decoration:none;
+}
+/*remove Table Border*/
+.table>:not(:first-child) {
+    border-top: none;
+}
+/*------------Download Reset------------*/
+.nav-tabs>li>a.nav-link {
+    background: #bfbfbf;
+}
+/*-----------TABLE UI FIX GAP------------*/
+.table-content-area-wrap ul {
+    padding: 0;
+}
+.table-block ul {
+    padding: 0;
+}
+/*---------MY ASTRO---------*/
+.darkmodeon #download-section h6, .darkmodeon #download-section p, .darkmodeon .common-table p {
+    color: #5a5a5a;
+}
+.darkmodeon h6.common-list-headblue span {
+    color: #2b70c7 !important;
+}
+/*------------INTERNET PACKAGES-------------*/
+.color-card-footer a {
+    font-size: 1.3rem;
+}
+
+.col-xs-6 {
+    width: 50%;
+}
+/*-----------PROMOTIONS------------*/
+.item.supMainCard.darkBlueWhite span.cardHeading {
+    font-size: 1.6rem;
+}
+
+/*--------UL BASE FONT SIZE------------*/
+li {
+    font-size: 14px;
+}
