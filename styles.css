@@ -141,14 +141,61 @@ nav ul li {
 }
 
 /* Quiz Section */
-.quiz {
+/* Flexbox layout for the content container */
+.content-container {
+    display: flex;
+    justify-content: space-between;
     padding: 50px;
-    background-color: #e0f7fa;
+    background-color: #f5f5f5; /* Light gray background for the section */
+}
+
+/* Watch Tutorial Section */
+.watch-tutorial {
+    flex: 1;
+    margin-right: 20px; /* Space between the two sections */
+    padding: 20px;
+    background-color: #e0f7fa; /* Very light blue */
+    border-radius: 8px;
     text-align: center;
+}
+
+.watch-tutorial h2 {
+    color: #2e8b57; /* Light green */
+}
+
+.watch-tutorial p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.watch-tutorial .btn {
+    background-color: #2e8b57;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.watch-tutorial .btn:hover {
+    background-color: #1e5d40;
+}
+
+/* Quiz Section */
+.quiz {
+    flex: 1;
+    padding: 20px;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.quiz h2 {
+    color: #2e8b57;
 }
 
 .quiz p {
     font-size: 1.1rem;
+    margin-bottom: 20px;
 }
 
 .quiz .btn {
@@ -162,6 +209,7 @@ nav ul li {
 .quiz .btn:hover {
     background-color: #1e5d40;
 }
+
 
 /* Footer */
 footer {
@@ -198,4 +246,16 @@ footer p {
 }
 
 
-/*Quiz CSS */
+/* Add this to the existing CSS */
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(30px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Apply animation to the banner content */
+.banner-content {
+    animation: fadeIn 2s ease-in-out; /* 2 seconds duration */
+}
+
