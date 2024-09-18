@@ -1,3 +1,7 @@
+###
+###
+### This file contains code for load header and footer code you must add this code correctly in your html page for this project
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +32,6 @@ $(function(){
 
 
 our contents here-----------------------------------------------------
-
 
 
 
