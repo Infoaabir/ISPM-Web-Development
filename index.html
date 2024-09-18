@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,33 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Security Policies Awareness</title>
     <link rel="stylesheet" href="styles.css">
+
+
+    <!--#include file="header.html" -->
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script> 
 </head>
 <body>
-    <header class="header-container">
-        <div class="logo">
-            <img src="img/logo.png" alt="Company Logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Personal</a></li>
-                <li><a href="#">About Us</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropbtn">Security Policies</a>
-                    <div class="dropdown-content">
-                        <a href="password-management.html">Password Management</a>
-                        <a href="data-protection.html">Data Protection</a>
-                        <a href="network-security.html">Network Security</a>
-                        <a href="email-security.html">Email Security</a>
-                        <a href="physical-security.html">Physical Security</a>
-                    </div>
-                </li>
-                <li><a href="#">Support</a></li>
-            </ul>
-        </nav>
-        <div class="header-buttons">
-            <a href="login.html" class="login-btn">Login</a>
-        </div>
-    </header>
+    <div id="header"></div>
+    <!--Remaining section-->
 
 <div class="main-banner">
     <div class="banner-content-container">
@@ -40,57 +32,29 @@
             <p>Ensuring safety and security in our digital landscape.</p>
             <a href="#" class="btn">Learn More</a>
         </div>
-
-        <!-- Placeholder for image on the right -->
         <div class="banner-image">
-            <img src="img/security-image.png" alt="Security Awareness Image">
+        <img src="img/security-image.png" alt="Security Awareness Image">
         </div>
     </div>
 </div>
+<section class="overview">
+    <h2>Overview</h2>
+    <p>Understanding security policies is crucial for protecting our organization from potential threats. This platform will guide you through key policies and test your knowledge with a quiz.</p>
+</section>
+<section class="content-container">
+    <div class="watch-tutorial">
+        <h2>Watch Tutorial</h2>
+        <p>Learn about security policies with our comprehensive video tutorial.</p>
+        <a href="#" class="btn">Watch Now</a>
+    </div>
+    <div class="quiz">
+        <h2>Quiz</h2>
+        <p>Test your knowledge on the security policies.</p>
+        <a href="quiz.html" class="btn">Start Quiz</a>
+    </div>
+</section>
 
-
-    <section class="overview">
-        <h2>Overview</h2>
-        <p>Understanding security policies is crucial for protecting our organization from potential threats. This platform will guide you through key policies and test your knowledge with a quiz.</p>
-    </section>
-
-    <section class="content-container">
-        <!-- Watch Tutorial Section on the Left -->
-        <div class="watch-tutorial">
-            <h2>Watch Tutorial</h2>
-            <p>Learn about security policies with our comprehensive video tutorial.</p>
-            <a href="#" class="btn">Watch Now</a>
-        </div>
-
-        <!-- Quiz Section on the Right -->
-        <div class="quiz">
-            <h2>Quiz</h2>
-            <p>Test your knowledge on the security policies.</p>
-            <a href="quiz.html" class="btn">Start Quiz</a>
-        </div>
-    </section>
-
-    <footer>
-        <section class="contact-us">
-            <h2>Contact Us</h2>
-            <p>If you have any questions, feel free to contact the IT department.</p>
-            <p>Email: support@suwayamedicals.com | Phone: +123-456-7890</p>
-        </section>
-        <section class="footer-links">
-            <ul>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms of Service</a></li>
-                <li><a href="#">FAQ</a></li>
-            </ul>
-        </section>
-        <p>© 2024 Security Policies Awareness Platform. All rights reserved.</p>
-    </footer>
-
+<div id="footer"></div>
 </body>
 </html>
-
-
-
-
-
 
