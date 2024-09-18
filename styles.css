@@ -89,17 +89,36 @@ nav ul li {
 .main-banner {
     background-color: #add8e6; /* Light blue for the banner */
     color: #fff;
-    text-align: center;
     padding: 100px 20px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Adjust height as needed */
+}
+
+.banner-content-container {
+    display: flex;
+    justify-content: space-between; /* Evenly space the content and image */
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Restrict the banner width */
+}
+
+/* Banner Content on the Left */
+.banner-content {
+    flex: 1; /* Take up available space */
+    text-align: left;
 }
 
 .banner-content h1 {
     font-size: 3rem;
+    color: #2e8b57; /* Light green */
 }
 
 .banner-content p {
     font-size: 1.5rem;
+    margin: 20px 0;
 }
 
 .banner-content .btn {
@@ -109,12 +128,26 @@ nav ul li {
     border-radius: 5px;
     font-size: 1.2rem;
     margin-top: 20px;
-    display: inline-block;
 }
 
 .banner-content .btn:hover {
     background-color: #1e5d40;
 }
+
+/* Image on the Right */
+.banner-image {
+    flex: 1; /* Take up the other half of the space */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.banner-image img {
+    max-width: 80%; /* Adjust size to fit nicely */
+    height: auto;
+    border-radius: 8px;
+}
+
 
 /* Overview Section */
 .overview {
@@ -139,8 +172,6 @@ nav ul li {
     font-size: 1.2rem;
     color: #2e8b57;
 }
-
-/* Quiz Section */
 /* Flexbox layout for the content container */
 .content-container {
     display: flex;
