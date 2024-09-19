@@ -138,7 +138,7 @@ nav ul li {
 .banner-image {
     flex: 1; /* Take up the other half of the space */
     display: flex;
-    justify-content: flex-end;
+    justify-content: right;
     align-items: center;
 }
 
