@@ -1,0 +1,93 @@
+/* email_security.css */
+
+/* General body and layout styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Outlined box for main content */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid #4CAF50; /* Green border around main content */
+    max-width: 800px; /* Set a max-width to keep content readable */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    background-color: #f9f9f9; /* Light background color inside the box */
+}
+
+.policy-overview, .policy-details, .quiz-section {
+    width: 100%;
+    margin: 10px 0;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.quiz-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.quiz-button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #4682b4;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+footer .contact-us, footer .footer-links {
+    margin-bottom: 20px;
+}
+
+footer .footer-links ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-links ul li {
+    margin: 0 10px;
+}
+
+footer .footer-links ul li a {
+    color: white;
+}
+
+footer .footer-links ul li a:hover {
+    color: #d3d3d3; /* Lighter hover effect */
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
