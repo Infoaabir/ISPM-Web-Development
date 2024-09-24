@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Security Policies Awareness</title>
+    <!-- dont change this css line add another line if you need to link-->
     <link rel="stylesheet" href="res/css/styles.css">
 
 
