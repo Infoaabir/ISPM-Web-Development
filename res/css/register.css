@@ -135,14 +135,6 @@
   }
 
 
-
-footer{
-    background-color: #1e0b73;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-  align-items: center;
-  }
   
 .connect{
   
@@ -179,56 +171,12 @@ footer{
     margin-bottom: 10px;
 }
  
- 
-.footer-buttons button{
-  
-  border-width: 0px;
-  border-radius: 5px;
-  transition: 0.3s;
-  padding-left: 35px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 35px;
-  margin-bottom: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
-    font-family: Sarabun, Helvetica, sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  transition: 0.3s;
-  background-color: #ffffff;
-  
-}
-
-.footer-buttons button:hover{
-  
-  background-color: #e3e2e1;
-}
-
-
-.footer-links {
-    margin-bottom: 10px;
-  }
-  
-.footer-links a {
-  
-  font-family: Sarabun, Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-    margin: 0 5px;
-    color: #ffffff;
-    text-decoration: none;
-  transition: 0.3;
-  }
   
  .footer-links a:hover{
    
    color: #57ddff;
 }
   
-.footer-logo {
-    align-items: baseline;
-  margin-bottom: 20px;}
 
     /*Responsive*/
     @media screen and (max-width: 500px) {
