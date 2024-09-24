@@ -5,11 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tutorials</title>
     <link rel="stylesheet" href="res/css/tutorial.css">
+    <link rel="stylesheet" href="res/css/styles.css">
+
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+      $("#footer").load("footer.html"); 
+    });
+    </script> 
+    <style>
+        /* Optional: Smooth scrolling effect */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+
 </head>
 <body>
-    <header>
-        <h1>Security Policy Tutorials</h1>
-    </header>
+        <div id="header"></div>
 
     <main>
         <div class="video-container">
@@ -41,6 +59,9 @@
             </div>
         </div>
     </main>
+
+    <div id="footer"></div>
 </body>
 </html>
+
 
