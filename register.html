@@ -12,10 +12,24 @@
           <meta name="description" content="Discover seamless travel experiences and enjoy great deals on flights and holiday packages with Ceylon Airline. Explore our comprehensive guides, book your flights, manage your reservations, and check-in conveniently, all in one place.">
           <meta name="robots" content="index, follow">
           <meta charset="UTF-8">
-          <link rel="preconnect" href="https://fonts.googleapis.com">        
+          <link rel="preconnect" href="https://fonts.googleapis.com">    
+          
+          <!--#include file="header.html" -->
+ <script
+ src="https://code.jquery.com/jquery-3.3.1.js"
+ integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+ crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+$("#header").load("header.html"); 
+$("#footer").load("footer.html"); 
+});
+</script> 
   </head>
   <title>Register - Security Policies Awareness</title>
   <body>
+    <div id="header"></div>
     <header>
      
     </header>
@@ -352,5 +366,7 @@
         <br><a href="login.php">Alredy a member? login here </a> 
       </form>
     </section>
-    
+        <!--#include file="footer.html" -->
+
+  <div id="footer"></div>
 </html>
