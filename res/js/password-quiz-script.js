@@ -48,19 +48,75 @@ function submitQuiz() {
         document.getElementById('q3c').parentElement.classList.add('correct'); // Show correct answer if no selection
     }
 
-    // Display result
-    var resultText = `You scored ${score}/3. `;
-    if (score === 3) {
-        resultText += "Excellent!";
-    } else if (score === 2) {
-        resultText += "Good job!";
-    } else {
-        resultText += "Try again!";
-    }
+  // Question 4: Correct answer is 'b'
+  var q4 = document.querySelector('input[name="q4"]:checked');
+  if (q4) {
+      if (q4.value === 'b') {
+          score++;
+          document.getElementById('q4b').parentElement.classList.add('correct');
+      } else {
+          q4.parentElement.classList.add('incorrect');
+          document.getElementById('q4b').parentElement.classList.add('correct');
+      }
+  } else {
+      document.getElementById('q4b').parentElement.classList.add('correct');
+  }
 
-    document.getElementById("result").textContent = resultText;
+  // Question 5: Correct answer is 'b'
+  var q5 = document.querySelector('input[name="q5"]:checked');
+  if (q5) {
+      if (q5.value === 'b') {
+          score++;
+          document.getElementById('q5b').parentElement.classList.add('correct');
+      } else {
+          q5.parentElement.classList.add('incorrect');
+          document.getElementById('q5b').parentElement.classList.add('correct');
+      }
+  } else {
+      document.getElementById('q5b').parentElement.classList.add('correct');
+  }
 
-    // Disable further input after submission
-    var inputs = document.querySelectorAll('input[type="radio"]');
-    inputs.forEach(input => input.disabled = true);
+  // Question 6: Correct answer is 'b'
+  var q6 = document.querySelector('input[name="q6"]:checked');
+  if (q6) {
+      if (q6.value === 'b') {
+          score++;
+          document.getElementById('q6b').parentElement.classList.add('correct');
+      } else {
+          q6.parentElement.classList.add('incorrect');
+          document.getElementById('q6b').parentElement.classList.add('correct');
+      }
+  } else {
+      document.getElementById('q6b').parentElement.classList.add('correct');
+  }
+
+  // Question 7: Correct answer is 'b'
+  var q7 = document.querySelector('input[name="q7"]:checked');
+  if (q7) {
+      if (q7.value === 'b') {
+          score++;
+          document.getElementById('q7b').parentElement.classList.add('correct');
+      } else {
+          q7.parentElement.classList.add('incorrect');
+          document.getElementById('q7b').parentElement.classList.add('correct');
+      }
+  } else {
+      document.getElementById('q7b').parentElement.classList.add('correct');
+  }
+
+  // Display result
+  var resultText = `You scored ${score}/7. `;
+  if (score === 7) {
+      resultText += "Excellent!";
+  } else if (score >= 5) {
+      resultText += "Good job!";
+  } else {
+      resultText += "Try again!";
+  }
+
+  document.getElementById("result").textContent = resultText;
+
+  // Disable further input after submission
+  var inputs = document.querySelectorAll('input[type="radio"]');
+  inputs.forEach(input => input.disabled = true);
 }
