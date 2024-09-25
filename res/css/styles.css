@@ -184,12 +184,8 @@ nav ul li {
 footer {
     background-color: #4682b4; /* Steel blue background */
     color: white;
-<<<<<<< HEAD
     padding: 15px 20px; /* Reduced padding for a smaller height */
-=======
-    padding-top : 5px;
-    padding-bottom : 5px;
->>>>>>> f0393ef (footer modify)
+
     text-align: center;
 }
 
@@ -216,13 +212,8 @@ footer .footer-links ul li a:hover {
 }
 
 footer p {
-<<<<<<< HEAD
-    margin-top: 15px; /* Reduced spacing above footer text */
-    font-size: 0.9rem; /* Slightly smaller text */
-=======
     margin-top: 10px;
     font-size: 0.9rem;
->>>>>>> f0393ef (footer modify)
 }
 
 
