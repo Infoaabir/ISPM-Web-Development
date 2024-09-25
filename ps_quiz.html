@@ -5,11 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Physical Security Quiz</title>
     <link rel="stylesheet" href="ps_quiz.css">
+    <link rel="stylesheet" href="res/css/styles.css">
+<script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+      $("#footer").load("footer.html"); 
+    });
+    </script> 
+
 </head>
+
 <body>
-    <header>
-        <h1>Physical Security Quiz</h1>
-    </header>
+    <div id="header"></div>
     <main>
         <section class="quiz-section">
             <h2>Test Your Knowledge</h2>
@@ -80,24 +92,11 @@
         }
     </script>
 
+    <div id="footer"></div>
 
 
 
-<footer>
-    <section class="contact-us">
-        <h2>Contact Us</h2>
-        <p>If you have any questions, feel free to contact the IT department.</p>
-        <p>Email: support@suwayamedicals.com | Phone: +123-456-7890</p>
-    </section>
-    <section class="footer-links">
-        <ul>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">FAQ</a></li>
-        </ul>
-    </section>
-    <p>© 2024 Security Policies Awareness Platform. All rights reserved.</p>
-</footer>
+
 
 </body>
 </html>
