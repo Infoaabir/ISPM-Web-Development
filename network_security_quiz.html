@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Security Quiz</title>
+    <link rel="stylesheet" href="res/css/styles.css">
+    <link rel="stylesheet" href="res/css/network_security_quiz.css">
+
+    <!--#include file="header.html" -->
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+        $(function(){
+            $("#header").load("header.html"); 
+            $("#footer").load("footer.html"); 
+        });
+    </script> 
+</head>
+<body>
+    <div id="header"></div>
+
+    <main>
+        <section class="quiz-section">
+        <header>
+            <h1>Network Security Quiz</h1>
+
+        </header>
+            
+        </section>
+            <p>Test your knowledge on network security best practices!</p>
+            <ul id="quiz-options">
+                <li>
+                    <p>What does a firewall do?</p>
+                    <button onclick="selectAnswer('q1', 'a', this)">Allows all traffic through</button>
+                    <button onclick="selectAnswer('q1', 'b', this)">Monitors and controls incoming and outgoing network traffic</button>
+                    <button onclick="selectAnswer('q1', 'c', this)">Encrypts data over the network</button>
+                </li>
+                <li>
+                    <p>What is the purpose of a VPN?</p>
+                    <button onclick="selectAnswer('q2', 'a', this)">To connect multiple devices</button>
+                    <button onclick="selectAnswer('q2', 'b', this)">To secure a private network over the internet</button>
+                    <button onclick="selectAnswer('q2', 'c', this)">To improve internet speed</button>
+                </li>
+                <li>
+                    <p>What is a DDoS attack?</p>
+                    <button onclick="selectAnswer('q3', 'a', this)">A type of firewall</button>
+                    <button onclick="selectAnswer('q3', 'b', this)">A coordinated attack that aims to make a service unavailable</button>
+                    <button onclick="selectAnswer('q3', 'c', this)">A method of encrypting data</button>
+                </li>
+                <li>
+                    <p>Which of the following is a common encryption protocol?</p>
+                    <button onclick="selectAnswer('q4', 'a', this)">HTTP</button>
+                    <button onclick="selectAnswer('q4', 'b', this)">HTTPS</button>
+                    <button onclick="selectAnswer('q4', 'c', this)">FTP</button>
+                </li>
+                <li>
+                    <p>What is the purpose of network segmentation?</p>
+                    <button onclick="selectAnswer('q5', 'a', this)">To improve network speed</button>
+                    <button onclick="selectAnswer('q5', 'b', this)">To enhance security by isolating different parts of the network</button>
+                    <button onclick="selectAnswer('q5', 'c', this)">To connect different networks</button>
+                </li>
+            </ul>
+            <button onclick="submitQuiz()">Submit Quiz</button>
+            <p id="result"></p>
+        </section>
+<script src="res/js/network_security_quiz.js"></script>
+    </main>
+
+    <div id="footer"></div>
+</body>
+</html>
