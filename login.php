@@ -42,6 +42,7 @@ $(function(){
             echo '<p class="error-message">' . $error . '</p>';
             unset($_SESSION['error']);
         } 
+        ?>
         
        <label>Email</label>
       <input type="email" name="email" placeholder="Email" />
