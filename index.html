@@ -6,6 +6,7 @@
     <title>Security Policies Awareness</title>
     <link rel="stylesheet" href="res/css/styles.css">
 
+
     <script
         src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -13,8 +14,29 @@
     </script>
     <script> 
     $(function(){
-      $("#header").load("header.html"); 
-      $("#footer").load("footer.html"); 
+        $("#header").load("header.html", function() {
+            // Hide the tabs by default
+            $("#nav-tabs").hide();
+            
+            // Check if the user is logged in
+            var isLoggedIn = sessionStorage.getItem("isLoggedIn");
+
+            if (isLoggedIn) {
+                // Show the tabs if the user is logged in
+                $("#nav-tabs").show();
+            } else {
+                // Redirect to login page if trying to access tabs without logging in
+                $('a').on('click', function(e) {
+                    if ($(this).attr('href') !== "login.php") {
+                        e.preventDefault();
+                        alert('Please log in to access this section.');
+                        window.location.href = "login.php";
+                    }
+                });
+            }
+        }); 
+        
+        $("#footer").load("footer.html"); 
     });
     </script> 
     <style>
@@ -50,6 +72,7 @@
     <div id="footer"></div>
 </body>
 </html>
+
 
 
 
