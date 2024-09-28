@@ -1,5 +1,6 @@
 let selectedAnswers = {};
 
+// Function to handle answer selection
 function selectAnswer(question, answer, button) {
     selectedAnswers[question] = answer;
 
@@ -13,6 +14,7 @@ function selectAnswer(question, answer, button) {
     button.classList.add('selected');
 }
 
+// Function to submit quiz
 function submitQuiz() {
     let score = 0;
 
@@ -24,28 +26,31 @@ function submitQuiz() {
         'q5': 'b'
     };
 
-    // Clear previous classes (in case user submits again)
+    const userAnswers = {};  // Store user answers for saving via AJAX
+
+    // Clear previous highlights (if any)
     document.querySelectorAll('.correct, .incorrect').forEach(function(el) {
         el.classList.remove('correct', 'incorrect');
     });
 
-    // Check answers
+    // Check answers and highlight results
     for (const [question, answer] of Object.entries(selectedAnswers)) {
         const correctAnswer = correctAnswers[question];
+        userAnswers[question] = answer; // Save user answer
 
         if (answer === correctAnswer) {
             score++;
             // Highlight correct answer
             document.querySelector(`button[onclick*="${question}"][onclick*="${correctAnswer}"]`).classList.add('correct');
         } else {
-            // Highlight selected wrong answer
+            // Highlight wrong answer
             document.querySelector(`button[onclick*="${question}"][onclick*="${answer}"]`).classList.add('incorrect');
-            // Highlight correct answer
+            // Highlight the correct answer
             document.querySelector(`button[onclick*="${question}"][onclick*="${correctAnswer}"]`).classList.add('correct');
         }
     }
 
-    // Display result
+    // Display the result
     const resultText = `You scored ${score}/5. `;
     if (score === 5) {
         document.getElementById("result").textContent = resultText + "Excellent!";
@@ -55,6 +60,23 @@ function submitQuiz() {
         document.getElementById("result").textContent = resultText + "Try again!";
     }
 
-    // Disable further input after submission
+    // AJAX request to save answers
+    const user_id = "exampleUserID";  // Replace with actual user ID or session identifier
+    $.ajax({
+        url: 'save_answers.php',  // The PHP script to handle saving answers
+        type: 'POST',
+        data: {
+            user_id: user_id,
+            answers: userAnswers
+        },
+        success: function(response) {
+            console.log(response);  // Display server response
+        },
+        error: function(xhr, status, error) {
+            console.error('Error saving answers: ', error);
+        }
+    });
+
+    // Disable all buttons after submission
     document.querySelectorAll('button').forEach(button => button.disabled = true);
 }
