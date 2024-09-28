@@ -1,0 +1,36 @@
+/* Footer */
+#footer {
+    background-color: #4682b4; /* Steel blue background */
+    color: white;
+    padding: 15px 20px; /* Reduced padding for a smaller height */
+
+    text-align: center;
+}
+
+#footer .contact-us, footer .footer-links {
+    margin-bottom: 10px; /* Reduced space between sections */
+}
+
+#footer .footer-links ul {
+    display: flex;
+    justify-content: center; /* Centers the footer links horizontally */
+}
+
+#footer .footer-links ul li {
+    margin: 0 8px; /* Slightly reduced spacing between each link */
+}
+
+#footer .footer-links ul li a {
+    color: rgb(0, 0, 0); /* Links in footer are white */
+    text-decoration: none; /* Removes underline from links */
+}
+
+#footer .footer-links ul li a:hover {
+    color: #d3d3d3; /* Lighter hover effect on links */
+    
+}
+
+#footer p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
