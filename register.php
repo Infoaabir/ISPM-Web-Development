@@ -31,31 +31,15 @@ if (isset($_POST['submit'])) {
     $language = htmlspecialchars(trim($_POST["language"]));
     $p_Number = htmlspecialchars(trim($_POST["phoneNumber"]));
 
-    // Validate inputs
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        echo "Invalid email format.";
-        exit();
-    }
-
-    if ($password !== $c_password) {
-        echo "Passwords do not match.";
-        exit();
-    }
-
-    // Hash the password before storing it in the database
-    $hashed_password = password_hash($password, PASSWORD_BCRYPT);
-
-    // Prepare the SQL statement to prevent SQL injection
-    $sql = "INSERT INTO register (Title, firstName, lastName, email, password, confirmPassword, date, NIC, language, phoneNumber) 
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-    
-    $stmt = $con->prepare($sql);
-    
-    // Bind parameters to the prepared statement
-    $stmt->bind_param('ssssssssss', $title, $f_name, $l_name, $email, $hashed_password, $hashed_password, $date, $NIC, $language, $p_Number);
-
-    // Execute the statement
-    if ($stmt->execute()) {
+    $sql = "INSERT INTO register VALUES ( '$title', '$f_name', '$l_name', '$email',
+     '$password', '$c_password', '$date', '$NIC', '$language', '$p_Number')";
+    $result = mysqli_query($con, $sql);
+?>
+<body>
+    <div id="header"></div>
+<?php
+if ($result)
+    {
         echo 'Registered successfully. You can <a href="login.php">login now</a>.';
     } else {
         echo "Error: Someone already registered using this email.";
