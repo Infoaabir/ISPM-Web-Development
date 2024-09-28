@@ -24,7 +24,7 @@ if (isset($_POST['submit']))
 <?php
 if ($result)
     {
-        echo 'Registered successfully. You can <a href="login.html">login now</a>.';
+        echo 'Registered successfully. You can <a href="login.php">login now</a>.';
         
     }
     else{
