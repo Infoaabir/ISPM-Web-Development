@@ -1,0 +1,32 @@
+/* Styling for the registration success message */
+.register-success {
+    font-size: 1.5em; /* Increase font size */
+    color: #4CAF50;   /* Green color for success */
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Styling for the button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #4CAF50; /* Green background for button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Error message styling */
+.error-message {
+    font-size: 1.5em; /* Increase font size for error */
+    color: #f44336;   /* Red color for error */
+    text-align: center;
+    margin: 20px 0;
+}
