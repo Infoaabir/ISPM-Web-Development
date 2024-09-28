@@ -27,6 +27,7 @@ if (isset($_POST['login'])) {
 // Pass the error message to the HTML file using a session variable
 session_start();
 $_SESSION['error'] = $error;
-header("Location: login.html");
+header("Location: login.php");
 exit();
 ?>
+

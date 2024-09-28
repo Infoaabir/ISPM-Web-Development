@@ -93,15 +93,15 @@ $(function(){
   <div id="footer"></div>
   <script>
 
-        // Handle form submission and session storage for login
-        $("#login-form").on("submit", function(e) {
-            e.preventDefault();
+// Handle form submission and session storage for login
+$("#login-form").on("submit", function(e) {
+    e.preventDefault();
 
-            // Here you should add your form validation and login processing logic
-            // For now, we simply simulate successful login:
-            sessionStorage.setItem("isLoggedIn", true);
+    // Here you should add your form validation and login processing logic
+    // For now, we simply simulate successful login:
+    sessionStorage.setItem("isLoggedIn", true);
 
-        });
-    </script>
+});
+</script>
 </body>
 </html>
