@@ -10,13 +10,6 @@ body {
     min-height: 100vh;
 }
 
-header, footer {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
 /* Outlined box for main content */
 main {
     flex: 1;
@@ -26,7 +19,6 @@ main {
     align-items: center;
     padding: 20px;
     margin: 20px auto;
-    border: 2px solid #4CAF50; /* Green border around main content */
     max-width: 800px; /* Set a max-width to keep content readable */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     border-radius: 10px; /* Rounded corners for a modern look */
@@ -36,6 +28,7 @@ main {
 .policy-overview, .policy-details, .quiz-section {
     width: 100%;
     margin: 10px 0;
+    color: black;
 }
 
 ul {

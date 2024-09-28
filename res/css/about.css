@@ -1,0 +1,110 @@
+/* General Styles */
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background: linear-gradient(to right, #b3e5fc, #b2dfdb); /* Light blue and light green gradient background */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main Wrapper to ensure footer goes down */
+.wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures footer goes to the bottom */
+}
+
+/* Main Banner Section */
+.main-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #00796b; /* Green background for the banner */
+    color: white;
+}
+
+.banner-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.banner-content {
+    max-width: 600px;
+}
+
+.banner-content h1 {
+    font-size: 3em;
+    margin: 0 0 20px;
+}
+
+.banner-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.banner-content .btn {
+    background-color: #0288d1; /* Blue button */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.banner-content .btn:hover {
+    background-color: #0277bd; /* Darker blue on hover */
+}
+
+.banner-image img {
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Overview Section */
+.overview {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #b2dfdb; /* Light green background */
+}
+
+.overview h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.overview p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #e1f5fe; /* Light blue background */
+}
+
+.about-us h1 {
+    font-size: 2.5em;
+    color: #00796b; /* Green text */
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #004d40; /* Darker green text */
+}
+
+
+
