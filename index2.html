@@ -10,8 +10,8 @@
         html {
             scroll-behavior: smooth;
         }
-        /* Specific styling for the "Login Successful" button */
-        .login-success {
+        /* Specific styling for the buttons */
+        .login-success, .logout-button {
             background-color: green;
             color: white;
             border: none;
@@ -24,9 +24,12 @@
             cursor: pointer;
             border-radius: 4px;
         }
+        .logout-button {
+            background-color: red;
+        }
     </style>
 
-        <script
+    <script
         src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous">
@@ -49,6 +52,7 @@
                 <h1>Shield Learn Security Policies Awareness</h1>
                 <p>Ensuring safety and security in our digital landscape.</p>
                 <a href="#" class="login-success">Login Successful</a> <!-- Static "Login Successful" button -->
+                <a href="index.html" class="logout-button">Logout</a> <!-- Logout button -->
             </div>
             <div class="banner-image">
                 <img src="img/tech.gif" alt="Security Awareness Image">
@@ -63,7 +67,8 @@
     </section>
 
     <!-- Footer (Static content, no JS loading) -->
- <div id="footer"></div>
+    <div id="footer"></div>
 </body>
 </html>
+
 
