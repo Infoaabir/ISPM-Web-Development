@@ -30,4 +30,3 @@ $_SESSION['error'] = $error;
 header("Location: login.php");
 exit();
 ?>
-
