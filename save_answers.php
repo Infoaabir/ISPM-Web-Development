@@ -17,6 +17,30 @@ if ($conn->connect_error) {
 $user_id = $_POST['user_id'];
 $answers = $_POST['answers']; // This will be an array of question_id => answer
 
+// ... (rest of your code)
+
+// Calculate the score based on correct answers
+$correctAnswers = [
+    'q1' => 'b',
+    'q2' => 'b',
+    'q3' => 'b',
+    // ... (add more correct answers)
+];
+
+$score = 0;
+foreach ($answers as $question_id => $answer) {
+    if ($answer === $correctAnswers[$question_id]) {
+        $score++;
+    }
+}
+
+// Insert the answer and score into the database
+$stmt = $conn->prepare("INSERT INTO quiz_answers (user_id, question_id, answer, score) VALUES (?, ?, ?, ?)");
+$stmt->bind_param("sssi", $user_id, $question_id, $answer, $score);
+$stmt->execute();
+
+
+
 // Loop through each answer and insert into the database
 foreach ($answers as $question_id => $answer) {
     $stmt = $conn->prepare("INSERT INTO quiz_answers (user_id, question_id, answer) VALUES (?, ?, ?)");

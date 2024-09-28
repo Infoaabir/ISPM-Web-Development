@@ -15,8 +15,11 @@ $(function(){
   $("#footer").load("footer.html"); 
 });
 </script> 
-  
+<body>
+    <div id="header"></div>
+
 <?php
+// Include database configuration
 include("config.php");
 
 if (isset($_POST['submit'])) {
@@ -34,50 +37,60 @@ if (isset($_POST['submit'])) {
 
     // Validate inputs
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        echo "Invalid email format.";
+        echo "Invalid email format";
         exit();
     }
 
     if ($password !== $c_password) {
-        echo "Passwords do not match.";
+        echo "Passwords do not match";
         exit();
     }
 
-    // Hash the password before storing it in the database
+    // Hash the password for secure storage
     $hashed_password = password_hash($password, PASSWORD_BCRYPT);
 
-    // Prepare the SQL statement to prevent SQL injection
+    // Check if the email is already registered
+    $check_email_sql = "SELECT * FROM register WHERE email = ?";
+    if ($stmt = $con->prepare($check_email_sql)) {
+        $stmt->bind_param("s", $email);
+        $stmt->execute();
+        $result = $stmt->get_result();
+
+        if ($result->num_rows > 0) {
+            echo "Someone already registered using this email.";
+            exit();
+        }
+        $stmt->close();
+    }
+
+    // Insert the new user into the database
     $sql = "INSERT INTO register (Title, firstName, lastName, email, password, confirmPassword, date, NIC, language, phoneNumber) 
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
-    // Check if the statement is prepared correctly
     if ($stmt = $con->prepare($sql)) {
-        // Bind parameters to the prepared statement
-        $stmt->bind_param('ssssssssss', $title, $f_name, $l_name, $email, $hashed_password, $hashed_password, $date, $NIC, $language, $p_Number);
+        // Bind parameters to the SQL statement
+        $stmt->bind_param("ssssssssss", $title, $f_name, $l_name, $email, $password, $password, $date, $NIC, $language, $p_Number);
 
-        // Execute the statement
+        // Execute the statement and check if successful
         if ($stmt->execute()) {
             echo 'Registered successfully. You can <a href="login.php">login now</a>.';
         } else {
-            echo "Error: Someone already registered using this email.";
+            echo "Error: " . $stmt->error;
         }
 
-        // Close the statement
         $stmt->close();
     } else {
-        // Debugging information in case the statement fails to prepare
-        echo "Error preparing the SQL statement: " . $con->error;
+        echo "Error preparing SQL statement: " . $con->error;
     }
 }
 
 // Close the database connection
 $con->close();
-
 ?>
+
 
  <!--#include file="footer.html" -->
 
- <div id="footer"></div>
+<div id="footer"></div>
 </body>
 </html>
-
