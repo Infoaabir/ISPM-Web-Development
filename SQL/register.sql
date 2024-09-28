@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 28, 2024 at 02:17 PM
+-- Generation Time: Sep 28, 2024 at 05:33 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -32,10 +32,10 @@ CREATE TABLE `register` (
   `firstName` varchar(50) NOT NULL,
   `lastName` varchar(50) NOT NULL,
   `email` varchar(50) NOT NULL,
-  `Password` varchar(50) NOT NULL,
-  `confirmPassword` varchar(50) NOT NULL,
+  `Password` varchar(500) NOT NULL,
+  `confirmPassword` varchar(500) NOT NULL,
   `date` date NOT NULL,
-  `Country` varchar(50) NOT NULL,
+  `NIC` varchar(255) DEFAULT NULL,
   `language` varchar(50) NOT NULL,
   `phoneNumber` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -44,14 +44,9 @@ CREATE TABLE `register` (
 -- Dumping data for table `register`
 --
 
-INSERT INTO `register` (`Title`, `firstName`, `lastName`, `email`, `Password`, `confirmPassword`, `date`, `Country`, `language`, `phoneNumber`) VALUES
-('Miss', 'Mohamed', 'Aabir', 'mohamedaabir03@gmail.com', '123', '123', '2023-05-30', 'RS', 'Englishd', 6435344),
-('Miss', 'XCV', 'argr', 'emailtr@gmail.com', '12345', '12345', '2024-09-10', '200222300900', 'English', 715599650),
-('Mr', 'mas', 'fgh', 'g@gmail.com', '111', '111', '2023-06-08', 'AF', 'English', 45789008),
-('Miss', 'masdf', 'fghg', 'g2@gmail.com', 'ss', 'ss', '2031-09-15', 'AF', 'English', 98765432),
-('Miss', 'masdf', 'fghg', 'g42@gmail.com', '33', '33', '2031-09-15', 'AF', 'English', 987654321),
-('Miss', 'masdf', 'fghg', 'g42aa2@gmail.com', 'ee', 'ee', '2031-09-09', 'AF', 'English', 45680765),
-('Mr', 'asdfdg', 'zffmnm', 'mohamedazsfr03@gmail.com', '12', '12', '2024-10-02', '12345', 'English', 2147483647);
+INSERT INTO `register` (`Title`, `firstName`, `lastName`, `email`, `Password`, `confirmPassword`, `date`, `NIC`, `language`, `phoneNumber`) VALUES
+('Mr', 'zxc', 'cxz', 'email@gmail.com', '45678', '45678', '2024-09-01', '200300900', 'English', 7155950),
+('Mr', 'ramiqew', 'kdg', 'kumarw@gmail.com', 'qaz', 'qaz', '2016-01-14', '202300900400', 'English', 715599600);
 
 --
 -- Indexes for dumped tables
