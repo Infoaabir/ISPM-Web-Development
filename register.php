@@ -14,40 +14,41 @@ $(function(){
   $("#footer").load("footer.html"); 
 });
 </script> 
-
+  
 <?php
 include("config.php");
 
-if (isset($_POST['submit']))
-{
-    $title = $_POST["Title"];
-    $f_name = $_POST["firstName"];
-    $l_name = $_POST["lastName"];
-    $email = $_POST["email"];
+if (isset($_POST['submit'])) {
+    // Retrieve form data and sanitize inputs
+    $title = htmlspecialchars(trim($_POST["Title"]));
+    $f_name = htmlspecialchars(trim($_POST["firstName"]));
+    $l_name = htmlspecialchars(trim($_POST["lastName"]));
+    $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
     $password = $_POST["password"];
     $c_password = $_POST["confirmPassword"];
-    $date = $_POST["date"];
-    $NIC = $_POST["NIC"];
-    $language = $_POST["language"];
-    $p_Number = $_POST["phoneNumber"];
+    $date = htmlspecialchars(trim($_POST["date"]));
+    $NIC = htmlspecialchars(trim($_POST["NIC"]));
+    $language = htmlspecialchars(trim($_POST["language"]));
+    $p_Number = htmlspecialchars(trim($_POST["phoneNumber"]));
 
     $sql = "INSERT INTO register VALUES ( '$title', '$f_name', '$l_name', '$email',
      '$password', '$c_password', '$date', '$NIC', '$language', '$p_Number')";
     $result = mysqli_query($con, $sql);
 ?>
 <body>
-<div id="header"></div>
 <?php
 if ($result)
     {
         echo 'Registered successfully. You can <a href="login.php">login now</a>.';
-        
-    }
-    else{
-        echo "Someone already register using this email";
+    } else {
+        echo "Error: Someone already registered using this email.";
     }
 
+    // Close the statement
+    $stmt->close();
 }
+
+// Close the database connection
 $con->close();
 ?>
 
@@ -56,3 +57,4 @@ $con->close();
  <div id="footer"></div>
 </body>
 </html>
+
