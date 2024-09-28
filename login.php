@@ -35,19 +35,20 @@ $(function(){
       <form action="login_pro.php" method="post"> 
         
         <h5 class="sign">sign in with your email account </h6>
-     <!-- <?php
+     <?php
         session_start();
         if (isset($_SESSION['error'])) { 
             $error = $_SESSION['error']; 
             echo '<p class="error-message">' . $error . '</p>';
             unset($_SESSION['error']);
         } 
-        ?>  --> 
+        ?>
+        
        <label>Email</label>
       <input type="email" name="email" placeholder="Email" />
       <label>password</label>
       <input type="password" name="password" placeholder="Password" />
-      <a href="register_acc.php"><h5>New? sign up here |</a>
+      <a href="register.html"><h5>New? sign up here |</a>
       <a href="#">Forgot Password? |</a> 
       <a href="adminlogin.php">Admin</a><br></br>
        
