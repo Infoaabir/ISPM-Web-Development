@@ -12,6 +12,10 @@ h1 {
     margin: 0;
 }
 
+h2{
+    color:black;
+}
+
 main {
     margin: 40px 0;
 }
@@ -24,7 +28,7 @@ main {
     align-items: flex-start;
     flex-wrap: wrap;
     width: 100%;
-    height: 500px;
+    height: 600px; /* Increased height to accommodate the triangle layout */
 }
 
 /* Video box styles */
@@ -45,22 +49,23 @@ main {
 .video-box h2 {
     margin-bottom: 10px;
     font-size: 20px;
+    color:black;
 }
 
 /* Aligning videos in a triangle-like layout */
 .video-box.left {
     position: relative;
-    top: 50px;
+    top: 20px; /* Reduced offset */
 }
 
 .video-box.right {
     position: relative;
-    top: 50px;
+    top: 20px; /* Reduced offset */
 }
 
 .video-box.bottom {
     position: relative;
-    top: 100px;
+    top: 70px; /* Adjusted offset */
 }
 
 /* Video Element Styling */
