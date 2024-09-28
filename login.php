@@ -47,7 +47,7 @@ $(function(){
       <input type="email" name="email" placeholder="Email" />
       <label>password</label>
       <input type="password" name="password" placeholder="Password" />
-      <a href="register_acc.php"><h5>New? sign up here |</a>
+      <a href="register.html"><h5>New? sign up here |</a>
       <a href="#">Forgot Password? |</a> 
       <a href="adminlogin.php">Admin</a><br></br>
        
@@ -90,17 +90,5 @@ $(function(){
     <!--#include file="footer.html" -->
 
   <div id="footer"></div>
-  <script>
-
-// Handle form submission and session storage for login
-$("#login-form").on("submit", function(e) {
-    e.preventDefault();
-
-    // Here you should add your form validation and login processing logic
-    // For now, we simply simulate successful login:
-    sessionStorage.setItem("isLoggedIn", true);
-
-});
-</script>
 </body>
 </html>
