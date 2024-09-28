@@ -36,6 +36,7 @@ if (isset($_POST['submit']))
     $result = mysqli_query($con, $sql);
 ?>
 <body>
+<div id="header"></div>
 <?php
 if ($result)
     {
