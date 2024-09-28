@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="res/css/styles.css">
+<link rel="stylesheet" href="res/css/reg.css">
  <!--#include file="header.html" -->
  <script
     src="https://code.jquery.com/jquery-3.3.1.js"
