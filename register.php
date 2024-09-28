@@ -69,7 +69,7 @@ if (isset($_POST['submit'])) {
 
     if ($stmt = $con->prepare($sql)) {
         // Bind parameters to the SQL statement
-        $stmt->bind_param("ssssssssss", $title, $f_name, $l_name, $email, $hashed_password, $hashed_password, $date, $NIC, $language, $p_Number);
+        $stmt->bind_param("ssssssssss", $title, $f_name, $l_name, $email, $password, $password, $date, $NIC, $language, $p_Number);
 
         // Execute the statement and check if successful
         if ($stmt->execute()) {
