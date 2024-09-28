@@ -1,3 +1,4 @@
+
 <?php
 include("config.php");
 
@@ -30,3 +31,5 @@ $_SESSION['error'] = $error;
 header("Location: login.php");
 exit();
 ?>
+
+
