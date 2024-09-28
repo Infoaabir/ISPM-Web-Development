@@ -12,19 +12,19 @@ if (isset($_POST['submit']))
     $password = $_POST["password"];
     $c_password = $_POST["confirmPassword"];
     $date = $_POST["date"];
-    $country = $_POST["Country"];
+    $NIC = $_POST["NIC"];
     $language = $_POST["language"];
     $p_Number = $_POST["phoneNumber"];
 
     $sql = "INSERT INTO register VALUES ( '$title', '$f_name', '$l_name', '$email',
-     '$password', '$c_password', '$date', '$country', '$language', '$p_Number')";
+     '$password', '$c_password', '$date', '$NIC', '$language', '$p_Number')";
     $result = mysqli_query($con, $sql);
 ?>
 <body>
 <?php
 if ($result)
     {
-        echo 'Registered successfully. You can <a href="login-aabir.php">login now</a>.';
+        echo 'Registered successfully. You can <a href="login.html">login now</a>.';
         
     }
     else{
