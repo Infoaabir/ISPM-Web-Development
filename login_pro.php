@@ -16,7 +16,7 @@ if (isset($_POST['login'])) {
     // Check if the query returned any rows
     if (mysqli_num_rows($result) == 1) {
         // Login successful, redirect to the home page
-        header("Location: index.html");
+        header("Location: index2.html");
         exit();
     } else {
         // Login failed, set error message
