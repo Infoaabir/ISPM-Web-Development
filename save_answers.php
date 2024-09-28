@@ -17,7 +17,6 @@ if ($conn->connect_error) {
 $user_id = $_POST['user_id'];
 $answers = $_POST['answers']; // This will be an array of question_id => answer
 
-<?php
 // ... (rest of your code)
 
 // Calculate the score based on correct answers
