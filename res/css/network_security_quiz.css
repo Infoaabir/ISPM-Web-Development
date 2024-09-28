@@ -45,35 +45,3 @@ button {
 }
 
 /* Footer */
-footer {
-    background-color: #4682b4;
-    color: white;
-    padding: 30px;
-    text-align: center;
-}
-
-footer .contact-us, footer .footer-links {
-    margin-bottom: 20px;
-}
-
-footer .footer-links ul {
-    display: flex;
-    justify-content: center;
-}
-
-footer .footer-links ul li {
-    margin: 0 10px;
-}
-
-footer .footer-links ul li a {
-    color: white;
-}
-
-footer .footer-links ul li a:hover {
-    color: #d3d3d3; /* Lighter hover effect */
-}
-
-footer p {
-    margin-top: 20px;
-    font-size: 0.9rem;
-}
