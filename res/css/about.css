@@ -3,7 +3,6 @@ body, html {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    min-height: 100%;
     background: linear-gradient(to right, lightblue,lightgreen); /* Light blue and light green gradient background */
     color: #333;
     display: flex;
@@ -51,7 +50,7 @@ body, html {
 }
 
 .banner-content .btn {
-    background-color: lightblue,lightgreen; /* Blue button */
+    
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -60,7 +59,6 @@ body, html {
 }
 
 .banner-content .btn:hover {
-    background-color: lightblue,lightgreen; /* Darker blue on hover */
 }
 
 .banner-image img {
@@ -72,7 +70,7 @@ body, html {
 .overview {
     padding: 50px 20px;
     text-align: center;
-    background-color: lightblue,lightgreen; /* Light green background */
+    
 }
 
 .overview h2 {
@@ -90,12 +88,12 @@ body, html {
 .about-us {
     padding: 50px 20px;
     text-align: center;
-    background-color: #e1f5fe; /* Light blue background */
+    background: linear-gradient(to bottom right, lightblue, lightgreen); /* Blue and green background */
 }
 
 .about-us h1 {
     font-size: 2.5em;
-    color: #00796b; /* Green text */
+    color: #000000; /* Green text */
     margin-bottom: 20px;
 }
 
@@ -103,7 +101,7 @@ body, html {
     font-size: 1.2em;
     max-width: 800px;
     margin: 0 auto;
-    color: #004d40; /* Darker green text */
+    color: #000000; /* Darker green text */
 }
 
 

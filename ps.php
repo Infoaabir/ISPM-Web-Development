@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Physical Security Quiz</title>
-    <link rel="stylesheet" href="ps_quiz.css">
+    <link rel="stylesheet" href="res/css/ps_quiz.css">
     <link rel="stylesheet" href="res/css/styles.css">
 <script
         src="https://code.jquery.com/jquery-3.3.1.js"
