@@ -35,6 +35,8 @@ $(function(){
       <form action="login_pro.php" method="post"> 
         
         <h5 class="sign">sign in with your email account </h6>
+
+         <!-- Check if there's an error message in the session and display it -->
      <?php
         session_start();
         if (isset($_SESSION['error'])) { 
