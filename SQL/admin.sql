@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 29, 2024 at 08:10 AM
+-- Generation Time: Sep 29, 2024 at 03:19 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `admin_system`
+-- Database: `project`
 --
 
 -- --------------------------------------------------------
@@ -39,9 +39,7 @@ CREATE TABLE `employees` (
 --
 
 INSERT INTO `employees` (`employee_id`, `employee_name`, `employee_email`, `last_login`) VALUES
-(778, 'John Doe', 'john.doe@example.com', '2024-09-29 04:30:21'),
-(780, 'Michael Brown', 'michael.brown@example.com', '2024-09-29 04:30:21'),
-(781, 'Emily White', 'emily.white@example.com', '2024-09-29 04:30:21');
+(780, 'Michael Brown', 'michael.brown@example.com', '2024-09-29 04:30:21');
 
 -- --------------------------------------------------------
 
@@ -91,7 +89,8 @@ CREATE TABLE `quiz_results` (
 INSERT INTO `quiz_results` (`id`, `employee_id`, `score`, `total_questions`, `date_taken`, `submission_time`) VALUES
 (1, 'EMP123', 4, 7, '2024-09-29 10:48:10', '2024-09-29 10:59:12'),
 (2, 'EMP123', 4, 7, '2024-09-29 11:07:22', '2024-09-29 11:07:22'),
-(3, 'EMP123', 4, 7, '2024-09-29 11:14:44', '2024-09-29 11:14:44');
+(3, 'EMP123', 4, 7, '2024-09-29 11:14:44', '2024-09-29 11:14:44'),
+(4, 'EMP123', 2, 7, '2024-09-29 15:58:13', '2024-09-29 15:58:13');
 
 --
 -- Indexes for dumped tables
@@ -149,7 +148,7 @@ ALTER TABLE `policies`
 -- AUTO_INCREMENT for table `quiz_results`
 --
 ALTER TABLE `quiz_results`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- Constraints for dumped tables

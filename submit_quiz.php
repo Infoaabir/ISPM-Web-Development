@@ -3,7 +3,7 @@
 
 // Database connection
 $host = 'localhost'; // or your database host
-$dbname = 'admin_system'; // name of your database
+$dbname = 'project'; // name of your database
 $username = 'root'; // your database username
 $password = ''; // your database password
 
