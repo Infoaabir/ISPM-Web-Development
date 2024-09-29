@@ -6,7 +6,7 @@
     <title>Physical Security Quiz</title>
     <link rel="stylesheet" href="ps_quiz.css">
     <link rel="stylesheet" href="res/css/styles.css">
-<script
+    <script
         src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous">
@@ -56,12 +56,19 @@
                     <p class="answer" id="answer-q4"></p>
                 </li>
             </ul>
+            
+            <!-- Submit Button -->
+            <button id="submit-btn" onclick="submitQuiz()">Submit Quiz</button>
+            
+            <!-- Result Section -->
+            <p id="quiz-result"></p>
         </section>
     </main>
 
-   
-
     <script>
+        let score = 0;
+
+        // Function to check answer and disable other buttons after an answer is clicked
         function checkAnswer(response, question, button) {
             const correctAnswers = {
                 'q1': 'correct',
@@ -83,6 +90,7 @@
             if (response === correctAnswers[question]) {
                 button.classList.add('correct');
                 button.innerHTML += ' &#10004;'; // Add tick symbol
+                score++; // Increase score if the answer is correct
                 document.getElementById(`answer-${question}`).innerText = '';
             } else {
                 button.classList.add('incorrect');
@@ -90,13 +98,20 @@
                 document.getElementById(`answer-${question}`).innerText = `Correct answer: ${answers[question]}`;
             }
         }
+
+        // Function to handle quiz submission
+        function submitQuiz() {
+            const totalQuestions = 4;
+            const resultText = `You got ${score} out of ${totalQuestions} correct.`;
+
+            // Display result
+            document.getElementById('quiz-result').innerText = resultText;
+
+            // Disable submit button after submission
+            document.getElementById('submit-btn').disabled = true;
+        }
     </script>
 
     <div id="footer"></div>
-
-
-
-
-
 </body>
 </html>
