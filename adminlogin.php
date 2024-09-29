@@ -6,6 +6,8 @@
     <title>Security Policies Awareness</title>
     <!-- dont change this css line add another line if you need to link-->
     <link rel="stylesheet" href="res/css/styles.css">
+    <link rel="stylesheet" href="res/css/admin.css">
+    <link rel="icon" type="image/x-icon" href="images/line.png">
 
 
     <!--#include file="header.html" -->
@@ -22,7 +24,7 @@ $(function(){
 </script> 
 </head>
 <body> 
-    
+<div id="header"></div>
 <div class="menu">
       <button onclick="location.href='register1.php'">
         Login or Signup
@@ -61,7 +63,7 @@ $(function(){
       </div>
     </div>
 
-<div id="header"></div>
+
 <!--#include file="footer.html" -->
 
 <div id="footer"></div>
