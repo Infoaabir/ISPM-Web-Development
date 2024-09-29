@@ -1,4 +1,4 @@
-let selectedAnswers = {};
+let selectedAnswers = {}; // Object to store selected answers
 
 // Function to handle answer selection
 function selectAnswer(question, answer, button) {
@@ -6,18 +6,14 @@ function selectAnswer(question, answer, button) {
 
     // Clear previously selected styles
     const buttons = button.parentElement.querySelectorAll('button');
-    buttons.forEach(btn => {
-        btn.classList.remove('selected');
-    });
+    buttons.forEach(btn => btn.classList.remove('selected'));
 
     // Highlight the selected button
     button.classList.add('selected');
 }
 
-// Function to submit quiz
+// Function to submit the quiz
 function submitQuiz() {
-    let score = 0;
-
     const correctAnswers = {
         'q1': 'b',
         'q2': 'b',
@@ -25,34 +21,19 @@ function submitQuiz() {
         'q4': 'b',
         'q5': 'b'
     };
+    let score = 0;
+    const totalQuestions = Object.keys(correctAnswers).length;
 
-    const userAnswers = {};  // Store user answers for saving via AJAX
-
-    // Clear previous highlights (if any)
-    document.querySelectorAll('.correct, .incorrect').forEach(function(el) {
-        el.classList.remove('correct', 'incorrect');
-    });
-
-    // Check answers and highlight results
+    // Calculate score
     for (const [question, answer] of Object.entries(selectedAnswers)) {
-        const correctAnswer = correctAnswers[question];
-        userAnswers[question] = answer; // Save user answer
-
-        if (answer === correctAnswer) {
+        if (correctAnswers[question] === answer) {
             score++;
-            // Highlight correct answer
-            document.querySelector(`button[onclick*="${question}"][onclick*="${correctAnswer}"]`).classList.add('correct');
-        } else {
-            // Highlight wrong answer
-            document.querySelector(`button[onclick*="${question}"][onclick*="${answer}"]`).classList.add('incorrect');
-            // Highlight the correct answer
-            document.querySelector(`button[onclick*="${question}"][onclick*="${correctAnswer}"]`).classList.add('correct');
         }
     }
 
     // Display the result
-    const resultText = `You scored ${score}/5. `;
-    if (score === 5) {
+    const resultText = `You scored ${score}/${totalQuestions}. `;
+    if (score === totalQuestions) {
         document.getElementById("result").textContent = resultText + "Excellent!";
     } else if (score >= 3) {
         document.getElementById("result").textContent = resultText + "Good job!";
@@ -60,20 +41,21 @@ function submitQuiz() {
         document.getElementById("result").textContent = resultText + "Try again!";
     }
 
-    // AJAX request to save answers
-    const user_id = "exampleUserID";  // Replace with actual user ID or session identifier
+    // Send final score and total questions to the server using AJAX
+    const user_email = "example@example.com";  // Replace with the actual email value from your session or user data
     $.ajax({
-        url: 'save_answers.php',  // The PHP script to handle saving answers
+        url: 'save_answers.php',
         type: 'POST',
         data: {
-            user_id: user_id,
-            answers: userAnswers
+            user_email: user_email,
+            score: score,
+            total_questions: totalQuestions
         },
         success: function(response) {
             console.log(response);  // Display server response
         },
         error: function(xhr, status, error) {
-            console.error('Error saving answers: ', error);
+            console.error('Error saving score: ', error);
         }
     });
 
