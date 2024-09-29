@@ -4,7 +4,7 @@ body, html {
     margin: 0;
     padding: 0;
     min-height: 100%;
-    background: linear-gradient(to right, #b3e5fc,lightgreen); /* Light blue and light green gradient background */
+    background: linear-gradient(to right, lightblue,lightgreen); /* Light blue and light green gradient background */
     color: #333;
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@ body, html {
 }
 
 .banner-content .btn {
-    background-color: #0288d1; /* Blue button */
+    background-color: lightblue,lightgreen; /* Blue button */
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -60,7 +60,7 @@ body, html {
 }
 
 .banner-content .btn:hover {
-    background-color: #0277bd; /* Darker blue on hover */
+    background-color: lightblue,lightgreen; /* Darker blue on hover */
 }
 
 .banner-image img {
@@ -72,7 +72,7 @@ body, html {
 .overview {
     padding: 50px 20px;
     text-align: center;
-    background-color: #b2dfdb; /* Light green background */
+    background-color: lightblue,lightgreen; /* Light green background */
 }
 
 .overview h2 {
