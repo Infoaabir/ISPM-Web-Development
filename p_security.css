@@ -10,7 +10,7 @@ main {
     max-width: 800px; /* Set a max-width to keep content readable */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     border-radius: 10px; /* Rounded corners for a modern look */
-    background-color: #f9f9f9; /* Light background color inside the box */
+    background-color: white; /* Light background color inside the box */
 }
 
 /* Ensure the body covers the whole page */
