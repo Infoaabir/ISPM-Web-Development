@@ -48,7 +48,7 @@ $(function(){
       <input type="email" name="email" placeholder="Email" />
       <label>password</label>
       <input type="password" name="password" placeholder="Password" />
-      <a href="login-aabir.php"><h5>user's login page</a>
+      <a href="login.php"><h5>user's login page</a>
      <div class="checkbox-container">
           <input type="checkbox" id="remember" name="remember" />
           <label for="remember">Remember Me</label>
