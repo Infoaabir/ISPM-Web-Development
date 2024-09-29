@@ -1,6 +1,6 @@
 <?php
 // Database connection
-$conn = new mysqli("localhost", "root", "", "admin_system");
+$conn = new mysqli("localhost", "root", "", "project");
 
 // Check connection
 if ($conn->connect_error) {
