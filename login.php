@@ -52,7 +52,7 @@ $(function(){
       <input type="password" name="password" placeholder="Password" />
       <a href="register.html"><h5>New? sign up here |</a>
       <a href="#">Forgot Password? |</a> 
-      <a href="adminlogin.php">Admin</a><br></br>
+      <a href="admin.php">Admin</a><br></br>
        
       <div class="checkbox-container">
           <input type="checkbox" id="remember" name="remember" />
