@@ -5,38 +5,23 @@
   box-sizing: border-box;
 }
 
-header {
-  height: 100px;
-  background-color: #1e0b73;
-  color: #ffffff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
+.menu button:hover{
+color: #ffffff;
 }
+.body { 
+display: flex;
+display: contents;
+align-items: center;
+justify-content: center;
+padding: 20px;
 
-.header-logo {
-  display: flex;
-  text-align: center;
-  font-size: 32px;
-  font-weight: bold; /* Bold logo text */
-  align-items: center;
-  margin-right: 10px;
 }
+  
 
-.menu button:hover {
-  color: #ffffff;
-}
-
-.body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-}
-
-.container {
-  margin: 2% 10%;
+.container { 
+ margin-top: 2%;
+ margin-bottom: 2%;
+margin-left: 10%;
   position: relative;
   max-width: 700px;
   width: 100%;
@@ -45,34 +30,46 @@ header {
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
-
-.container h2 {
+.container h2{
   font-size: 1.5rem;
   color: #333;
-  font-weight: bold; /* Bold heading text */
+  font-weight: 500;
   text-align: left;
 }
-
 .container .form {
   margin-top: 30px;
 }
-
-.input-box {
+.form .input-box {
   width: 100%;
-  margin-top: 9px;
+  margin-top: 20px;
 }
-
 .input-box label {
   color: #333;
-  font-weight: bold; /* Bold labels */
 }
 
-.input-box input {
+.form :where(.input-box input) {
+  position: relative;
   height: 50px;
   width: 100%;
   font-size: 1rem;
   color: #707070;
-  margin-top: 9px;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.form .input-bx {
+  width: 100%;
+  margin-top: 20px;
+}
+.form :where( .select-box) {
+  position: relative;
+  height: 50px;
+  width: 60%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 45px;
   border: 1px solid #ddd;
   border-radius: 6px;
   padding: 0 15px;
@@ -81,132 +78,82 @@ header {
 .input-box input:focus {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
-
-.select-box {
-  width: 60%;
-  margin-top: 9px;
+.form .column {
+  display: flex;
+  column-gap: 15px;
 }
 
+.select :where(input, .select-box) {
+  margin-top: 2px;
+}
 .select-box select {
-  height: 50px;
+  height: 100%;
   width: 100%;
   outline: none;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  padding: 0 15px;
-  font-size: 1rem;
+  border: none;
   color: #707070;
   background-color: #fff;
+  font-size: 1rem;
 }
-
 .form button {
   height: 55px;
   width: 100%;
   color: #fff;
   font-size: 1rem;
-  font-weight: bold; /* Bold button text */
+  font-weight: 400;
   margin-top: 30px;
   border: none;
   cursor: pointer;
   transition: all 0.2s ease;
   background: rgb(130, 106, 251);
 }
-
 .form button:hover {
   background: rgb(88, 56, 250);
 }
+.form .checkbox {
+margin-top: 20px;
+font-size: small;
 
-.checkbox {
-  margin-top: 20px;
-  font-size: small;
-  font-weight: bold; /* Bold checkbox text */
 }
 
-footer {
+
+
+footer{
   background-color: #1e0b73;
   color: #ffffff;
   padding: 20px;
   text-align: center;
-  align-items: center;
+align-items: center;
 }
 
-.connect {
-  font-family: Sarabun, Helvetica, sans-serif;
-  font-weight: bold; /* Bold connect text */
-  font-size: 18px;
-  align-items: center;
-  transition: 0.3s;
+.connect{
+
+font-family: Sarabun, Helvetica, sans-serif;
+font-weight: 600;
+font-size: 18px;
+align-items: center;
+transition: 0.3s;
+
+
 }
 
-.connect img {
-  transition: 0.3s;
-  padding-left: 10px;
-  padding-right: 10px;
+.connect img{
+transition: 0.3s;
+padding-left: 10px;
+padding-right: 10px;
+
 }
 
-.connect img:hover {
-  opacity: 0.8;
+
+.connect img:hover{
+opacity: 0.8;
+
 }
 
-.footer-bottom {
-  padding-top: 20px;
-  font-family: Sarabun, Helvetica, sans-serif;
-  font-weight: bold; /* Bold footer text */
-  font-size: 15px;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-
-.footer-buttons button {
-  border-width: 0px;
-  border-radius: 5px;
-  transition: 0.3s;
-  padding-left: 35px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 35px;
-  margin-bottom: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
-  font-family: Sarabun, Helvetica, sans-serif;
-  font-weight: bold; /* Bold footer button text */
-  font-size: 14px;
-  transition: 0.3s;
-  background-color: #ffffff;
-}
-
-.footer-buttons button:hover {
-  background-color: #e3e2e1;
-}
-
-.footer-links {
-  margin-bottom: 10px;
-}
-
-.footer-links a {
-  font-family: Sarabun, Helvetica, sans-serif;
-  font-weight: bold; /* Bold footer links */
-  font-size: 15px;
-  margin: 0 5px;
-  color: #ffffff;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.footer-links a:hover {
-  color: #57ddff;
-}
-
-.footer-logo {
-  align-items: baseline;
-  margin-bottom: 20px;
-}
-
-/* Responsive */
-@media screen and (max-width: 500px) {
-  .form .column {
-    flex-wrap: wrap;
+  /*Responsive*/
+  @media screen and (max-width: 500px) {
+      .form .column {
+        flex-wrap: wrap;
+        display: flex;
+      }
   }
-}
-
-
