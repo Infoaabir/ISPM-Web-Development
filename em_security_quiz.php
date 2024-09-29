@@ -28,8 +28,8 @@
     </header>
     <main>
         <section class="quiz-section">
-            <h2>Test Your Knowledge</h2>
-            <p>Answer the following questions:</p>
+            <h2 style="color:black;">Test Your Knowledge</h2>
+    
             <ul id="quiz-options">
                 <li>
                     <p>Which of the following is an email security best practice?</p>
@@ -37,49 +37,49 @@
                     <button onclick="checkAnswer('incorrect', 'q1', this)">Use weak passwords</button>
                     <button onclick="checkAnswer('incorrect', 'q1', this)">Click on suspicious links</button>
                     <p class="answer" id="answer-q1"></p>
-                </li>
+                </li><br>
                 <li>
                     <p>What should you do if you receive an email from an unknown sender with an attachment?</p>
                     <button onclick="checkAnswer('incorrect', 'q2', this)">Open the attachment immediately</button>
                     <button onclick="checkAnswer('incorrect', 'q2', this)">Forward it to a colleague</button>
                     <button onclick="checkAnswer('correct', 'q2', this)">Delete it and report it</button>
                     <p class="answer" id="answer-q2"></p>
-                </li>
+                </li><br>
                 <li>
                     <p>How often should you change your email password?</p>
                     <button onclick="checkAnswer('incorrect', 'q3', this)">Once every two years</button>
                     <button onclick="checkAnswer('incorrect', 'q3', this)">Once a year</button>
                     <button onclick="checkAnswer('correct', 'q3', this)">Regularly, at least every 3-6 months</button>
                     <p class="answer" id="answer-q3"></p>
-                </li>
+                </li><br>
                 <li>
                     <p>What is the benefit of encrypting sensitive emails?</p>
                     <button onclick="checkAnswer('incorrect', 'q4', this)">To speed up email delivery</button>
                     <button onclick="checkAnswer('incorrect', 'q4', this)">To increase email storage</button>
                     <button onclick="checkAnswer('correct', 'q4', this)">To protect data during transmission</button>
                     <p class="answer" id="answer-q4"></p>
-                </li>
+                </li><br>
                 <li>
                     <p>Which of the following is a sign of suspicious activity in your inbox?</p>
                     <button onclick="checkAnswer('incorrect', 'q5', this)">Receiving a large amount of spam</button>
                     <button onclick="checkAnswer('correct', 'q5', this)">Unusual login attempts</button>
                     <button onclick="checkAnswer('incorrect', 'q5', this)">Regular promotional emails</button>
                     <p class="answer" id="answer-q5"></p>
-                </li>
+                </li><br>
                 <li>
                     <p>Why is it important to use two-factor authentication (2FA) for email accounts?</p>
                     <button onclick="checkAnswer('incorrect', 'q6', this)">It makes logging in easier</button>
                     <button onclick="checkAnswer('correct', 'q6', this)">It provides an extra layer of security</button>
                     <button onclick="checkAnswer('incorrect', 'q6', this)">It speeds up email access</button>
                     <p class="answer" id="answer-q6"></p>
-                </li>
+                </li><br>
                 <li>
                     <p>What should you do if you accidentally click on a phishing link?</p>
                     <button onclick="checkAnswer('incorrect', 'q7', this)">Ignore it and continue as usual</button>
                     <button onclick="checkAnswer('correct', 'q7', this)">Report it and change your password immediately</button>
                     <button onclick="checkAnswer('incorrect', 'q7', this)">Forward it to your contact list</button>
                     <p class="answer" id="answer-q7"></p>
-                </li>
+                </li><br>
             </ul>
 
             <!-- Submit Button -->
