@@ -74,7 +74,7 @@
 
             // Execute the statement and check if successful
             if ($stmt->execute()) {
-                echo '<div class="register-success">Registered successfully. You can <a href="login.php" class="btn">login now</a>.</div>';
+                echo '<div class="register-success">Registered successfully. You can <a href="login.php" class="btn">login now</a></div>';
             } else {
                 echo '<div class="error-message">Error: ' . $stmt->error . '</div>';
             }
