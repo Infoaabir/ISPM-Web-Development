@@ -27,8 +27,7 @@
     </header>
     <main>
         <section class="quiz-section">
-            <h2>Test Your Knowledge</h2>
-            <p>Answer the following questions:</p>
+            <h2 style="color:black;">Test Your Knowledge</h2>
             <ul id="quiz-options">
                 <li>
                     <p>What is the main principle of data protection laws?</p>
@@ -41,25 +40,25 @@
                     <button onclick="selectAnswer('q2', 'a', this)">On an unprotected server</button>
                     <button onclick="selectAnswer('q2', 'b', this)">In an unencrypted file</button>
                     <button onclick="selectAnswer('q2', 'c', this)">In an encrypted and secure location</button>
-                </li>
+                </li><br>
                 <li>
                     <p>Who is responsible for ensuring compliance with data protection laws?</p>
                     <button onclick="selectAnswer('q3', 'a', this)">The customers</button>
                     <button onclick="selectAnswer('q3', 'b', this)">The organization</button>
                     <button onclick="selectAnswer('q3', 'c', this)">The third-party service providers</button>
-                </li>
+                </li><br>
                 <li>
                     <p>What is the main purpose of data encryption?</p>
                     <button onclick="selectAnswer('q4', 'a', this)">To compress data</button>
                     <button onclick="selectAnswer('q4', 'b', this)">To protect data from unauthorized access</button>
                     <button onclick="selectAnswer('q4', 'c', this)">To speed up data transfer</button>
-                </li>
+                </li><br>
                 <li>
                     <p>What should be done when data is no longer needed?</p>
                     <button onclick="selectAnswer('q5', 'a', this)">It should be securely deleted or destroyed</button>
                     <button onclick="selectAnswer('q5', 'b', this)">It should be archived indefinitely</button>
                     <button onclick="selectAnswer('q5', 'c', this)">It should be shared with external companies</button>
-                </li>
+                </li><br>
             </ul>
             <button onclick="submitQuiz()">Submit Quiz</button>
             <p id="result"></p>
