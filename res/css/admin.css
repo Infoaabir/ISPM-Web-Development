@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sarabun', sans-serif;
+    box-sizing: border-box;
+}
+  
+  
+  .menu button:hover{
+  color: #ffffff;
+  }
+  
+  .container {
+    margin-top: 4%;
+     margin-bottom: 2%;
+    margin-left: 10%;
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    align-items: center;
+   
+  }
+  .user{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -30px;
+    left: calc(50% - 50px);
+}
+  .login-box {
+    align-content: center;
+    margin-top: 20px;
+    height: 460px;
+    width: 320px;
+    padding: 9px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+  }
+  .login-box input{
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 1rem;
+      color: #707070;
+      margin-top: 8px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 0 15px;
+  }
+  .error-message {
+    color: red;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+  }
+  .checkbox-container input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+  }
+  .input-box label {
+    color: #333;
+  }
+  
+  h2  {
+    font-family: 'Sarabun', sans-serif;
+    padding-bottom: 55px;
+    text-align: 10px;
+    color: #393939;
+    text-align: center;
+  }
+
+  
+  .right-side .login-box .button:hover {
+    background-color: #b7b7b7;
+  }
+  .options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .submit, .buttonsu {
+    height: 55px;
+      width: 100%;
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 400;
+      margin-top: 20px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      background-color: rgb(130, 106, 251);
+  }
+  
+  .submit:hover, .buttonsu:hover  {
+    background-color: rgb(88, 56, 250);
+  }
+  
+  
+  .connect{
+  
+  font-family: Sarabun, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  align-items: center;
+  transition: 0.3s;
+  
+  
+  }
+  
+  .connect img{
+  transition: 0.3s;
+  padding-left: 10px;
+  padding-right: 10px; 
+  }
+  
+  .connect img:hover{
+  opacity: 0.8;
+  
+  }
+  
+  
+    /*Responsive*/
+    @media screen and (max-width: 610px ) {
+    .container {
+          flex-wrap: wrap;
+        }
+    }
+   
