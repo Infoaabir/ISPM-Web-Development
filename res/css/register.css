@@ -1,239 +1,32 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Sarabun', sans-serif;
-  box-sizing: border-box;
-}
-header {
-  height: 100px;
-  background-color: #1e0b73;
-  color: #ffffff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-}
-
-.header-logo {
-  display: flex;
+/* Styling for the registration success message */
+.register-success {
+  font-size: 1.5em; /* Increase font size */
+  color: #4CAF50;   /* Green color for success */
   text-align: center;
-  font-size: 32px;
-  font-weight: bold;
-  align-items: center;
-  margin-right: 10px;
+  margin: 20px 0;
 }
 
-.menu button:hover{
-color: #ffffff;
-}
-.body { 
-display: flex;
-display: contents;
-align-items: center;
-justify-content: center;
-padding: 20px;
-
-}
-  
-
-.container { 
- margin-top: 2%;
- margin-bottom: 2%;
-margin-left: 10%;
-  position: relative;
-  max-width: 700px;
-  width: 100%;
-  background: #fff;
-  padding: 35px;
-  border-radius: 8px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-}
-.container h2{
-  font-size: 1.5rem;
-  color: #333;
-  font-weight: 500;
-  text-align: left;
-}
-.container .form {
-  margin-top: 30px;
-}
-.form .input-box {
-  width: 100%;
-  margin-top: 20px;
-}
-.input-box label {
-  color: #333;
-}
-
-.form :where(.input-box input) {
-  position: relative;
-  height: 50px;
-  width: 100%;
-  font-size: 1rem;
-  color: #707070;
-  margin-top: 8px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  padding: 0 15px;
-}
-.form .input-bx {
-  width: 100%;
-  margin-top: 20px;
-}
-.form :where( .select-box) {
-  position: relative;
-  height: 50px;
-  width: 60%;
-  outline: none;
-  font-size: 1rem;
-  color: #707070;
-  margin-top: 45px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  padding: 0 15px;
-}
-
-.input-box input:focus {
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-}
-.form .column {
-  display: flex;
-  column-gap: 15px;
-}
-
-.select :where(input, .select-box) {
-  margin-top: 2px;
-}
-.select-box select {
-  height: 100%;
-  width: 100%;
-  outline: none;
+/* Styling for the button */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #4CAF50; /* Green background for button */
+  color: white;
   border: none;
-  color: #707070;
-  background-color: #fff;
-  font-size: 1rem;
-}
-.form button {
-  height: 55px;
-  width: 100%;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 400;
-  margin-top: 30px;
-  border: none;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  background: rgb(130, 106, 251);
-}
-.form button:hover {
-  background: rgb(88, 56, 250);
-}
-.form .checkbox {
-margin-top: 20px;
-font-size: small;
-
-}
-
-
-
-footer{
-  background-color: #1e0b73;
-  color: #ffffff;
-  padding: 20px;
-  text-align: center;
-align-items: center;
-}
-
-.connect{
-
-font-family: Sarabun, Helvetica, sans-serif;
-font-weight: 600;
-font-size: 18px;
-align-items: center;
-transition: 0.3s;
-
-
-}
-
-.connect img{
-transition: 0.3s;
-padding-left: 10px;
-padding-right: 10px;
-
-}
-
-
-.connect img:hover{
-opacity: 0.8;
-
-}
-
-
-.footer-bottom {
-
-padding-top: 20px;
-font-family: Sarabun, Helvetica, sans-serif;
-font-weight: 500;
-font-size: 15px;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-
-
-.footer-buttons button{
-
-border-width: 0px;
-border-radius: 5px;
-transition: 0.3s;
-padding-left: 35px;
-padding-top: 10px;
-padding-bottom: 10px;
-padding-right: 35px;
-margin-bottom: 30px;
-margin-left: 10px;
-margin-right: 10px;
-  font-family: Sarabun, Helvetica, sans-serif;
-font-weight: 500;
-font-size: 14px;
-transition: 0.3s;
-background-color: #ffffff;
-
-}
-
-.footer-buttons button:hover{
-
-background-color: #e3e2e1;
-}
-
-
-.footer-links {
-  margin-bottom: 10px;
-}
-
-.footer-links a {
-
-font-family: Sarabun, Helvetica, sans-serif;
-font-weight: 400;
-font-size: 15px;
-  margin: 0 5px;
-  color: #ffffff;
+  border-radius: 5px;
   text-decoration: none;
-transition: 0.3;
+  transition: background-color 0.3s ease;
 }
 
-.footer-links a:hover{
- 
- color: #57ddff;
+.btn:hover {
+  background-color: #45a049; /* Darker green on hover */
 }
 
-.footer-logo {
-  align-items: baseline;
-margin-bottom: 20px;}
-
-  /*Responsive*/
-  @media screen and (max-width: 500px) {
-      .form .column {
-        flex-wrap: wrap;
-        display: flex;
-      }
-  }
+/* Error message styling */
+.error-message {
+  font-size: 1.5em; /* Increase font size for error */
+  color: #f44336;   /* Red color for error */
+  text-align: center;
+  margin: 20px 0;
+}

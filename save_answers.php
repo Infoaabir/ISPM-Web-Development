@@ -1,7 +1,7 @@
 <?php
 // Database connection
 $host = 'localhost'; // or your database host
-$dbname = 'admin_system'; // name of your database
+$dbname = 'network_security_quiz'; // name of your database
 $username = 'root'; // your database username
 $password = ''; // your database password
 
@@ -12,7 +12,11 @@ try {
     die("Connection failed: " . $e->getMessage());
 }
 
-// Get the POST data
+// Validate POST data
+if (!isset($_POST['user_id']) || !isset($_POST['answers'])) {
+    die("Invalid POST data");
+}
+
 $userId = $_POST['user_id'];
 $answers = $_POST['answers']; // This is an associative array of user answers
 
