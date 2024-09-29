@@ -21,7 +21,16 @@
 </head>
 
 <body>
+<?php
+session_start();
 
+// Check if the user is logged in
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
+    // User is not logged in, redirect to the login page
+    header("Location: login.php");
+    exit();
+}
+?>
 
 
     <div id="header"></div>
