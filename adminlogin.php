@@ -7,9 +7,7 @@
     <!-- dont change this css line add another line if you need to link-->
     <link rel="stylesheet" href="res/css/styles.css">
     <link rel="stylesheet" href="res/css/admin.css">
-    <link rel="icon" type="image/x-icon" href="images/line.png">
-
-
+   
     <!--#include file="header.html" -->
 <script
     src="https://code.jquery.com/jquery-3.3.1.js"
@@ -24,16 +22,14 @@ $(function(){
 </script> 
 </head>
 <body> 
-<div id="header"></div>
+<div id="header">
+</div>
 <div class="menu">
-      <button onclick="location.href='register1.php'">
-        Login or Signup
-      </button>
      
     </div>
   </header>
   <div class="container">  
-  <img src="images/user.png" class="user">
+  <img src="img/user.png" class="user">
       <div class="login-box">
      
       <h2 class="header"><br>login as a Admin User</h2>
