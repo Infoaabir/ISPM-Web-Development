@@ -4,7 +4,7 @@ body, html {
     margin: 0;
     padding: 0;
     min-height: 100%;
-    background: linear-gradient(to right, #b3e5fc, #b2dfdb); /* Light blue and light green gradient background */
+    background: linear-gradient(to right, #b3e5fc,lightgreen); /* Light blue and light green gradient background */
     color: #333;
     display: flex;
     flex-direction: column;
