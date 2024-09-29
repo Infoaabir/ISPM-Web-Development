@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="em_security_quiz.css">
     <link rel="stylesheet" href="res/css/styles.css">
     
-        <script
+    <script
         src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous">
@@ -81,11 +81,17 @@
                     <p class="answer" id="answer-q7"></p>
                 </li>
             </ul>
+
+            <!-- Submit Button -->
+            <button id="submit-button" onclick="submitQuiz()">Submit Quiz</button>
+            <p id="result-message"></p>
         </section>
     </main>
 
- 
     <script>
+        let score = 0;
+        let totalQuestions = 7;  // total number of questions
+
         function checkAnswer(response, question, button) {
             const correctAnswers = {
                 'q1': 'correct',
@@ -108,18 +114,46 @@
             };
 
             const buttons = button.parentElement.querySelectorAll('button');
-            buttons.forEach(btn => btn.disabled = true); // Disable all buttons
+            buttons.forEach(btn => btn.disabled = true); // Disable all buttons in the question
 
             if (response === correctAnswers[question]) {
                 button.classList.add('correct');
                 button.innerHTML += ' &#10004;'; // Add tick symbol
-                document.getElementById(`answer-${question}`).innerText = '';
+                score++;  // Increment score for the correct answer
             } else {
                 button.classList.add('incorrect');
                 button.innerHTML += ' &#10060;'; // Add cross symbol
                 document.getElementById(`answer-${question}`).innerText = `Correct answer: ${answers[question]}`;
             }
         }
+
+        function submitQuiz() {
+    const resultMessage = document.getElementById('result-message');
+    resultMessage.innerHTML = `You answered ${score} out of ${totalQuestions} questions correctly.`;
+    document.getElementById('submit-button').disabled = true; // Disable submit button after submission
+
+    // Assuming you have the employee ID stored in a variable
+    let employeeId = "EMP123"; // Replace this with the actual employee ID
+
+    // AJAX request to submit the quiz score
+    $.ajax({
+        type: "POST",
+        url: "submit_quiz.php",
+        data: {
+            employee_id: employeeId,
+            score: score,
+            total_questions: totalQuestions
+        },
+        success: function(response) {
+            alert("Score submitted successfully: " + response);  // Success response from PHP script
+        },
+        error: function(xhr, status, error) {
+            console.error("AJAX Error:", xhr.responseText);
+            alert("Error submitting the score. Status: " + status + ". Error: " + error);
+        }
+    });
+}
+
     </script>
 
 <div id="footer"></div>
