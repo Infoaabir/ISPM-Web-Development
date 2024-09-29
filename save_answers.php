@@ -1,55 +1,35 @@
 <?php
-// Database credentials
-$servername = "localhost"; // Usually localhost for XAMPP
-$username = "root";         // Default username for XAMPP
-$password = "";             // Default password for XAMPP is empty
-$dbname = "network_security_quiz"; // Your database name
+// Database connection
+$host = 'localhost'; // or your database host
+$dbname = 'admin_system'; // name of your database
+$username = 'root'; // your database username
+$password = ''; // your database password
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+try {
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    die("Connection failed: " . $e->getMessage());
 }
 
-// Get data from the AJAX POST request
-$user_id = $_POST['user_id'];
-$answers = $_POST['answers']; // This will be an array of question_id => answer
+// Get the POST data
+$userId = $_POST['user_id'];
+$answers = $_POST['answers']; // This is an associative array of user answers
 
-// ... (rest of your code)
+// Iterate through each question and store the user's answers
+$query = "INSERT INTO quiz_answers (user_id, question_id, user_answer, date_taken) VALUES (:user_id, :question_id, :user_answer, NOW())";
+$stmt = $pdo->prepare($query);
 
-// Calculate the score based on correct answers
-$correctAnswers = [
-    'q1' => 'b',
-    'q2' => 'b',
-    'q3' => 'b',
-    // ... (add more correct answers)
-];
-
-$score = 0;
-foreach ($answers as $question_id => $answer) {
-    if ($answer === $correctAnswers[$question_id]) {
-        $score++;
+foreach ($answers as $question => $answer) {
+    $stmt->bindParam(':user_id', $userId);
+    $stmt->bindParam(':question_id', $question);
+    $stmt->bindParam(':user_answer', $answer);
+    
+    // Execute the insert for each answer
+    if (!$stmt->execute()) {
+        echo "Error saving answer for question $question.";
     }
 }
 
-// Insert the answer and score into the database
-$stmt = $conn->prepare("INSERT INTO quiz_answers (user_id, question_id, answer, score) VALUES (?, ?, ?, ?)");
-$stmt->bind_param("sssi", $user_id, $question_id, $answer, $score);
-$stmt->execute();
-
-
-
-// Loop through each answer and insert into the database
-foreach ($answers as $question_id => $answer) {
-    $stmt = $conn->prepare("INSERT INTO quiz_answers (user_id, question_id, answer) VALUES (?, ?, ?)");
-    $stmt->bind_param("sss", $user_id, $question_id, $answer);
-    $stmt->execute();
-}
-
-$stmt->close();
-$conn->close();
-
-echo "Answers saved successfully!";
+echo "Answers submitted successfully!";
 ?>
