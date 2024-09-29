@@ -16,6 +16,11 @@ if (isset($_POST['login'])) {
 
     // Check if the query returned any rows
     if (mysqli_num_rows($result) == 1) {
+        
+        // Login successful, set session variables
+        $_SESSION['loggedin'] = true;
+        $_SESSION['email'] = $email;
+
         // Login successful, redirect to the home page
         header("Location: index2.html");
         exit();
